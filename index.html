@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tokyo Furunavi Shops</title>
+    <style>
+      :root {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        font-size: 16px;
+        color: #1c1d1f;
+        background-color: #f5f5f7;
+      }
+
+      body {
+        margin: 0;
+        padding: 1.5rem;
+        background: #f5f5f7;
+        color: #1c1d1f;
+      }
+
+      header {
+        margin-bottom: 1.5rem;
+      }
+
+      h1 {
+        font-size: 1.75rem;
+        margin: 0 0 0.25rem 0;
+      }
+
+      .filters {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 0.75rem;
+        padding: 1rem;
+        background: #ffffff;
+        border-radius: 0.5rem;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+        margin-bottom: 1rem;
+      }
+
+      label,
+      .filter-block {
+        display: flex;
+        flex-direction: column;
+        font-size: 0.875rem;
+        color: #333;
+        gap: 0.35rem;
+      }
+
+      .hint {
+        font-size: 0.75rem;
+        color: #666;
+      }
+
+      .chip-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.4rem;
+        max-height: 8rem;
+        overflow-y: auto;
+        padding: 0.25rem;
+        background: #f7f8fb;
+        border: 1px solid #c5c5c5;
+        border-radius: 0.4rem;
+      }
+
+      .chip {
+        border: 1px solid transparent;
+        background: #e6ecff;
+        padding: 0.25rem 0.55rem;
+        border-radius: 999px;
+        font-size: 0.8rem;
+        cursor: pointer;
+        transition: background 0.15s ease, color 0.15s ease, border 0.15s ease;
+      }
+
+      .chip:hover,
+      .chip:focus-visible {
+        background: #d7e3ff;
+        border-color: #8aa4ff;
+        outline: none;
+      }
+
+      .chip[data-active="true"] {
+        background: #2c7be5;
+        color: #ffffff;
+      }
+
+      .filter-actions {
+        display: flex;
+        justify-content: flex-end;
+        gap: 0.5rem;
+      }
+
+      .secondary-btn {
+        border: 1px solid #c5c5c5;
+        background: #ffffff;
+        color: #333;
+        padding: 0.35rem 0.8rem;
+        border-radius: 0.35rem;
+        font-size: 0.8rem;
+        cursor: pointer;
+      }
+
+      .secondary-btn:hover,
+      .secondary-btn:focus-visible {
+        background: #f0f4ff;
+        border-color: #a5b8ff;
+        outline: none;
+      }
+
+      input,
+      select {
+        padding: 0.5rem;
+        border-radius: 0.4rem;
+        border: 1px solid #c5c5c5;
+        font-size: 0.95rem;
+      }
+
+      input:focus,
+      select:focus {
+        outline: 2px solid #2c7be5;
+        outline-offset: 1px;
+      }
+
+      .table-wrapper {
+        overflow-x: auto;
+        background: #ffffff;
+        border-radius: 0.5rem;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 0.9rem;
+      }
+
+      thead {
+        background: #f0f4ff;
+        position: sticky;
+        top: 0;
+        z-index: 2;
+      }
+
+      th,
+      td {
+        padding: 0.75rem;
+        border-bottom: 1px solid #e0e0e0;
+        vertical-align: top;
+        text-align: left;
+      }
+
+      tbody tr:hover {
+        background: #f9fbff;
+      }
+
+      .tag-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.3rem;
+      }
+
+      .tag {
+        padding: 0.15rem 0.4rem;
+        background: #edf2ff;
+        border-radius: 0.3rem;
+        font-size: 0.75rem;
+      }
+
+      #status {
+        margin: 0 0 1rem 0;
+        font-size: 0.9rem;
+        color: #555;
+      }
+
+      @media (max-width: 720px) {
+        body {
+          padding: 1rem;
+        }
+
+        th,
+        td {
+          padding: 0.6rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Tokyo Furunavi Shops</h1>
+      <p>Browse the scraped listings and filter by municipality, category, tags, rating, or loyalty point guide.</p>
+    </header>
+
+    <section class="filters" aria-label="Filters">
+      <label>
+        Keyword
+        <input id="search" type="search" placeholder="Name, tag, municipality..." />
+      </label>
+      <label>
+        Municipality
+        <select id="municipality">
+          <option value="">All municipalities</option>
+        </select>
+      </label>
+      <label>
+        Category
+        <select id="category">
+          <option value="">All categories</option>
+        </select>
+      </label>
+      <div class="filter-block">
+        <span>Tags</span>
+        <div id="tag-chips" class="chip-list" role="listbox" aria-multiselectable="true"></div>
+        <div class="filter-actions">
+          <button type="button" id="clear-tags" class="secondary-btn">Clear tags</button>
+        </div>
+        <span class="hint" id="tag-hint">Click to toggle tags; active tags filter results.</span>
+      </div>
+      <label>
+        Min rating
+        <input id="rating" type="number" min="0" max="5" step="0.1" placeholder="e.g. 4.0" />
+      </label>
+      <label>
+        Max point guide
+        <input id="points" type="number" min="0" step="1000" placeholder="e.g. 50000" />
+      </label>
+    </section>
+
+    <p id="status" role="status">Loading data…</p>
+
+    <div class="table-wrapper">
+      <table aria-live="polite">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Municipality</th>
+            <th>Category</th>
+            <th>Rating</th>
+            <th>Point Guide</th>
+            <th>Tags</th>
+          </tr>
+        </thead>
+        <tbody id="table-body">
+        </tbody>
+      </table>
+    </div>
+
+    <script src="app.js" defer></script>
+  </body>
+</html>
