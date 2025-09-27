@@ -249,15 +249,11 @@ function renderTable(rows) {
     const queryParts = [displayName, shop.municipality, shop.prefecture]
       .filter(Boolean)
       .join(" ");
-    link.href = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(queryParts)}`;
+  link.href = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(queryParts)}`;
     link.target = "_blank";
     link.rel = "noopener";
     nameCell.append(link);
     tr.append(nameCell);
-
-    const municipalityCell = document.createElement("td");
-    municipalityCell.textContent = shop.municipality;
-    tr.append(municipalityCell);
 
     const categoryCell = document.createElement("td");
     categoryCell.textContent = shop.category;
@@ -282,22 +278,6 @@ function renderTable(rows) {
       pointCell.textContent = "–";
     }
     tr.append(pointCell);
-
-    const tagsCell = document.createElement("td");
-    if (shop.tags.length) {
-      const container = document.createElement("div");
-      container.className = "tag-list";
-      shop.tags.forEach((tag) => {
-        const span = document.createElement("span");
-        span.className = "tag";
-        span.textContent = tag;
-        container.append(span);
-      });
-      tagsCell.append(container);
-    } else {
-      tagsCell.textContent = "–";
-    }
-    tr.append(tagsCell);
 
     tableBody.append(tr);
   }
