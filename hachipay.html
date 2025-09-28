@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Shibuya Restaurants</title>
+    <style>
+      :root {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        font-size: 16px;
+        color: #1c1d1f;
+        background-color: #f5f5f7;
+      }
+
+      body {
+        margin: 0;
+        padding: 1.5rem;
+        background: #f5f5f7;
+        color: #1c1d1f;
+      }
+
+      header {
+        margin-bottom: 1.75rem;
+        display: grid;
+        gap: 0.8rem;
+      }
+
+      nav a {
+        color: #2c7be5;
+        text-decoration: none;
+        font-size: 0.9rem;
+      }
+
+      nav a:hover,
+      nav a:focus-visible {
+        text-decoration: underline;
+        outline: none;
+      }
+
+      h1 {
+        margin: 0;
+        font-size: 1.8rem;
+      }
+
+      header p {
+        margin: 0;
+        max-width: 720px;
+        line-height: 1.5;
+        color: #3a3b3d;
+      }
+
+      .filters {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        gap: 0.75rem;
+        padding: 1rem;
+        background: #ffffff;
+        border-radius: 0.5rem;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+        margin-bottom: 1rem;
+      }
+
+      label {
+        display: flex;
+        flex-direction: column;
+        gap: 0.4rem;
+        font-size: 0.85rem;
+        color: #333;
+      }
+
+      input,
+      select {
+        padding: 0.5rem;
+        border-radius: 0.4rem;
+        border: 1px solid #c5c5c5;
+        font-size: 0.95rem;
+        background: #fff;
+      }
+
+      input:focus,
+      select:focus {
+        outline: 2px solid #2c7be5;
+        outline-offset: 1px;
+      }
+
+      #status {
+        margin: 0 0 1rem 0;
+        font-size: 0.9rem;
+        color: #555;
+      }
+
+      .table-wrapper {
+        overflow-x: auto;
+        background: #ffffff;
+        border-radius: 0.5rem;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 0.9rem;
+        min-width: 720px;
+      }
+
+      thead {
+        background: #f0f4ff;
+        position: sticky;
+        top: 0;
+        z-index: 2;
+      }
+
+      th,
+      td {
+        padding: 0.75rem;
+        border-bottom: 1px solid #e0e0e0;
+        text-align: left;
+        vertical-align: top;
+      }
+
+      tbody tr:hover {
+        background: #f9fbff;
+      }
+
+      a[data-role="map-link"] {
+        color: #2c7be5;
+        text-decoration: none;
+      }
+
+      a[data-role="map-link"]:hover,
+      a[data-role="map-link"]:focus-visible {
+        text-decoration: underline;
+        outline: none;
+      }
+
+      @media (max-width: 720px) {
+        body {
+          padding: 1rem;
+        }
+
+        table {
+          min-width: 100%;
+          font-size: 0.85rem;
+        }
+
+        th,
+        td {
+          padding: 0.6rem;
+        }
+      }
+
+      @media (max-width: 540px) {
+        .filters {
+          grid-template-columns: 1fr;
+          padding: 0.75rem;
+          gap: 0.6rem;
+        }
+
+        label {
+          font-size: 0.8rem;
+        }
+
+        input,
+        select {
+          font-size: 0.85rem;
+          padding: 0.45rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav><a href="index.html">Back to shop explorer</a></nav>
+      <div>
+        <h1>Shibuya Restaurants</h1>
+        <p>Browse restaurants from the CSV export and filter by neighbourhood or keyword. Use the place filter to focus on areas such as Yoyogi or Hatsudai.</p>
+      </div>
+    </header>
+
+    <section class="filters" aria-label="Filters">
+      <label>
+        Keyword
+        <input id="search" type="search" placeholder="Name, category, address" />
+      </label>
+      <label>
+        Place in Shibuya
+        <select id="place-filter">
+          <option value="">All places</option>
+        </select>
+      </label>
+      <label>
+        Cuisine category
+        <select id="category-filter">
+          <option value="">All categories</option>
+        </select>
+      </label>
+    </section>
+
+    <p id="status" role="status">Loading restaurants…</p>
+
+    <div class="table-wrapper">
+      <table aria-live="polite">
+        <thead>
+          <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Place</th>
+            <th scope="col">Cuisine</th>
+            <th scope="col">Address</th>
+            <th scope="col">Phone</th>
+          </tr>
+        </thead>
+        <tbody id="restaurant-body"></tbody>
+      </table>
+    </div>
+
+    <script src="restaurants.js" defer></script>
+  </body>
+</html>

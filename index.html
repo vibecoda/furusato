@@ -21,6 +21,20 @@
 
       header {
         margin-bottom: 1.5rem;
+        display: grid;
+        gap: 0.6rem;
+      }
+
+      nav.page-links a {
+        color: #2c7be5;
+        text-decoration: none;
+        font-size: 0.9rem;
+      }
+
+      nav.page-links a:hover,
+      nav.page-links a:focus-visible {
+        text-decoration: underline;
+        outline: none;
       }
 
       h1 {
@@ -228,6 +242,7 @@
   </head>
   <body>
     <header>
+      <nav class="page-links"><a href="hachipay.html">Shibuya restaurants</a></nav>
       <h1>Tokyo Furunavi Shops</h1>
       <p>Browse the scraped listings and filter by municipality, category, tags, rating, or loyalty point guide.</p>
     </header>
