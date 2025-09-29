@@ -3,6 +3,7 @@ const placeSelect = document.getElementById("place-filter");
 const categorySelect = document.getElementById("category-filter");
 const statusMessage = document.getElementById("status");
 const tableBody = document.getElementById("restaurant-body");
+const mapContainer = document.getElementById("map");
 
 const AREA_PATTERNS = [
   "代々木上原",
@@ -79,24 +80,39 @@ const AREA_ROMAJI = {
 };
 
 let restaurants = [];
+let map;
+let mapMarkers = [];
+let mapsLibraryLoaded = false;
+let restaurantsReady = false;
+let currentFilteredRows = [];
+
+const DEFAULT_MAP_CENTER = { lat: 35.664035, lng: 139.698212 };
+const DEFAULT_MAP_ZOOM = 14;
 
 document.addEventListener("DOMContentLoaded", init);
+
+window.initMap = function initMap() {
+  mapsLibraryLoaded = true;
+  initializeMap();
+};
 
 async function init() {
   try {
     statusMessage.textContent = "Loading restaurants…";
-    const text = await fetchCsv("data/restaurants.csv");
+    const text = await fetchCsv("data/restaurants_geocoded.csv");
     const parsed = parseCsv(text);
     if (!parsed.length) {
       throw new Error("CSV contained no rows");
     }
     const [header, ...rows] = parsed;
     restaurants = rows
-      .map((row) => makeRestaurant(header, row))
+      .map((row, index) => makeRestaurant(header, row, index))
       .filter((item) => Boolean(item));
 
     populateFilters(restaurants);
     bindEvents();
+    restaurantsReady = true;
+    initializeMap();
     applyFilters();
   } catch (error) {
     console.error(error);
@@ -163,7 +179,7 @@ function parseCsv(text) {
   return rows;
 }
 
-function makeRestaurant(header, row) {
+function makeRestaurant(header, row, index) {
   if (!row.length) {
     return null;
   }
@@ -178,8 +194,12 @@ function makeRestaurant(header, row) {
   const area = detectArea(address);
   const areaRomaji = area ? AREA_ROMAJI[area] ?? "" : "";
   const categories = buildCategory(record);
+  const latitude = parseFloat(record.latitude);
+  const longitude = parseFloat(record.longitude);
+  const hasCoordinates = Number.isFinite(latitude) && Number.isFinite(longitude);
 
   return {
+    id: index,
     name,
     parentCategory: record.parent_category?.trim() ?? "",
     middleCategory: record.middle_category?.trim() ?? "",
@@ -190,7 +210,21 @@ function makeRestaurant(header, row) {
     googleUrl: sanitizeUrl(record.google_url?.trim() ?? ""),
     area,
     areaRomaji,
-    keywords: [name, area, areaRomaji, categories, address, record.tel?.trim() ?? ""].filter(Boolean).join(" ").toLowerCase()
+    latitude: hasCoordinates ? latitude : null,
+    longitude: hasCoordinates ? longitude : null,
+    hasCoordinates,
+    keywords: [
+      name,
+      area,
+      areaRomaji,
+      categories,
+      address,
+      record.tel?.trim() ?? "",
+      hasCoordinates ? `${latitude} ${longitude}` : ""
+    ]
+      .filter(Boolean)
+      .join(" ")
+      .toLowerCase()
   };
 }
 
@@ -314,7 +348,9 @@ function applyFilters() {
     return true;
   });
 
+  currentFilteredRows = filtered;
   renderTable(filtered);
+  updateMapMarkers(filtered);
   const summary = filtered.length === restaurants.length
     ? `${filtered.length} restaurants shown`
     : `${filtered.length} of ${restaurants.length} restaurants match`;
@@ -387,4 +423,78 @@ function buildMapUrl(restaurant) {
   }
   const query = [restaurant.name, restaurant.address].filter(Boolean).join(" ");
   return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(query)}`;
+}
+
+function initializeMap() {
+  if (!mapContainer || map || !mapsLibraryLoaded || !restaurantsReady) {
+    return;
+  }
+
+  if (typeof window.google === "undefined" || !window.google.maps) {
+    return;
+  }
+
+  map = new google.maps.Map(mapContainer, {
+    center: DEFAULT_MAP_CENTER,
+    zoom: DEFAULT_MAP_ZOOM,
+    mapTypeControl: false,
+    streetViewControl: false,
+    fullscreenControl: false
+  });
+
+  const rowsToRender = currentFilteredRows.length ? currentFilteredRows : restaurants;
+  updateMapMarkers(rowsToRender);
+}
+
+function updateMapMarkers(rows) {
+  if (!map || typeof window.google === "undefined" || !window.google.maps) {
+    return;
+  }
+
+  clearMapMarkers();
+
+  const bounds = new google.maps.LatLngBounds();
+  let hasMarker = false;
+
+  rows.forEach((restaurant) => {
+    if (!restaurant.hasCoordinates) {
+      return;
+    }
+
+    const position = { lat: restaurant.latitude, lng: restaurant.longitude };
+    const marker = new google.maps.Marker({
+      map,
+      position,
+      title: restaurant.name
+    });
+
+    marker.addListener("click", () => {
+      window.open(buildMapUrl(restaurant), "_blank", "noopener");
+    });
+
+    mapMarkers.push(marker);
+    bounds.extend(position);
+    hasMarker = true;
+  });
+
+  if (!hasMarker) {
+    map.setCenter(DEFAULT_MAP_CENTER);
+    map.setZoom(DEFAULT_MAP_ZOOM);
+    return;
+  }
+
+  if (mapMarkers.length === 1) {
+    map.setCenter(bounds.getCenter());
+    map.setZoom(16);
+    return;
+  }
+
+  map.fitBounds(bounds, 48);
+}
+
+function clearMapMarkers() {
+  mapMarkers.forEach((marker) => {
+    marker.setMap(null);
+  });
+  mapMarkers = [];
 }

@@ -96,6 +96,20 @@
         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
       }
 
+      .map-panel {
+        margin-bottom: 1rem;
+        background: #ffffff;
+        border-radius: 0.5rem;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+        overflow: hidden;
+      }
+
+      #map {
+        width: 100%;
+        min-height: 320px;
+        height: clamp(320px, 45vh, 520px);
+      }
+
       table {
         width: 100%;
         border-collapse: collapse;
@@ -198,6 +212,10 @@
 
     <p id="status" role="status">Loading restaurants…</p>
 
+    <section class="map-panel" aria-label="Map of filtered restaurants">
+      <div id="map" aria-label="Restaurant locations on Google Maps"></div>
+    </section>
+
     <div class="table-wrapper">
       <table aria-live="polite">
         <thead>
@@ -214,5 +232,11 @@
     </div>
 
     <script src="restaurants.js" defer></script>
+    <!-- Replace YOUR_GOOGLE_MAPS_JS_API_KEY with a valid Maps JavaScript API key -->
+    <script
+      async
+      defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAP9kDSLG9wPHPfn2u1SiTGGWYBAFhqz7E&callback=initMap"
+    ></script>
   </body>
 </html>
