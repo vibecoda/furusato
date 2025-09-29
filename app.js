@@ -16,6 +16,7 @@ let map;
 let mapMarkers = [];
 let mapsLibraryLoaded = false;
 let shopsReady = false;
+let infoWindow;
 
 const DEFAULT_MAP_CENTER = { lat: 35.6895, lng: 139.6917 };
 const DEFAULT_MAP_ZOOM = 12;
@@ -334,6 +335,8 @@ function initializeMap() {
     fullscreenControl: false,
   });
 
+  infoWindow = new google.maps.InfoWindow();
+
   const rowsToRender = currentFilteredRows.length ? currentFilteredRows : allShops;
   updateMapMarkers(rowsToRender);
 }
@@ -361,7 +364,13 @@ function updateMapMarkers(rows) {
     });
 
     marker.addListener("click", () => {
-      window.open(buildMapUrl(shop), "_blank", "noopener");
+      if (infoWindow) {
+        infoWindow.close();
+        const content = document.createElement("div");
+        content.textContent = shop.name || "(No title)";
+        infoWindow.setContent(content);
+        infoWindow.open({ anchor: marker, map });
+      }
     });
 
     mapMarkers.push(marker);
@@ -389,4 +398,8 @@ function clearMapMarkers() {
     marker.setMap(null);
   });
   mapMarkers = [];
+
+  if (infoWindow) {
+    infoWindow.close();
+  }
 }

@@ -85,6 +85,7 @@ let mapMarkers = [];
 let mapsLibraryLoaded = false;
 let restaurantsReady = false;
 let currentFilteredRows = [];
+let infoWindow;
 
 const DEFAULT_MAP_CENTER = { lat: 35.664035, lng: 139.698212 };
 const DEFAULT_MAP_ZOOM = 14;
@@ -442,6 +443,8 @@ function initializeMap() {
     fullscreenControl: false
   });
 
+  infoWindow = new google.maps.InfoWindow();
+
   const rowsToRender = currentFilteredRows.length ? currentFilteredRows : restaurants;
   updateMapMarkers(rowsToRender);
 }
@@ -469,7 +472,13 @@ function updateMapMarkers(rows) {
     });
 
     marker.addListener("click", () => {
-      window.open(buildMapUrl(restaurant), "_blank", "noopener");
+      if (infoWindow) {
+        infoWindow.close();
+        const content = document.createElement("div");
+        content.textContent = restaurant.name || "(No title)";
+        infoWindow.setContent(content);
+        infoWindow.open({ anchor: marker, map });
+      }
     });
 
     mapMarkers.push(marker);
@@ -497,4 +506,8 @@ function clearMapMarkers() {
     marker.setMap(null);
   });
   mapMarkers = [];
+
+  if (infoWindow) {
+    infoWindow.close();
+  }
 }
