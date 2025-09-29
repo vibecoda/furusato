@@ -474,9 +474,7 @@ function updateMapMarkers(rows) {
     marker.addListener("click", () => {
       if (infoWindow) {
         infoWindow.close();
-        const content = document.createElement("div");
-        content.textContent = restaurant.name || "(No title)";
-        infoWindow.setContent(content);
+        infoWindow.setContent(createInfoWindowContent(restaurant));
         infoWindow.open({ anchor: marker, map });
       }
     });
@@ -510,4 +508,48 @@ function clearMapMarkers() {
   if (infoWindow) {
     infoWindow.close();
   }
+}
+
+function createInfoWindowContent(restaurant) {
+  const container = document.createElement("div");
+  container.className = "map-info-window";
+  container.style.display = "grid";
+  container.style.gap = "0.2rem";
+
+  const titleLink = document.createElement("a");
+  titleLink.href = buildMapUrl(restaurant);
+  titleLink.target = "_blank";
+  titleLink.rel = "noopener";
+  titleLink.textContent = restaurant.name || "(No title)";
+  titleLink.style.fontWeight = "600";
+  titleLink.style.color = "#1a73e8";
+  titleLink.style.textDecoration = "none";
+
+  titleLink.addEventListener("mouseenter", () => {
+    titleLink.style.textDecoration = "underline";
+  });
+  titleLink.addEventListener("mouseleave", () => {
+    titleLink.style.textDecoration = "none";
+  });
+
+  container.append(titleLink);
+
+  if (restaurant.address) {
+    const addressLine = document.createElement("div");
+    addressLine.textContent = restaurant.address;
+    addressLine.style.fontSize = "0.85rem";
+    addressLine.style.color = "#5f6368";
+    container.append(addressLine);
+  }
+
+  if (restaurant.areaRomaji || restaurant.area) {
+    const areaLine = document.createElement("div");
+    const parts = [restaurant.areaRomaji, restaurant.area].filter(Boolean);
+    areaLine.textContent = parts.join(" · ");
+    areaLine.style.fontSize = "0.75rem";
+    areaLine.style.color = "#7a7a7a";
+    container.append(areaLine);
+  }
+
+  return container;
 }

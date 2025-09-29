@@ -366,9 +366,7 @@ function updateMapMarkers(rows) {
     marker.addListener("click", () => {
       if (infoWindow) {
         infoWindow.close();
-        const content = document.createElement("div");
-        content.textContent = shop.name || "(No title)";
-        infoWindow.setContent(content);
+        infoWindow.setContent(createInfoWindowContent(shop));
         infoWindow.open({ anchor: marker, map });
       }
     });
@@ -402,4 +400,48 @@ function clearMapMarkers() {
   if (infoWindow) {
     infoWindow.close();
   }
+}
+
+function createInfoWindowContent(shop) {
+  const container = document.createElement("div");
+  container.className = "map-info-window";
+  container.style.display = "grid";
+  container.style.gap = "0.25rem";
+
+  const titleLink = document.createElement("a");
+  titleLink.href = buildMapUrl(shop);
+  titleLink.target = "_blank";
+  titleLink.rel = "noopener";
+  titleLink.textContent = shop.name || "(No title)";
+  titleLink.style.fontWeight = "600";
+  titleLink.style.color = "#1a73e8";
+  titleLink.style.textDecoration = "none";
+
+  titleLink.addEventListener("mouseenter", () => {
+    titleLink.style.textDecoration = "underline";
+  });
+  titleLink.addEventListener("mouseleave", () => {
+    titleLink.style.textDecoration = "none";
+  });
+
+  container.append(titleLink);
+
+  if (shop.address) {
+    const addressLine = document.createElement("div");
+    addressLine.textContent = shop.address;
+    addressLine.style.fontSize = "0.85rem";
+    addressLine.style.color = "#5f6368";
+    container.append(addressLine);
+  }
+
+  const metadata = [shop.municipality, shop.category].filter(Boolean);
+  if (metadata.length) {
+    const metaLine = document.createElement("div");
+    metaLine.textContent = metadata.join(" · ");
+    metaLine.style.fontSize = "0.75rem";
+    metaLine.style.color = "#7a7a7a";
+    container.append(metaLine);
+  }
+
+  return container;
 }
