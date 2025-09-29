@@ -7,14 +7,28 @@ const ratingInput = document.getElementById("rating");
 const pointInput = document.getElementById("points");
 const statusMessage = document.getElementById("status");
 const tableBody = document.getElementById("table-body");
+const mapContainer = document.getElementById("map");
 
 let allShops = [];
 const activeTags = new Set();
+let currentFilteredRows = [];
+let map;
+let mapMarkers = [];
+let mapsLibraryLoaded = false;
+let shopsReady = false;
+
+const DEFAULT_MAP_CENTER = { lat: 35.6895, lng: 139.6917 };
+const DEFAULT_MAP_ZOOM = 12;
+
+window.initMap = function initMap() {
+  mapsLibraryLoaded = true;
+  initializeMap();
+};
 
 async function init() {
   try {
     statusMessage.textContent = "Loading data…";
-    const response = await fetch("data/tokyo_shops.json", { cache: "no-store" });
+    const response = await fetch("data/tokyo_shops_geocoded.json", { cache: "no-store" });
     if (!response.ok) {
       throw new Error(`Request failed with status ${response.status}`);
     }
@@ -23,6 +37,8 @@ async function init() {
 
     populateFilters(allShops);
     bindEvents();
+    shopsReady = true;
+    initializeMap();
     applyFilters();
   } catch (error) {
     console.error(error);
