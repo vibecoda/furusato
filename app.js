@@ -60,6 +60,10 @@ function flattenShops(payload) {
       continue;
     }
     for (const shop of entry.shops) {
+      const details = typeof shop.details === "object" && shop.details !== null ? shop.details : {};
+      const latitude = typeof shop.latitude === "number" ? shop.latitude : null;
+      const longitude = typeof shop.longitude === "number" ? shop.longitude : null;
+
       rows.push({
         id: shop.id,
         name: shop.name || "",
@@ -73,6 +77,11 @@ function flattenShops(payload) {
         pointGuide: typeof shop.pointGuide === "number" ? shop.pointGuide : null,
         tags: Array.isArray(shop.tags) ? shop.tags : [],
         description: shop.description || "",
+        address: typeof details["住所"] === "string" ? details["住所"] : "",
+        tel: typeof details["電話番号"] === "string" ? details["電話番号"] : "",
+        latitude,
+        longitude,
+        hasCoordinates: Number.isFinite(latitude) && Number.isFinite(longitude),
       });
     }
   }
@@ -235,7 +244,9 @@ function applyFilters() {
     return true;
   });
 
+  currentFilteredRows = filtered;
   renderTable(filtered);
+  updateMapMarkers(filtered);
   const message = filtered.length === allShops.length
     ? `${filtered.length} shops shown`
     : `${filtered.length} of ${allShops.length} shops match`;
@@ -248,7 +259,7 @@ function renderTable(rows) {
   if (rows.length === 0) {
     const emptyRow = document.createElement("tr");
     const emptyCell = document.createElement("td");
-    emptyCell.colSpan = 6;
+    emptyCell.colSpan = 4;
     emptyCell.textContent = "No shops match the current filters.";
     emptyRow.append(emptyCell);
     tableBody.append(emptyRow);
@@ -262,10 +273,7 @@ function renderTable(rows) {
     const link = document.createElement("a");
     const displayName = shop.name || "(No title)";
     link.textContent = displayName;
-    const queryParts = [displayName, shop.municipality, shop.prefecture]
-      .filter(Boolean)
-      .join(" ");
-  link.href = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(queryParts)}`;
+    link.href = buildMapUrl(shop);
     link.target = "_blank";
     link.rel = "noopener";
     nameCell.append(link);
@@ -297,4 +305,88 @@ function renderTable(rows) {
 
     tableBody.append(tr);
   }
+}
+
+function buildMapUrl(shop) {
+  if (shop.hasCoordinates) {
+    return `https://www.google.com/maps/search/?api=1&query=${shop.latitude},${shop.longitude}`;
+  }
+  const queryParts = [shop.name, shop.address, shop.municipality, shop.prefecture]
+    .filter(Boolean)
+    .join(" ");
+  return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(queryParts)}`;
+}
+
+function initializeMap() {
+  if (!mapContainer || map || !mapsLibraryLoaded || !shopsReady) {
+    return;
+  }
+
+  if (typeof window.google === "undefined" || !window.google.maps) {
+    return;
+  }
+
+  map = new google.maps.Map(mapContainer, {
+    center: DEFAULT_MAP_CENTER,
+    zoom: DEFAULT_MAP_ZOOM,
+    mapTypeControl: false,
+    streetViewControl: false,
+    fullscreenControl: false,
+  });
+
+  const rowsToRender = currentFilteredRows.length ? currentFilteredRows : allShops;
+  updateMapMarkers(rowsToRender);
+}
+
+function updateMapMarkers(rows) {
+  if (!map || typeof window.google === "undefined" || !window.google.maps) {
+    return;
+  }
+
+  clearMapMarkers();
+
+  const bounds = new google.maps.LatLngBounds();
+  let hasMarker = false;
+
+  rows.forEach((shop) => {
+    if (!shop.hasCoordinates) {
+      return;
+    }
+
+    const position = { lat: shop.latitude, lng: shop.longitude };
+    const marker = new google.maps.Marker({
+      map,
+      position,
+      title: shop.name,
+    });
+
+    marker.addListener("click", () => {
+      window.open(buildMapUrl(shop), "_blank", "noopener");
+    });
+
+    mapMarkers.push(marker);
+    bounds.extend(position);
+    hasMarker = true;
+  });
+
+  if (!hasMarker) {
+    map.setCenter(DEFAULT_MAP_CENTER);
+    map.setZoom(DEFAULT_MAP_ZOOM);
+    return;
+  }
+
+  if (mapMarkers.length === 1) {
+    map.setCenter(bounds.getCenter());
+    map.setZoom(16);
+    return;
+  }
+
+  map.fitBounds(bounds, 72);
+}
+
+function clearMapMarkers() {
+  mapMarkers.forEach((marker) => {
+    marker.setMap(null);
+  });
+  mapMarkers = [];
 }
