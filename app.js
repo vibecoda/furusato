@@ -28,6 +28,7 @@ window.initMap = function initMap() {
 
 async function init() {
   try {
+    await setLastUpdated();
     statusMessage.textContent = "Loading data…";
     const response = await fetch("data/tokyo_shops_geocoded.json", { cache: "no-store" });
     if (!response.ok) {
@@ -44,6 +45,27 @@ async function init() {
   } catch (error) {
     console.error(error);
     statusMessage.textContent = `Failed to load data: ${error.message}`;
+  }
+}
+
+async function setLastUpdated() {
+  const lastUpdatedSpan = document.getElementById("last-updated");
+  if (!lastUpdatedSpan) {
+    return;
+  }
+
+  try {
+    const response = await fetch("data/last_updated.txt");
+    if (!response.ok) {
+      throw new Error("Failed to load last updated date");
+    }
+    const dateString = await response.text();
+    const date = new Date(dateString.trim());
+    const options = { year: 'numeric', month: 'long', day: 'numeric' };
+    lastUpdatedSpan.textContent = date.toLocaleDateString('en-US', options);
+  } catch (error) {
+    console.error("Error loading last updated date:", error);
+    lastUpdatedSpan.textContent = "Unknown";
   }
 }
 
