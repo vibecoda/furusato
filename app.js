@@ -68,6 +68,9 @@ function flattenShops(payload) {
       rows.push({
         id: shop.id,
         name: shop.name || "",
+        placeId: typeof shop.googlePlaceId === "string" && shop.googlePlaceId.trim()
+          ? shop.googlePlaceId.trim()
+          : null,
         municipality: municipalityName,
         category: shop.category || "",
         region: shop.area?.region || "",
@@ -309,13 +312,25 @@ function renderTable(rows) {
 }
 
 function buildMapUrl(shop) {
+  const queryParts = [shop.name, shop.address, shop.municipality, shop.prefecture]
+    .filter((value) => typeof value === "string" && value.trim().length)
+    .join(" ");
+
+  if (shop.placeId) {
+    const seed = queryParts || `${shop.latitude ?? ""} ${shop.longitude ?? ""}`.trim();
+    const query = encodeURIComponent(seed || shop.placeId);
+    return `https://www.google.com/maps/search/?api=1&query=${query}&query_place_id=${shop.placeId}`;
+  }
+
+  if (queryParts) {
+    return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(queryParts)}`;
+  }
+
   if (shop.hasCoordinates) {
     return `https://www.google.com/maps/search/?api=1&query=${shop.latitude},${shop.longitude}`;
   }
-  const queryParts = [shop.name, shop.address, shop.municipality, shop.prefecture]
-    .filter(Boolean)
-    .join(" ");
-  return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(queryParts)}`;
+
+  return "https://www.google.com/maps";
 }
 
 function initializeMap() {

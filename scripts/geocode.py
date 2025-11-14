@@ -27,11 +27,23 @@ DATA_DIR = BASE_DIR / "data"
 DEFAULT_CACHE_PATH = DATA_DIR / "geocode_cache.json"
 
 
+def _normalize_coords(value: Dict[str, Any]) -> Dict[str, Any]:
+    """Return a shallow copy containing float lat/lng and optional place_id."""
+
+    lat = float(value["lat"])
+    lng = float(value["lng"])
+    normalized: Dict[str, Any] = {"lat": lat, "lng": lng}
+    place_id = value.get("place_id")
+    if place_id:
+        normalized["place_id"] = str(place_id)
+    return normalized
+
+
 class GeocodeError(RuntimeError):
     """Custom error raised when the geocoding API returns an unexpected status."""
 
 
-def load_cache(path: Path) -> Dict[str, Optional[Dict[str, float]]]:
+def load_cache(path: Path) -> Dict[str, Optional[Dict[str, Any]]]:
     if not path.exists():
         return {}
     try:
@@ -39,35 +51,61 @@ def load_cache(path: Path) -> Dict[str, Optional[Dict[str, float]]]:
             data = json.load(f)
         # Only keep address entries that look like coordinate dicts or null
         return {
-            addr: value if value is None else {"lat": float(value["lat"]), "lng": float(value["lng"])}
+            addr: value if value is None else _normalize_coords(value)
             for addr, value in data.items()
         }
     except (json.JSONDecodeError, KeyError, TypeError, ValueError) as exc:
         raise GeocodeError(f"Failed to load cache file {path}: {exc}") from exc
 
 
-def save_cache(path: Path, cache: Dict[str, Optional[Dict[str, float]]]) -> None:
+def save_cache(path: Path, cache: Dict[str, Optional[Dict[str, Any]]]) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("w", encoding="utf-8") as f:
         json.dump(cache, f, ensure_ascii=False, indent=2, sort_keys=True)
+
+
+def load_dotenv_file(path: Path) -> None:
+    """Populate missing environment variables from a .env file."""
+
+    if not path.exists():
+        return
+
+    with path.open("r", encoding="utf-8") as handle:
+        for raw_line in handle:
+            line = raw_line.strip()
+            if not line or line.startswith("#"):
+                continue
+            if "=" not in line:
+                continue
+            key, value = line.split("=", 1)
+            key = key.strip()
+            if not key:
+                continue
+            value = value.strip()
+            if value.startswith(("'", '"')) and value.endswith(value[0]):
+                value = value[1:-1]
+            os.environ.setdefault(key, value)
 
 
 def geocode_address(
     address: str,
     session: requests.Session,
     api_key: str,
-    cache: Dict[str, Optional[Dict[str, float]]],
+    cache: Dict[str, Optional[Dict[str, Any]]],
     *,
     region: str = "jp",
     language: str = "ja",
     throttle: float = 0.25,
-) -> Optional[Dict[str, float]]:
-    """Return {'lat': float, 'lng': float} for an address or None if not found."""
+) -> Optional[Dict[str, Any]]:
+    """Return {'lat', 'lng', 'place_id'?} for an address or None if not found."""
     if not address:
         return None
 
     if address in cache:
-        return cache[address]
+        cached = cache[address]
+        if cached is None or cached.get("place_id"):
+            return cached
+        # Older cache entry is missing place_id; fall through to refresh it.
 
     params = {
         "address": address,
@@ -83,8 +121,15 @@ def geocode_address(
     payload = response.json()
     status = payload.get("status")
     if status == "OK":
-        location = payload["results"][0]["geometry"]["location"]
-        cache[address] = {"lat": float(location["lat"]), "lng": float(location["lng"])}
+        result = payload["results"][0]
+        location = result["geometry"]["location"]
+        cache[address] = {
+            "lat": float(location["lat"]),
+            "lng": float(location["lng"]),
+        }
+        place_id = result.get("place_id")
+        if place_id:
+            cache[address]["place_id"] = str(place_id)
     elif status in {"ZERO_RESULTS", "NOT_FOUND"}:
         cache[address] = None
     elif status in {"OVER_DAILY_LIMIT", "OVER_QUERY_LIMIT", "REQUEST_DENIED"}:
@@ -104,7 +149,7 @@ def geocode_address(
 def process_restaurants(
     session: requests.Session,
     api_key: str,
-    cache: Dict[str, Optional[Dict[str, float]]],
+    cache: Dict[str, Optional[Dict[str, Any]]],
     *,
     throttle: float,
 ) -> None:
@@ -116,7 +161,10 @@ def process_restaurants(
 
     with input_path.open("r", encoding="utf-8", newline="") as f_in:
         reader = csv.DictReader(f_in)
-        fieldnames = list(reader.fieldnames or []) + ["latitude", "longitude"]
+        fieldnames = list(reader.fieldnames or [])
+        for extra_field in ("latitude", "longitude", "google_place_id"):
+            if extra_field not in fieldnames:
+                fieldnames.append(extra_field)
         rows = list(reader)
 
     with output_path.open("w", encoding="utf-8", newline="") as f_out:
@@ -128,13 +176,14 @@ def process_restaurants(
             coords = geocode_address(address, session, api_key, cache, throttle=throttle)
             row["latitude"] = coords["lat"] if coords else ""
             row["longitude"] = coords["lng"] if coords else ""
+            row["google_place_id"] = coords.get("place_id", "") if coords else ""
             writer.writerow(row)
 
 
 def process_tokyo_shops(
     session: requests.Session,
     api_key: str,
-    cache: Dict[str, Optional[Dict[str, float]]],
+    cache: Dict[str, Optional[Dict[str, Any]]],
     *,
     throttle: float,
 ) -> None:
@@ -156,14 +205,21 @@ def process_tokyo_shops(
             if coords:
                 shop["latitude"] = coords["lat"]
                 shop["longitude"] = coords["lng"]
+                place_id = coords.get("place_id")
+                if place_id:
+                    shop["googlePlaceId"] = place_id
+                else:
+                    shop.pop("googlePlaceId", None)
             else:
                 shop.pop("latitude", None)
                 shop.pop("longitude", None)
+                shop.pop("googlePlaceId", None)
 
     output_path.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
 def parse_args(argv: Optional[list[str]] = None) -> argparse.Namespace:
+    load_dotenv_file(Path.cwd() / ".env")
     parser = argparse.ArgumentParser(description="Geocode local datasets with Google Maps")
     parser.add_argument(
         "--api-key",

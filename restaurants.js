@@ -198,6 +198,7 @@ function makeRestaurant(header, row, index) {
   const latitude = parseFloat(record.latitude);
   const longitude = parseFloat(record.longitude);
   const hasCoordinates = Number.isFinite(latitude) && Number.isFinite(longitude);
+  const placeId = record.google_place_id?.trim() || "";
 
   return {
     id: index,
@@ -209,6 +210,7 @@ function makeRestaurant(header, row, index) {
     address,
     tel: record.tel?.trim() ?? "",
     googleUrl: sanitizeUrl(record.google_url?.trim() ?? ""),
+    googlePlaceId: placeId || null,
     area,
     areaRomaji,
     latitude: hasCoordinates ? latitude : null,
@@ -221,7 +223,7 @@ function makeRestaurant(header, row, index) {
       categories,
       address,
       record.tel?.trim() ?? "",
-      hasCoordinates ? `${latitude} ${longitude}` : ""
+    hasCoordinates ? `${latitude} ${longitude}` : ""
     ]
       .filter(Boolean)
       .join(" ")
@@ -422,8 +424,25 @@ function buildMapUrl(restaurant) {
   if (restaurant.googleUrl && isGoogleMapsUrl(restaurant.googleUrl)) {
     return restaurant.googleUrl;
   }
-  const query = [restaurant.name, restaurant.address].filter(Boolean).join(" ");
-  return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(query)}`;
+  const queryParts = [restaurant.name, restaurant.address]
+    .filter((value) => typeof value === "string" && value.trim().length)
+    .join(" ");
+
+  if (restaurant.googlePlaceId) {
+    const seed = queryParts || `${restaurant.latitude ?? ""} ${restaurant.longitude ?? ""}`.trim();
+    const query = encodeURIComponent(seed || restaurant.googlePlaceId);
+    return `https://www.google.com/maps/search/?api=1&query=${query}&query_place_id=${restaurant.googlePlaceId}`;
+  }
+
+  if (queryParts) {
+    return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(queryParts)}`;
+  }
+
+  if (restaurant.hasCoordinates) {
+    return `https://www.google.com/maps/search/?api=1&query=${restaurant.latitude},${restaurant.longitude}`;
+  }
+
+  return "https://www.google.com/maps";
 }
 
 function initializeMap() {
