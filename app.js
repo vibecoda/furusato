@@ -312,15 +312,13 @@ function renderTable(rows) {
 }
 
 function buildMapUrl(shop) {
+  if (shop.placeId) {
+    return `https://www.google.com/maps/search/?api=1&query_place_id=${shop.placeId}`;
+  }
+
   const queryParts = [shop.name, shop.address, shop.municipality, shop.prefecture]
     .filter((value) => typeof value === "string" && value.trim().length)
     .join(" ");
-
-  if (shop.placeId) {
-    const seed = queryParts || `${shop.latitude ?? ""} ${shop.longitude ?? ""}`.trim();
-    const query = encodeURIComponent(seed || shop.placeId);
-    return `https://www.google.com/maps/search/?api=1&query=${query}&query_place_id=${shop.placeId}`;
-  }
 
   if (queryParts) {
     return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(queryParts)}`;
