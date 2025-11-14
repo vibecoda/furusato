@@ -55,7 +55,7 @@ async function setLastUpdated() {
   }
 
   try {
-    const response = await fetch("data/last_updated.txt");
+    const response = await fetch("data/last_updated.txt", { cache: "no-store" });
     if (!response.ok) {
       throw new Error("Failed to load last updated date");
     }
@@ -335,7 +335,7 @@ function renderTable(rows) {
 
 function buildMapUrl(shop) {
   if (shop.placeId) {
-    return `https://www.google.com/maps/search/?api=1&query_place_id=${shop.placeId}`;
+    return `https://www.google.com/maps/place/?q=place_id:${shop.placeId}`;
   }
 
   const queryParts = [shop.name, shop.address, shop.municipality, shop.prefecture]
