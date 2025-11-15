@@ -301,14 +301,28 @@ def process_restaurants(
             address = row.get("address", "").strip()
             print(f"   [{idx}/{total}] {name[:50]:<50}", end=" ", flush=True)
 
-            coords = geocode_address(address, session, api_key, cache, throttle=throttle)
+            # Try Places API first with name + address for accurate Place ID
+            coords = None
+            used_places_api = False
+            if name and name != "Unknown" and address:
+                query = f"{name} {address}"
+                coords = find_place(query, session, api_key, cache, throttle=throttle)
+                used_places_api = coords is not None
+
+            # Fallback to Geocoding API if Places API fails
+            if not coords and address:
+                coords = geocode_address(address, session, api_key, cache, throttle=throttle)
+
             row["latitude"] = coords["lat"] if coords else ""
             row["longitude"] = coords["lng"] if coords else ""
             row["google_place_id"] = coords.get("place_id", "") if coords else ""
             writer.writerow(row)
 
             if coords:
-                print("✓" if coords.get("place_id") else "~ (no Place ID)")
+                if coords.get("place_id"):
+                    print(f"✓ {'[Places API]' if used_places_api else '[Geocoding]'}")
+                else:
+                    print("~ (coords only)")
             else:
                 print("✗ (not found)")
 
