@@ -424,15 +424,14 @@ function buildMapUrl(restaurant) {
   if (restaurant.googleUrl && isGoogleMapsUrl(restaurant.googleUrl)) {
     return restaurant.googleUrl;
   }
+
+  if (restaurant.googlePlaceId) {
+    return `https://www.google.com/maps/place/?q=place_id:${restaurant.googlePlaceId}`;
+  }
+
   const queryParts = [restaurant.name, restaurant.address]
     .filter((value) => typeof value === "string" && value.trim().length)
     .join(" ");
-
-  if (restaurant.googlePlaceId) {
-    const seed = queryParts || `${restaurant.latitude ?? ""} ${restaurant.longitude ?? ""}`.trim();
-    const query = encodeURIComponent(seed || restaurant.googlePlaceId);
-    return `https://www.google.com/maps/search/?api=1&query=${query}&query_place_id=${restaurant.googlePlaceId}`;
-  }
 
   if (queryParts) {
     return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(queryParts)}`;
