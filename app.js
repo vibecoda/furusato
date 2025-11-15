@@ -59,10 +59,21 @@ async function setLastUpdated() {
     if (!response.ok) {
       throw new Error("Failed to load last updated date");
     }
-    const dateString = await response.text();
-    const date = new Date(dateString.trim());
-    const options = { year: 'numeric', month: 'long', day: 'numeric' };
-    lastUpdatedSpan.textContent = date.toLocaleDateString('en-US', options);
+    const dateString = await response.text().then(text => text.trim());
+
+    // Check if format includes time (YYYY-MM-DD HH:MM)
+    if (dateString.includes(' ')) {
+      const [datePart, timePart] = dateString.split(' ');
+      const date = new Date(datePart);
+      const dateOptions = { year: 'numeric', month: 'long', day: 'numeric' };
+      const formattedDate = date.toLocaleDateString('en-US', dateOptions);
+      lastUpdatedSpan.textContent = `${formattedDate} at ${timePart}`;
+    } else {
+      // Just date, no time
+      const date = new Date(dateString);
+      const options = { year: 'numeric', month: 'long', day: 'numeric' };
+      lastUpdatedSpan.textContent = date.toLocaleDateString('en-US', options);
+    }
   } catch (error) {
     console.error("Error loading last updated date:", error);
     lastUpdatedSpan.textContent = "Unknown";
