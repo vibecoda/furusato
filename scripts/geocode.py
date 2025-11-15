@@ -19,8 +19,10 @@ from typing import Any, Dict, Optional
 
 import requests
 
-# Base endpoint for Google Maps Geocoding API
+# Base endpoints for Google Maps APIs
 GEOCODE_URL = "https://maps.googleapis.com/maps/api/geocode/json"
+PLACE_SEARCH_URL_NEW = "https://places.googleapis.com/v1/places:searchText"
+PLACE_SEARCH_URL_LEGACY = "https://maps.googleapis.com/maps/api/place/findplacefromtext/json"
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 DATA_DIR = BASE_DIR / "data"
@@ -85,6 +87,124 @@ def load_dotenv_file(path: Path) -> None:
             if value.startswith(("'", '"')) and value.endswith(value[0]):
                 value = value[1:-1]
             os.environ.setdefault(key, value)
+
+
+def find_place_new(
+    query: str,
+    session: requests.Session,
+    api_key: str,
+    *,
+    language: str = "ja",
+    throttle: float = 0.25,
+) -> Optional[Dict[str, Any]]:
+    """Use Places API (New) to find a place. Returns {'lat', 'lng', 'place_id'} or None."""
+    headers = {
+        "Content-Type": "application/json",
+        "X-Goog-Api-Key": api_key,
+        "X-Goog-FieldMask": "places.id,places.location",
+    }
+
+    body = {
+        "textQuery": query,
+        "languageCode": language,
+    }
+
+    response = session.post(PLACE_SEARCH_URL_NEW, json=body, headers=headers, timeout=15)
+
+    if response.status_code != 200:
+        return None
+
+    payload = response.json()
+    places = payload.get("places", [])
+
+    if places:
+        place = places[0]
+        location = place.get("location", {})
+        place_id = place.get("id", "").replace("places/", "")
+
+        if location and place_id:
+            if throttle:
+                time.sleep(throttle)
+            return {
+                "lat": float(location["latitude"]),
+                "lng": float(location["longitude"]),
+                "place_id": str(place_id),
+            }
+    return None
+
+
+def find_place_legacy(
+    query: str,
+    session: requests.Session,
+    api_key: str,
+    *,
+    language: str = "ja",
+    throttle: float = 0.25,
+) -> Optional[Dict[str, Any]]:
+    """Use Places API (Legacy) to find a place. Returns {'lat', 'lng', 'place_id'} or None."""
+    params = {
+        "input": query,
+        "inputtype": "textquery",
+        "fields": "place_id,geometry",
+        "key": api_key,
+        "language": language,
+    }
+
+    response = session.get(PLACE_SEARCH_URL_LEGACY, params=params, timeout=15)
+
+    if response.status_code != 200:
+        return None
+
+    payload = response.json()
+    status = payload.get("status")
+
+    if status == "OK" and payload.get("candidates"):
+        candidate = payload["candidates"][0]
+        location = candidate["geometry"]["location"]
+        if throttle:
+            time.sleep(throttle)
+        return {
+            "lat": float(location["lat"]),
+            "lng": float(location["lng"]),
+            "place_id": str(candidate["place_id"]),
+        }
+    return None
+
+
+def find_place(
+    query: str,
+    session: requests.Session,
+    api_key: str,
+    cache: Dict[str, Optional[Dict[str, Any]]],
+    *,
+    language: str = "ja",
+    throttle: float = 0.25,
+) -> Optional[Dict[str, Any]]:
+    """Try both Places APIs to find a place. Returns {'lat', 'lng', 'place_id'}."""
+    if not query:
+        return None
+
+    cache_key = f"place:{query}"
+    if cache_key in cache:
+        return cache[cache_key]
+
+    result = None
+
+    # Try new API first
+    try:
+        result = find_place_new(query, session, api_key, language=language, throttle=throttle)
+    except Exception:
+        pass
+
+    # Fallback to legacy API
+    if not result:
+        try:
+            result = find_place_legacy(query, session, api_key, language=language, throttle=throttle)
+        except Exception:
+            pass
+
+    cache[cache_key] = result
+    return result
 
 
 def geocode_address(
@@ -159,6 +279,8 @@ def process_restaurants(
     if not input_path.exists():
         raise FileNotFoundError(f"Missing input file: {input_path}")
 
+    print(f"\n📍 Processing restaurants from {input_path.name}")
+
     with input_path.open("r", encoding="utf-8", newline="") as f_in:
         reader = csv.DictReader(f_in)
         fieldnames = list(reader.fieldnames or [])
@@ -167,17 +289,30 @@ def process_restaurants(
                 fieldnames.append(extra_field)
         rows = list(reader)
 
+    total = len(rows)
+    print(f"   Total restaurants: {total}\n")
+
     with output_path.open("w", encoding="utf-8", newline="") as f_out:
         writer = csv.DictWriter(f_out, fieldnames=fieldnames)
         writer.writeheader()
 
-        for row in rows:
+        for idx, row in enumerate(rows, 1):
+            name = row.get("show_name") or row.get("name") or "Unknown"
             address = row.get("address", "").strip()
+            print(f"   [{idx}/{total}] {name[:50]:<50}", end=" ", flush=True)
+
             coords = geocode_address(address, session, api_key, cache, throttle=throttle)
             row["latitude"] = coords["lat"] if coords else ""
             row["longitude"] = coords["lng"] if coords else ""
             row["google_place_id"] = coords.get("place_id", "") if coords else ""
             writer.writerow(row)
+
+            if coords:
+                print("✓" if coords.get("place_id") else "~ (no Place ID)")
+            else:
+                print("✗ (not found)")
+
+    print(f"\n✅ Saved to {output_path.name}\n")
 
 
 def process_tokyo_shops(
@@ -195,27 +330,75 @@ def process_tokyo_shops(
 
     data = json.loads(input_path.read_text(encoding="utf-8"))
 
+    # Count total shops
+    total_shops = sum(len(m.get("shops", [])) for m in data.get("data", []))
+    print(f"\n🏪 Processing Tokyo shops from {input_path.name}")
+    print(f"   Total shops: {total_shops}\n")
+
+    processed = 0
+    found_place_id = 0
+    found_coords_only = 0
+    not_found = 0
+
     for municipality in data.get("data", []):
-        for shop in municipality.get("shops", []):
+        municipality_name = municipality.get("municipalityName", "Unknown")
+        shops = municipality.get("shops", [])
+
+        if shops:
+            print(f"   📍 {municipality_name} ({len(shops)} shops)")
+
+        for shop in shops:
+            processed += 1
+            name = (shop.get("name") or "").strip()
             details = shop.get("details", {})
             address = (details.get("住所") or "").strip()
+
+            print(f"      [{processed}/{total_shops}] {name[:45]:<45}", end=" ", flush=True)
+
             if not address:
+                print("✗ (no address)")
+                not_found += 1
                 continue
-            coords = geocode_address(address, session, api_key, cache, throttle=throttle)
+
+            # Try Places API first with name + address for accurate Place ID
+            coords = None
+            used_places_api = False
+            if name:
+                query = f"{name} {address}"
+                coords = find_place(query, session, api_key, cache, throttle=throttle)
+                used_places_api = coords is not None
+
+            # Fallback to Geocoding API if Places API fails
+            if not coords:
+                coords = geocode_address(address, session, api_key, cache, throttle=throttle)
+
             if coords:
                 shop["latitude"] = coords["lat"]
                 shop["longitude"] = coords["lng"]
                 place_id = coords.get("place_id")
                 if place_id:
                     shop["googlePlaceId"] = place_id
+                    print(f"✓ {'[Places API]' if used_places_api else '[Geocoding]'}")
+                    found_place_id += 1
                 else:
                     shop.pop("googlePlaceId", None)
+                    print("~ (coords only)")
+                    found_coords_only += 1
             else:
                 shop.pop("latitude", None)
                 shop.pop("longitude", None)
                 shop.pop("googlePlaceId", None)
+                print("✗ (not found)")
+                not_found += 1
 
     output_path.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
+
+    print(f"\n📊 Summary:")
+    print(f"   ✓ Place ID found:    {found_place_id}")
+    print(f"   ~ Coordinates only:  {found_coords_only}")
+    print(f"   ✗ Not found:         {not_found}")
+    print(f"   Total processed:     {processed}")
+    print(f"\n✅ Saved to {output_path.name}\n")
 
 
 def parse_args(argv: Optional[list[str]] = None) -> argparse.Namespace:
@@ -249,6 +432,11 @@ def parse_args(argv: Optional[list[str]] = None) -> argparse.Namespace:
         action="store_true",
         help="Skip geocoding tokyo_shops.json",
     )
+    parser.add_argument(
+        "--force-refresh",
+        action="store_true",
+        help="Force refresh all entries, ignoring cache",
+    )
     return parser.parse_args(argv)
 
 
@@ -259,18 +447,34 @@ def main(argv: Optional[list[str]] = None) -> int:
         print("Error: Google Maps API key is required. Pass --api-key or set GOOGLE_MAPS_API_KEY.", file=sys.stderr)
         return 2
 
+    print("=" * 70)
+    print("🗺️  Google Maps Geocoding Script")
+    print("=" * 70)
+    print(f"Cache file: {args.cache}")
+    print(f"Throttle: {args.throttle}s between requests")
+    print("=" * 70)
+
     session = requests.Session()
-    cache = load_cache(args.cache)
+    cache_before = load_cache(args.cache)
+    cache_entries_before = len(cache_before)
 
     try:
-        if not args.skip_restaurants:
-            process_restaurants(session, args.api_key, cache, throttle=args.throttle)
-        if not args.skip_shops:
-            process_tokyo_shops(session, args.api_key, cache, throttle=args.throttle)
-    finally:
-        save_cache(args.cache, cache)
+        if args.force_refresh:
+            print("⚠️  Force refresh enabled - will ignore cache and re-geocode all entries\n")
+            cache_before.clear()
 
-    print("Geocoding complete.")
+        if not args.skip_restaurants:
+            process_restaurants(session, args.api_key, cache_before, throttle=args.throttle)
+        if not args.skip_shops:
+            process_tokyo_shops(session, args.api_key, cache_before, throttle=args.throttle)
+    finally:
+        save_cache(args.cache, cache_before)
+        cache_entries_after = len(cache_before)
+
+    print("=" * 70)
+    print("✅ Geocoding complete!")
+    print(f"   Cache entries: {cache_entries_before} → {cache_entries_after} (+{cache_entries_after - cache_entries_before})")
+    print("=" * 70)
     return 0
 
 
