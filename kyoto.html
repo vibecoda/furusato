@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Restaurants accepting Hachipay</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kyoto Facilities accepting Furunavi Travel Points</title>
     <style>
       :root {
         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
@@ -20,38 +20,37 @@
       }
 
       header {
-        margin-bottom: 1.75rem;
+        margin-bottom: 1.5rem;
         display: grid;
-        gap: 0.8rem;
+        gap: 0.6rem;
       }
 
-      nav a {
+      nav.page-links {
+        display: flex;
+        gap: 1rem;
+        flex-wrap: wrap;
+      }
+
+      nav.page-links a {
         color: #2c7be5;
         text-decoration: none;
         font-size: 0.9rem;
       }
 
-      nav a:hover,
-      nav a:focus-visible {
+      nav.page-links a:hover,
+      nav.page-links a:focus-visible {
         text-decoration: underline;
         outline: none;
       }
 
       h1 {
-        margin: 0;
-        font-size: 1.8rem;
-      }
-
-      header p {
-        margin: 0;
-        max-width: 720px;
-        line-height: 1.5;
-        color: #3a3b3d;
+        font-size: 1.75rem;
+        margin: 0 0 0.25rem 0;
       }
 
       .filters {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
         gap: 0.75rem;
         padding: 1rem;
         background: #ffffff;
@@ -60,12 +59,35 @@
         margin-bottom: 1rem;
       }
 
-      label {
+      label,
+      .filter-block {
         display: flex;
         flex-direction: column;
-        gap: 0.4rem;
-        font-size: 0.85rem;
+        font-size: 0.875rem;
         color: #333;
+        gap: 0.35rem;
+      }
+
+      .hint {
+        font-size: 0.75rem;
+        color: #666;
+      }
+
+      .secondary-btn {
+        border: 1px solid #c5c5c5;
+        background: #ffffff;
+        color: #333;
+        padding: 0.35rem 0.8rem;
+        border-radius: 0.35rem;
+        font-size: 0.8rem;
+        cursor: pointer;
+      }
+
+      .secondary-btn:hover,
+      .secondary-btn:focus-visible {
+        background: #f0f4ff;
+        border-color: #a5b8ff;
+        outline: none;
       }
 
       input,
@@ -74,19 +96,12 @@
         border-radius: 0.4rem;
         border: 1px solid #c5c5c5;
         font-size: 0.95rem;
-        background: #fff;
       }
 
       input:focus,
       select:focus {
         outline: 2px solid #2c7be5;
         outline-offset: 1px;
-      }
-
-      #status {
-        margin: 0 0 1rem 0;
-        font-size: 0.9rem;
-        color: #555;
       }
 
       .table-wrapper {
@@ -114,7 +129,6 @@
         width: 100%;
         border-collapse: collapse;
         font-size: 0.9rem;
-        min-width: 720px;
       }
 
       thead {
@@ -128,23 +142,18 @@
       td {
         padding: 0.75rem;
         border-bottom: 1px solid #e0e0e0;
-        text-align: left;
         vertical-align: top;
+        text-align: left;
       }
 
       tbody tr:hover {
         background: #f9fbff;
       }
 
-      a[data-role="map-link"] {
-        color: #2c7be5;
-        text-decoration: none;
-      }
-
-      a[data-role="map-link"]:hover,
-      a[data-role="map-link"]:focus-visible {
-        text-decoration: underline;
-        outline: none;
+      #status {
+        margin: 0 0 1rem 0;
+        font-size: 0.9rem;
+        color: #555;
       }
 
       @media (max-width: 720px) {
@@ -152,25 +161,32 @@
           padding: 1rem;
         }
 
-        table {
-          min-width: 100%;
-          font-size: 0.85rem;
-        }
-
         th,
         td {
           padding: 0.6rem;
         }
+
+        .filters {
+          grid-template-columns: 1fr;
+        }
+
+        .table-wrapper {
+          border-radius: 0.35rem;
+        }
       }
 
       @media (max-width: 540px) {
-        .filters {
-          grid-template-columns: 1fr;
-          padding: 0.75rem;
-          gap: 0.6rem;
+        header p {
+          font-size: 0.9rem;
         }
 
-        label {
+        .filters {
+          padding: 0.75rem;
+          gap: 0.5rem;
+        }
+
+        label,
+        .filter-block {
           font-size: 0.8rem;
         }
 
@@ -179,62 +195,74 @@
           font-size: 0.85rem;
           padding: 0.45rem;
         }
+
+        table {
+          font-size: 0.8rem;
+        }
       }
     </style>
   </head>
   <body>
     <header>
-      <nav style="display: flex; gap: 1rem; flex-wrap: wrap;">
+      <nav class="page-links">
         <a href="index.html">Tokyo Shops</a>
-        <a href="kyoto.html">Kyoto Shops</a>
+        <a href="hachipay.html">Hachipay Restaurants</a>
       </nav>
-      <div>
-        <h1>Restaurants accepting Hachipay</h1>
-        <p>Browse restaurants from the CSV export and filter by neighbourhood or keyword. Use the place filter to focus on areas such as Yoyogi or Hatsudai.</p>
-      </div>
+      <h1>Kyoto Facilities accepting Furunavi Travel Points</h1>
+      <p>Browse the scraped listings and filter by area, category, or rating.</p>
+      <p style="font-size: 0.85rem; color: #666; margin-top: 0.5rem;">Last updated: <span id="last-updated"></span></p>
     </header>
 
     <section class="filters" aria-label="Filters">
       <label>
         Keyword
-        <input id="search" type="search" placeholder="Name, category, address" />
+        <input id="search" type="search" placeholder="Name, area..." />
       </label>
       <label>
-        Place in Shibuya
-        <select id="place-filter">
-          <option value="">All places</option>
+        Area
+        <select id="area">
+          <option value="">All areas</option>
         </select>
       </label>
       <label>
-        Cuisine category
-        <select id="category-filter">
+        Category
+        <select id="category">
           <option value="">All categories</option>
         </select>
       </label>
+      <label>
+        Min rating
+        <input id="rating" type="number" min="0" max="5" step="0.1" placeholder="e.g. 4.0" />
+      </label>
+      <label>
+        Max price
+        <input id="price" type="number" min="0" step="100" placeholder="e.g. 5000" />
+      </label>
     </section>
 
-    <p id="status" role="status">Loading restaurants…</p>
+    <p id="status" role="status">Loading data…</p>
 
-    <section class="map-panel" aria-label="Map of filtered restaurants">
-      <div id="map" aria-label="Restaurant locations on Google Maps"></div>
+    <section class="map-panel" aria-label="Map of filtered shops">
+      <div id="map" aria-label="Shop locations on Google Maps"></div>
     </section>
 
     <div class="table-wrapper">
       <table aria-live="polite">
         <thead>
           <tr>
-            <th scope="col">Name</th>
-            <th scope="col">Place</th>
-            <th scope="col">Cuisine</th>
-            <th scope="col">Address</th>
-            <th scope="col">Phone</th>
+            <th>Title</th>
+            <th>Category</th>
+            <th>Area</th>
+            <th>Rating</th>
+            <th>Price</th>
           </tr>
         </thead>
-        <tbody id="restaurant-body"></tbody>
+        <tbody id="table-body">
+        </tbody>
       </table>
     </div>
 
-    <script src="restaurants.js" defer></script>
+    <script src="kyoto.js" defer></script>
     <script
       defer
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAP9kDSLG9wPHPfn2u1SiTGGWYBAFhqz7E&callback=initMap&loading=async"

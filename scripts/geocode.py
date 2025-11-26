@@ -4,6 +4,7 @@
 Outputs:
   - data/restaurants_geocoded.csv
   - data/tokyo_shops_geocoded.json
+  - data/kyoto_shops_geocoded.json
   - updates/creates a persistent cache file (data/geocode_cache.json)
 """
 from __future__ import annotations
@@ -329,15 +330,30 @@ def process_restaurants(
     print(f"\n✅ Saved to {output_path.name}\n")
 
 
-def process_tokyo_shops(
+def process_shops(
     session: requests.Session,
     api_key: str,
     cache: Dict[str, Optional[Dict[str, Any]]],
     *,
+    input_filename: str,
+    output_filename: str,
+    city_name: str,
+    shop_extractor,
+    name_extractor,
+    query_builder,
+    coord_setter,
     throttle: float,
 ) -> None:
-    input_path = DATA_DIR / "tokyo_shops.json"
-    output_path = DATA_DIR / "tokyo_shops_geocoded.json"
+    """Generic shop geocoding function.
+
+    Args:
+        shop_extractor: Function that takes data dict and yields (shop, group_name) tuples
+        name_extractor: Function that takes shop dict and returns name string
+        query_builder: Function that takes (name, shop) and returns query string or list of query strings
+        coord_setter: Function that takes (shop, coords) and sets lat/lng/place_id fields
+    """
+    input_path = DATA_DIR / input_filename
+    output_path = DATA_DIR / output_filename
 
     if not input_path.exists():
         raise FileNotFoundError(f"Missing input file: {input_path}")
@@ -345,65 +361,67 @@ def process_tokyo_shops(
     data = json.loads(input_path.read_text(encoding="utf-8"))
 
     # Count total shops
-    total_shops = sum(len(m.get("shops", [])) for m in data.get("data", []))
-    print(f"\n🏪 Processing Tokyo shops from {input_path.name}")
+    shops_list = list(shop_extractor(data))
+    total_shops = len(shops_list)
+    print(f"\n🏪 Processing {city_name} shops from {input_path.name}")
     print(f"   Total shops: {total_shops}\n")
 
     processed = 0
     found_place_id = 0
     found_coords_only = 0
     not_found = 0
+    current_group = None
 
-    for municipality in data.get("data", []):
-        municipality_name = municipality.get("municipalityName", "Unknown")
-        shops = municipality.get("shops", [])
+    for shop, group_name in shops_list:
+        processed += 1
 
-        if shops:
-            print(f"   📍 {municipality_name} ({len(shops)} shops)")
+        # Print group header if changed
+        if group_name and group_name != current_group:
+            print(f"   📍 {group_name}")
+            current_group = group_name
 
-        for shop in shops:
-            processed += 1
-            name = (shop.get("name") or "").strip()
-            details = shop.get("details", {})
-            address = (details.get("住所") or "").strip()
+        name = name_extractor(shop)
+        indent = "      " if group_name else "   "
+        print(f"{indent}[{processed}/{total_shops}] {name[:45]:<45}", end=" ", flush=True)
 
-            print(f"      [{processed}/{total_shops}] {name[:45]:<45}", end=" ", flush=True)
+        if not name:
+            print("✗ (no name)")
+            not_found += 1
+            continue
 
-            if not address:
-                print("✗ (no address)")
-                not_found += 1
-                continue
+        # Build query (can be string or list of strings for fallback)
+        queries = query_builder(name, shop)
+        if isinstance(queries, str):
+            queries = [queries]
 
-            # Try Places API first with name + address for accurate Place ID
-            coords = None
-            used_places_api = False
-            if name:
-                query = f"{name} {address}"
-                coords = find_place(query, session, api_key, cache, throttle=throttle)
-                used_places_api = coords is not None
+        # Try each query
+        coords = None
+        used_places_api = False
+        for query in queries:
+            coords = find_place(query, session, api_key, cache, throttle=throttle)
+            if coords:
+                used_places_api = True
+                break
 
-            # Fallback to Geocoding API if Places API fails
-            if not coords:
+        # Fallback to Geocoding API if Places API fails and address is available
+        if not coords:
+            address = shop.get("details", {}).get("住所") if "details" in shop else None
+            if address:
                 coords = geocode_address(address, session, api_key, cache, throttle=throttle)
 
-            if coords:
-                shop["latitude"] = coords["lat"]
-                shop["longitude"] = coords["lng"]
-                place_id = coords.get("place_id")
-                if place_id:
-                    shop["googlePlaceId"] = place_id
-                    print(f"✓ {'[Places API]' if used_places_api else '[Geocoding]'}")
-                    found_place_id += 1
-                else:
-                    shop.pop("googlePlaceId", None)
-                    print("~ (coords only)")
-                    found_coords_only += 1
+        if coords:
+            coord_setter(shop, coords)
+            place_id = coords.get("place_id")
+            if place_id:
+                print(f"✓ {'[Places API]' if used_places_api else '[Geocoding]'}")
+                found_place_id += 1
             else:
-                shop.pop("latitude", None)
-                shop.pop("longitude", None)
-                shop.pop("googlePlaceId", None)
-                print("✗ (not found)")
-                not_found += 1
+                print("~ (coords only)")
+                found_coords_only += 1
+        else:
+            coord_setter(shop, None)
+            print("✗ (not found)")
+            not_found += 1
 
     output_path.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
 
@@ -413,6 +431,105 @@ def process_tokyo_shops(
     print(f"   ✗ Not found:         {not_found}")
     print(f"   Total processed:     {processed}")
     print(f"\n✅ Saved to {output_path.name}\n")
+
+
+def process_tokyo_shops(
+    session: requests.Session,
+    api_key: str,
+    cache: Dict[str, Optional[Dict[str, Any]]],
+    *,
+    throttle: float,
+) -> None:
+    def shop_extractor(data):
+        for municipality in data.get("data", []):
+            municipality_name = municipality.get("municipalityName", "Unknown")
+            shops = municipality.get("shops", [])
+            for shop in shops:
+                yield shop, municipality_name
+
+    def name_extractor(shop):
+        return (shop.get("name") or "").strip()
+
+    def query_builder(name, shop):
+        address = (shop.get("details", {}).get("住所") or "").strip()
+        if address:
+            return f"{name} {address}"
+        return name
+
+    def coord_setter(shop, coords):
+        if coords:
+            shop["latitude"] = coords["lat"]
+            shop["longitude"] = coords["lng"]
+            place_id = coords.get("place_id")
+            if place_id:
+                shop["googlePlaceId"] = place_id
+            else:
+                shop.pop("googlePlaceId", None)
+        else:
+            shop.pop("latitude", None)
+            shop.pop("longitude", None)
+            shop.pop("googlePlaceId", None)
+
+    process_shops(
+        session, api_key, cache,
+        input_filename="tokyo_shops.json",
+        output_filename="tokyo_shops_geocoded.json",
+        city_name="Tokyo",
+        shop_extractor=shop_extractor,
+        name_extractor=name_extractor,
+        query_builder=query_builder,
+        coord_setter=coord_setter,
+        throttle=throttle,
+    )
+
+
+def process_kyoto_shops(
+    session: requests.Session,
+    api_key: str,
+    cache: Dict[str, Optional[Dict[str, Any]]],
+    *,
+    throttle: float,
+) -> None:
+    def shop_extractor(data):
+        for shop in data:
+            yield shop, None  # No grouping for Kyoto
+
+    def name_extractor(shop):
+        return (shop.get("Title") or "").strip()
+
+    def query_builder(name, shop):
+        area_name = (shop.get("AreaName") or "").strip()
+        queries = []
+        if area_name:
+            queries.append(f"{name} {area_name} 京都")
+        queries.append(f"{name} 京都")
+        return queries
+
+    def coord_setter(shop, coords):
+        if coords:
+            shop["Latitude"] = coords["lat"]
+            shop["Longitude"] = coords["lng"]
+            place_id = coords.get("place_id")
+            if place_id:
+                shop["GooglePlaceId"] = place_id
+            else:
+                shop.pop("GooglePlaceId", None)
+        else:
+            shop.pop("Latitude", None)
+            shop.pop("Longitude", None)
+            shop.pop("GooglePlaceId", None)
+
+    process_shops(
+        session, api_key, cache,
+        input_filename="kyoto_shops.json",
+        output_filename="kyoto_shops_geocoded.json",
+        city_name="Kyoto",
+        shop_extractor=shop_extractor,
+        name_extractor=name_extractor,
+        query_builder=query_builder,
+        coord_setter=coord_setter,
+        throttle=throttle,
+    )
 
 
 def parse_args(argv: Optional[list[str]] = None) -> argparse.Namespace:
@@ -442,9 +559,19 @@ def parse_args(argv: Optional[list[str]] = None) -> argparse.Namespace:
         help="Skip geocoding restaurants.csv",
     )
     parser.add_argument(
-        "--skip-shops",
+        "--skip-tokyo-shops",
         action="store_true",
         help="Skip geocoding tokyo_shops.json",
+    )
+    parser.add_argument(
+        "--skip-kyoto-shops",
+        action="store_true",
+        help="Skip geocoding kyoto_shops.json",
+    )
+    parser.add_argument(
+        "--skip-shops",
+        action="store_true",
+        help="[Deprecated] Same as --skip-tokyo-shops",
     )
     parser.add_argument(
         "--force-refresh",
@@ -479,8 +606,10 @@ def main(argv: Optional[list[str]] = None) -> int:
 
         if not args.skip_restaurants:
             process_restaurants(session, args.api_key, cache_before, throttle=args.throttle)
-        if not args.skip_shops:
+        if not (args.skip_tokyo_shops or args.skip_shops):
             process_tokyo_shops(session, args.api_key, cache_before, throttle=args.throttle)
+        if not args.skip_kyoto_shops:
+            process_kyoto_shops(session, args.api_key, cache_before, throttle=args.throttle)
     finally:
         save_cache(args.cache, cache_before)
         cache_entries_after = len(cache_before)

@@ -89,6 +89,11 @@
     "lng": 139.69006199999998,
     "place_id": "ChIJkc7ioEzzGGARcl5O0gLn_fo"
   },
+  "place:Another C 京都市中心部 京都": {
+    "lat": 35.0091003,
+    "lng": 135.770593,
+    "place_id": "ChIJKQUNgYMIAWARL1INgC1-uAc"
+  },
   "place:Antelope 渋谷区広尾5-3-15HHBビル2F": {
     "lat": 35.650379199999996,
     "lng": 139.7207755,
@@ -460,6 +465,16 @@
     "lng": 139.7147221,
     "place_id": "ChIJtUiS5RSLGGARUEfSjYDUgJ0"
   },
+  "place:Beer Thirty 京都三条河原町店 京都市中心部 京都": {
+    "lat": 35.0083206,
+    "lng": 135.7687805,
+    "place_id": "ChIJydhUfYMIAWARxq3ewoGD6AU"
+  },
+  "place:Beer Thirty京都駅前店 京都駅周辺 京都": {
+    "lat": 34.9869075,
+    "lng": 135.7609098,
+    "place_id": "ChIJdwXmPK4IAWARo8VtNbf0xAs"
+  },
   "place:Betterave Bistro Jiro 渋谷区富ヶ谷1-10-5パークサイドコグレ1階": {
     "lat": 35.6681242,
     "lng": 139.6909221,
@@ -614,6 +629,11 @@
     "lat": 35.6802722,
     "lng": 139.6774939,
     "place_id": "ChIJcUyYWCTzGGARPZ2hfTt_03A"
+  },
+  "place:COPPIE 京都市中心部 京都": {
+    "lat": 34.999235399999996,
+    "lng": 135.7504405,
+    "place_id": "ChIJS0lpjHwHAWARdtbUDZQ1qUs"
   },
   "place:COSMOS JUICE TOMIGAYA 渋谷区富ヶ谷2-23-5富ヶ谷アルコーブ1F": {
     "lat": 35.6631688,
@@ -885,6 +905,11 @@
     "lng": 139.7103435,
     "place_id": "ChIJQ0AiR72MGGAR7pouTdx4SMc"
   },
+  "place:Foods bar 栞屋 伏見・山科 京都": {
+    "lat": 34.9323678,
+    "lng": 135.76202139999998,
+    "place_id": "ChIJe1RdBZIPAWARQ-Ug3BSSJMY"
+  },
   "place:FoxTrot 渋谷区恵比寿南2-2-8神山ビル3階": {
     "lat": 35.646431,
     "lng": 139.70921859999999,
@@ -1080,6 +1105,11 @@
     "lng": 139.7021072,
     "place_id": "ChIJ2Umo8KeMGGAR1y1xt1BiXWM"
   },
+  "place:KYOYA　THE　KIYOMIZU　御幸町 京都市中心部 京都": {
+    "lat": 35.0045935,
+    "lng": 135.7699264,
+    "place_id": "ChIJG3YaPZUIAWARtX_jIz0BZII"
+  },
   "place:Kouji＆ko ITALIAN 渋谷区桜丘町16-13桜丘フロントⅡビル2F": {
     "lat": 35.6567807,
     "lng": 139.7012255,
@@ -1185,6 +1215,11 @@
     "lng": 139.6924757,
     "place_id": "ChIJByYdbcuMGGARSyzMHXdXLGw"
   },
+  "place:Lino 京都市中心部 京都": {
+    "lat": 35.013142699999996,
+    "lng": 135.7574449,
+    "place_id": "ChIJT8RML4cIAWARGJ8c_dRAQrU"
+  },
   "place:Living　 渋谷区富ヶ谷1-9-14堀口ビル102": {
     "lat": 35.667750399999996,
     "lng": 139.690779,
@@ -1194,6 +1229,16 @@
     "lat": 35.6810531,
     "lng": 139.70790100000002,
     "place_id": "ChIJJwdVYdyNGGARzgber1NtnIA"
+  },
+  "place:M&Maison KYOTO Jr. 京都市中心部 京都": {
+    "lat": 34.993663500000004,
+    "lng": 135.7610334,
+    "place_id": "ChIJD-j9uaQIAWARzCf1fEbIPSY"
+  },
+  "place:M&Maison KYOTO 京都市中心部 京都": {
+    "lat": 34.993663500000004,
+    "lng": 135.7610334,
+    "place_id": "ChIJD-j9uaQIAWARzCf1fEbIPSY"
   },
   "place:MAGICAMENTE 渋谷区恵比寿3-41-9恵比寿台ハイツ102": {
     "lat": 35.643906,
@@ -1395,6 +1440,16 @@
     "lng": 139.7046763,
     "place_id": "ChIJj59YUg-LGGARwIgcL33UqX8"
   },
+  "place:OBENKEI 京都祇園店 祇園・東山 京都": {
+    "lat": 35.005655,
+    "lng": 135.7740566,
+    "place_id": "ChIJJ_hinKAJAWARQY2NF1nZ7bU"
+  },
+  "place:OBUCAFE 嵐山 京都": {
+    "lat": 35.015249499999996,
+    "lng": 135.6775011,
+    "place_id": "ChIJL6ftzf-pAWAR9OR2wUFqILQ"
+  },
   "place:OKEI TAPROOM オケタプ 渋谷区代々木一丁目52-4ベルテ南新宿B1階": {
     "lat": 35.6834655,
     "lng": 139.6994542,
@@ -1414,6 +1469,11 @@
     "lat": 35.679221399999996,
     "lng": 139.6771499,
     "place_id": "ChIJAdDczKjzGGAR_L6O3eg9ntg"
+  },
+  "place:OTOTOJET 京都市中心部 京都": {
+    "lat": 35.043541,
+    "lng": 135.7508952,
+    "place_id": "ChIJ22h1PF0HAWARbIQog7gGl8Q"
   },
   "place:OURDAYS 渋谷区笹塚3-40-1": {
     "lat": 35.678869899999995,
@@ -1555,10 +1615,25 @@
     "lng": 139.6831245,
     "place_id": "ChIJQ-DychXzGGARHvZdrQeTJtA"
   },
+  "place:Restaurant DA CIRO 祇園・東山 京都": {
+    "lat": 35.0040681,
+    "lng": 135.77485199999998,
+    "place_id": "ChIJC4NukjgJAWARLBNmT00DjX8"
+  },
+  "place:Restaurant Koke 京都市中心部 京都": {
+    "lat": 35.0125637,
+    "lng": 135.75822639999998,
+    "place_id": "ChIJaaNHaXMJAWARrWc6YuCKh7Y"
+  },
   "place:Restaurant La Chambre 渋谷区西原3-7-5渡部ビル2F": {
     "lat": 35.669891799999995,
     "lng": 139.6808598,
     "place_id": "ChIJtyAS_kfzGGARE6I-lBjgamQ"
+  },
+  "place:Restaurant MOTOI 京都市中心部 京都": {
+    "lat": 35.0127239,
+    "lng": 135.7648125,
+    "place_id": "ChIJ3Xhn6Y4IAWAR_sP7HsRz7ws"
   },
   "place:Ryuda 渋谷区千駄ヶ谷4-29-12北参道ダイヤモンドパレス111": {
     "lat": 35.681039399999996,
@@ -1730,6 +1805,11 @@
     "lng": 139.7005906,
     "place_id": "ChIJWQ5gkKiMGGAR4aCFNceg_A0"
   },
+  "place:TAKASEGAWA 京都市中心部 京都": {
+    "lat": 35.00146,
+    "lng": 135.7694127,
+    "place_id": "ChIJ14qZKfYJAWARyy-a8MwLh18"
+  },
   "place:TAKESUE 渋谷区幡ヶ谷2-9-12コートリーブル105": {
     "lat": 35.6789957,
     "lng": 139.6772795,
@@ -1820,6 +1900,11 @@
     "lng": 139.6810636,
     "place_id": "ChIJn-spCkjzGGAR8OjTRyN-Lzg"
   },
+  "place:TRATTORIA TREVALLI 伏見・山科 京都": {
+    "lat": 34.9350926,
+    "lng": 135.7610574,
+    "place_id": "ChIJVVUV0Y8PAWARtHjH4X39Rwg"
+  },
   "place:TREEbyNAKEDyoyogipark 渋谷区富ヶ谷1丁目10-2CITTA代々木公園1F": {
     "lat": 35.6682768,
     "lng": 139.69127699999999,
@@ -1895,6 +1980,11 @@
     "lng": 139.683315,
     "place_id": "ChIJE5ElVgDzGGARuM9_o6PjIPs"
   },
+  "place:UME SAKURA 着物レンタルサロン 京都市中心部 京都": {
+    "lat": 35.014967899999995,
+    "lng": 135.7680471,
+    "place_id": "ChIJ69J7b5IHAWAR5NjpuzwycX0"
+  },
   "place:UO-SAO 渋谷区上原1丁目17-11": {
     "lat": 35.669192699999996,
     "lng": 139.6823306,
@@ -1914,6 +2004,11 @@
     "lat": 35.683569999999996,
     "lng": 139.681636,
     "place_id": "ChIJ9UjLWi_zGGARS6RxEMIZUGA"
+  },
+  "place:VELROSIER 京都市中心部 京都": {
+    "lat": 35.0024392,
+    "lng": 135.7687511,
+    "place_id": "ChIJOYeOxBfzAGARX7Y1d6EOORI"
   },
   "place:VINO 渋谷区渋谷1-11-3正栄ビル": {
     "lat": 35.6609316,
@@ -2000,6 +2095,11 @@
     "lng": 139.7073823,
     "place_id": "ChIJZzbbefOLGGARHA3I-CsR5Mg"
   },
+  "place:Wine蔵しおり 京都駅周辺 京都": {
+    "lat": 34.9893967,
+    "lng": 135.7586293,
+    "place_id": "ChIJqVyHhaUIAWAR3eqMe3TCvvg"
+  },
   "place:Wine食堂 久 渋谷区幡ヶ谷2-56-1コーポラス幡ヶ谷101": {
     "lat": 35.6774541,
     "lng": 139.6705972,
@@ -2060,6 +2160,11 @@
     "lng": 139.68329079999998,
     "place_id": "ChIJXwxxjLrzGGARUla00p0YW0g"
   },
+  "place:anpeiji 伏見・山科 京都": {
+    "lat": 34.9441953,
+    "lng": 135.7450375,
+    "place_id": "ChIJOxEZ9oQFAWARa-ZmjZv4pD0"
+  },
   "place:as always 渋谷区東3-20-8オリエンタルビル1F": {
     "lat": 35.649904299999996,
     "lng": 139.70905299999998,
@@ -2104,6 +2209,11 @@
     "lat": 35.656783,
     "lng": 139.700759,
     "place_id": "ChIJ0fxwZVeLGGAR_LODWTAn_OI"
+  },
+  "place:bistro Chic 京都市中心部 京都": {
+    "lat": 35.0455056,
+    "lng": 135.7477514,
+    "place_id": "ChIJMdEaUf8HAWARv9e9hJqOrqo"
   },
   "place:bistrot SEMAILLES 渋谷区上原1-3-8ル・パルク上原102": {
     "lat": 35.6680619,
@@ -2200,6 +2310,11 @@
     "lng": 139.71090569999998,
     "place_id": "ChIJs9eD6EGLGGARiOTr9Ywnpx0"
   },
+  "place:epice 京都市中心部 京都": {
+    "lat": 35.028625500000004,
+    "lng": 135.7677615,
+    "place_id": "ChIJZyzwIGYIAWARPM8ml9cWx5o"
+  },
   "place:eponym coffee 渋谷区本町4-18-2黒田屋ハイツ1F": {
     "lat": 35.6884217,
     "lng": 139.68031,
@@ -2224,6 +2339,11 @@
     "lat": 35.677217899999995,
     "lng": 139.7112907,
     "place_id": "ChIJQ2UWi7ONGGAR4PgXdYetfCs"
+  },
+  "place:fine dining 山科 伏見・山科 京都": {
+    "lat": 34.9914056,
+    "lng": 135.8167402,
+    "place_id": "ChIJd7LSulIPAWARSKZPKbpZQmg"
   },
   "place:funicula 渋谷区西原3-1-1": {
     "lat": 35.6701619,
@@ -2265,6 +2385,11 @@
     "lng": 139.6783561,
     "place_id": "ChIJNb5PszvzGGARMw7MbKvR1YE"
   },
+  "place:kakyo 花鏡 祇園・東山 京都": {
+    "lat": 35.0093348,
+    "lng": 135.7845364,
+    "place_id": "ChIJyeL_8N0IAWAR6QZGiLhN_tY"
+  },
   "place:kitchen GCH 渋谷区笹塚3-19-4平野ビル1F": {
     "lat": 35.6771848,
     "lng": 139.6672467,
@@ -2274,6 +2399,11 @@
     "lat": 35.653522599999995,
     "lng": 139.7089083,
     "place_id": "ChIJmyeEKUOLGGARWg_q6wJokJg"
+  },
+  "place:la princesse kyoto （ラ プランセス 京都） 京都市中心部 京都": {
+    "lat": 35.0073007,
+    "lng": 135.7611499,
+    "place_id": "ChIJr9Gd2LEJAWARaPNzUKYRklA"
   },
   "place:mai bevi 渋谷区幡ヶ谷2-48-2英ビル地下1階": {
     "lat": 35.6755654,
@@ -2675,6 +2805,11 @@
     "lng": 139.69428929999998,
     "place_id": "ChIJQYPSUayMGGARCrrtfdVt4uQ"
   },
+  "place:おが和 京都市中心部 京都": {
+    "lat": 35.0123895,
+    "lng": 135.6975817,
+    "place_id": "ChIJYyJCl70HAWARScX2Yx5HKno"
+  },
   "place:おこめどき 渋谷区神宮前5丁目29番10号クリプトメリア神宮前ビル1F": {
     "lat": 35.6643869,
     "lng": 139.7032026,
@@ -2690,10 +2825,20 @@
     "lng": 139.6874892,
     "place_id": "ChIJffvRtUvzGGARGLytzjvvXf4"
   },
+  "place:おたぎ 嵐山 京都": {
+    "lat": 35.0311428,
+    "lng": 135.6615546,
+    "place_id": "ChIJi3CsmTmqAWAR0pV6QRGvt1c"
+  },
   "place:おにぎり原宿三丁目たるら 渋谷区神宮前1-21-2 1F": {
     "lat": 35.6722701,
     "lng": 139.70415119999998,
     "place_id": "ChIJr2bMb8qNGGARq8bKDuw_2mk"
+  },
+  "place:おもてなしこまつ 京都市中心部 京都": {
+    "lat": 35.002335099999996,
+    "lng": 135.7634554,
+    "place_id": "ChIJpWzKDTseAWARcUlyZ8qzQJQ"
   },
   "place:お好み焼　天現寺亭 渋谷区広尾5丁目25番6号": {
     "lat": 35.6478008,
@@ -2780,10 +2925,25 @@
     "lng": 139.69675469999999,
     "place_id": "ChIJLxLL8qmMGGARVoQT5Bhdt4I"
   },
+  "place:ぎおん 佐藤 祇園・東山 京都": {
+    "lat": 35.0019488,
+    "lng": 135.7742149,
+    "place_id": "ChIJZxFawMEIAWARV81N7fY1sy0"
+  },
   "place:ぎっちょん 渋谷区神宮前2-22-1長谷川ビル1F": {
     "lat": 35.6751356,
     "lng": 139.71051409999998,
     "place_id": "ChIJR2aQdb2MGGARH-FnmshJOj0"
+  },
+  "place:ぎゃらりぃ栞屋 京都駅周辺 京都": {
+    "lat": 34.9893967,
+    "lng": 135.7586293,
+    "place_id": "ChIJqVyHhaUIAWAR3eqMe3TCvvg"
+  },
+  "place:ぎをん藤 祇園・東山 京都": {
+    "lat": 35.0023385,
+    "lng": 135.7744352,
+    "place_id": "ChIJv9niWLwJAWARbQW_9WaoKIk"
   },
   "place:くるり恵比寿 渋谷区恵比寿西1-7-9恵比寿タイムハウスビル3階": {
     "lat": 35.6477204,
@@ -2850,6 +3010,16 @@
     "lng": 139.7167695,
     "place_id": "ChIJ0azBZ8aLGGARG9BQ5Fg_YWU"
   },
+  "place:しゅん逢　紗々木 京都市中心部 京都": {
+    "lat": 35.001621199999995,
+    "lng": 135.7669468,
+    "place_id": "ChIJhfNcIKYIAWARhvvbIk9Puz0"
+  },
+  "place:しろ 京都市中心部 京都": {
+    "lat": 35.0125621,
+    "lng": 135.7581451,
+    "place_id": "ChIJUyYFE_IJAWARlGcmw5J7Mmc"
+  },
   "place:しろふわランドリー　初台南店 渋谷区西原1丁目43-1デミシル代々幡　1階105号室": {
     "lat": 35.6762369,
     "lng": 139.68312129999998,
@@ -2874,6 +3044,16 @@
     "lat": 35.6560693,
     "lng": 139.6919251,
     "place_id": "ChIJj0OrWVWLGGARcIt8SsAXqn8"
+  },
+  "place:すっぽん料理 円亭 京都駅周辺 京都": {
+    "lat": 34.9928814,
+    "lng": 135.7441121,
+    "place_id": "ChIJPytP7yIGAWARWMdTvr_iR6I"
+  },
+  "place:すてーき一郎 京都市中心部 京都": {
+    "lat": 35.029572,
+    "lng": 135.75578099999998,
+    "place_id": "ChIJtWvgZnQIAWARMo2_BHA3iV4"
   },
   "place:そうめんそそそ研究室 渋谷区渋谷2-21-1渋谷ヒカリエ 6F 6-7": {
     "lat": 35.6591151,
@@ -2930,6 +3110,11 @@
     "lng": 139.69258489999999,
     "place_id": "ChIJNyILFFWLGGARI-d--fb-Np4"
   },
+  "place:ちょいと。栞屋 伏見・山科 京都": {
+    "lat": 34.990344199999996,
+    "lng": 135.81604579999998,
+    "place_id": "ChIJS1_oqL0OAWARSnaLvJRuos0"
+  },
   "place:ちょい呑みバー 8カウント 渋谷区桜丘町16-8アトラス桜丘ビルB1": {
     "lat": 35.6564506,
     "lng": 139.7009297,
@@ -2980,6 +3165,11 @@
     "lng": 139.6859029,
     "place_id": "ChIJG1glgEnzGGARM9E_rxuAxbc"
   },
+  "place:なごみの輪　着物レンタル 京都駅周辺 京都": {
+    "lat": 34.993652399999995,
+    "lng": 135.7560233,
+    "place_id": "ChIJ89GFyrYJAWARIuaSBKrYeSI"
+  },
   "place:なんなん亭 渋谷区代々木2-13-6YU-WAビル　B1F": {
     "lat": 35.6872945,
     "lng": 139.6965045,
@@ -3005,6 +3195,11 @@
     "lng": 139.7015399,
     "place_id": "ChIJZXTTDwCLGGARJSpE6A9Poq8"
   },
+  "place:の輪 京都駅周辺 京都": {
+    "lat": 34.9847057,
+    "lng": 135.7593332,
+    "place_id": "ChIJZcL71K0IAWARWoZKVAz2SxY"
+  },
   "place:はいばな　恵比寿 渋谷区恵比寿南1-1-3今鉾ビル3F": {
     "lat": 35.646549799999995,
     "lng": 139.7087587,
@@ -3024,6 +3219,11 @@
     "lat": 35.6792589,
     "lng": 139.6773991,
     "place_id": "ChIJb6rD6yTzGGARw41ypgahbSA"
+  },
+  "place:はちかん（レストラン） 高雄・鞍馬・大原 京都": {
+    "lat": 35.1058778,
+    "lng": 135.8246921,
+    "place_id": "ChIJXWZSoXunAWARvoph0bil8mw"
   },
   "place:はなわベイビー 渋谷区幡ヶ谷2-9-3ナカケンビル1階": {
     "lat": 35.6781405,
@@ -3131,6 +3331,11 @@
     "lng": 139.7110336,
     "place_id": "ChIJDzACFwCNGGARoQtIqwaQvX8"
   },
+  "place:みむろ 京都市中心部 京都": {
+    "lat": 35.0144005,
+    "lng": 135.7535437,
+    "place_id": "ChIJ6xdR7JgIAWARfqnhoPGH-KM"
+  },
   "place:みやび屋幡ヶ谷店 渋谷区幡ヶ谷2-9-20サカエビル1階": {
     "lat": 35.6782957,
     "lng": 139.6775117,
@@ -3140,6 +3345,11 @@
     "lat": 35.6629159,
     "lng": 139.6950583,
     "place_id": "ChIJQxWcFKyMGGARnC4euCeFScE"
+  },
+  "place:めし屋エビス 京都市中心部 京都": {
+    "lat": 35.0102999,
+    "lng": 135.76932499999998,
+    "place_id": "ChIJJW-CL7EJAWARcgydzfVdG18"
   },
   "place:もしも食堂 渋谷区道玄坂1-2-3東急プラザ6F": {
     "lat": 35.6576545,
@@ -3181,6 +3391,11 @@
     "lng": 139.6954093,
     "place_id": "ChIJK8rG3HmNGGARB5_q4M7zFkU"
   },
+  "place:ゆばんざい こ豆や 錦店 京都市中心部 京都": {
+    "lat": 35.0048448,
+    "lng": 135.76159479999998,
+    "place_id": "ChIJq6r6n5AIAWARq6X6kTx7aUc"
+  },
   "place:ゆめの庵 渋谷区恵比寿西1-15-2アパルトマンイトウ1F": {
     "lat": 35.6481675,
     "lng": 139.7076392,
@@ -3221,6 +3436,11 @@
     "lng": 139.7082299,
     "place_id": "ChIJtwtp5ECLGGARSme1SozLQ2U"
   },
+  "place:りょうりや御旅屋 京都市中心部 京都": {
+    "lat": 34.9999356,
+    "lng": 135.7686335,
+    "place_id": "ChIJf_3m_b4IAWAR0nDZ9H_rFII"
+  },
   "place:りんりんりん。 渋谷区初台1-36-11階C": {
     "lat": 35.68318620000001,
     "lng": 139.6810358,
@@ -3235,6 +3455,16 @@
     "lat": 35.6797135,
     "lng": 139.6765446,
     "place_id": "ChIJ___jiCTzGGARO9KhaDhbhVQ"
+  },
+  "place:れんこんや 京都市中心部 京都": {
+    "lat": 35.0077019,
+    "lng": 135.7702656,
+    "place_id": "ChIJbyO0WJMIAWARCBIp93XMZNA"
+  },
+  "place:わぷらす京都　八坂神社店 祇園・東山 京都": {
+    "lat": 35.0020629,
+    "lng": 135.7781947,
+    "place_id": "ChIJU4yhEQwJAWAR2jOsFecZtyw"
   },
   "place:アウルセカンドフロア 渋谷区幡ヶ谷2-47-11田口ビル2F": {
     "lat": 35.6792091,
@@ -3276,6 +3506,11 @@
     "lng": 139.705178,
     "place_id": "ChIJY4r1lViLGGARe_ZkHopxtA8"
   },
+  "place:アダン 京都駅店 京都駅周辺 京都": {
+    "lat": 34.9874304,
+    "lng": 135.7601054,
+    "place_id": "ChIJP46bglsJAWARg1WXHp7A8W4"
+  },
   "place:アテド 渋谷区神泉町12-6": {
     "lat": 35.655963799999995,
     "lng": 139.69238239999999,
@@ -3311,10 +3546,20 @@
     "lng": 139.6768552,
     "place_id": "ChIJuyQUWMjzGGARPEQ8eRCOc_M"
   },
+  "place:アモーレ 木屋町 祇園・東山 京都": {
+    "lat": 35.0006602,
+    "lng": 135.7692598,
+    "place_id": "ChIJhfNcIKYIAWARIm2P65rKNuo"
+  },
   "place:アルティカセブン 渋谷区代々木1-41-3福井ビル2F": {
     "lat": 35.6827697,
     "lng": 139.69967649999998,
     "place_id": "ChIJn3btMM-MGGAR1v2lZmrgC3I"
+  },
+  "place:アルポルトカフェ 京都店 京都駅周辺 京都": {
+    "lat": 35.0031396,
+    "lng": 135.7687599,
+    "place_id": "ChIJI-P4dpwIAWARCta79dwIzB0"
   },
   "place:アロハ豚珍串 渋谷区千駄ヶ谷3-52-3サニー原宿1階": {
     "lat": 35.6746,
@@ -3366,6 +3611,11 @@
     "lng": 139.7211576,
     "place_id": "ChIJxxw8UG2LGGAR48zQqlepp74"
   },
+  "place:イスタンブールサライ 京都市中心部 京都": {
+    "lat": 35.0095421,
+    "lng": 135.76945899999998,
+    "place_id": "ChIJqRd74pIIAWARh-OtsDlilPs"
+  },
   "place:イタチカクー 渋谷区桜丘町24-3インエステートビルB1": {
     "lat": 35.6567231,
     "lng": 139.7007585,
@@ -3386,6 +3636,11 @@
     "lng": 139.7024854,
     "place_id": "ChIJl2n2aFqLGGARUXTJXd4xhXk"
   },
+  "place:イタリア料理　SCALAE 京都駅周辺 京都": {
+    "lat": 34.9864702,
+    "lng": 135.7615528,
+    "place_id": "ChIJUUJqA00JAWAR6wngPozTVvY"
+  },
   "place:イドコロネ 渋谷区本町2-33-2初台ワールドマンション2階": {
     "lat": 35.6840887,
     "lng": 139.6825003,
@@ -3400,6 +3655,11 @@
     "lat": 35.6802823,
     "lng": 139.6867395,
     "place_id": "ChIJu7eqMzLzGGARmv1djcJHzlc"
+  },
+  "place:イノダコーヒ 本店 京都市中心部 京都": {
+    "lat": 35.0081041,
+    "lng": 135.76319279999998,
+    "place_id": "ChIJHYWgPJAIAWAR1EwyilguU10"
   },
   "place:イルプレージョ 渋谷区上原1-17-7フレニティハウス2F": {
     "lat": 35.668934199999995,
@@ -3526,6 +3786,21 @@
     "lng": 139.6769471,
     "place_id": "ChIJVVWYtiTzGGARjMjZhzMEl8s"
   },
+  "place:オーリオスターニョ 京都市中心部 京都": {
+    "lat": 35.010722,
+    "lng": 135.7536714,
+    "place_id": "ChIJY28nZMQJAWARpyNEIScuVlw"
+  },
+  "place:オールデイダイニング カザ（リーガロイヤルホテル京都内） 京都駅周辺 京都": {
+    "lat": 34.986466899999996,
+    "lng": 135.7524847,
+    "place_id": "ChIJv87eBagIAWAREWBGUSRJQXI"
+  },
+  "place:オールデイダイニング　LaJyho 京都駅周辺 京都": {
+    "lat": 34.986157999999996,
+    "lng": 135.761608,
+    "place_id": "ChIJsQsF_rEIAWARMdf1PRpKy-I"
+  },
   "place:オー・ペシェ・グルマン 渋谷区幡ヶ谷2-24-2須原屋ビル1階": {
     "lat": 35.6761133,
     "lng": 139.6722269,
@@ -3551,6 +3826,11 @@
     "lng": 139.70132859999998,
     "place_id": "ChIJ53jHYVeLGGARAfGM6JIFC7k"
   },
+  "place:カニカニランド　京都祇園店 祇園・東山 京都": {
+    "lat": 35.005691899999995,
+    "lng": 135.7740743,
+    "place_id": "ChIJFY6aO6kJAWARpon8SDoUoDk"
+  },
   "place:カフェRaiRai 渋谷区西原2-28-1": {
     "lat": 35.675540700000006,
     "lng": 139.6779573,
@@ -3560,6 +3840,16 @@
     "lat": 35.665866699999995,
     "lng": 139.7053577,
     "place_id": "ChIJOW7spKaMGGARQf2NmufcgLs"
+  },
+  "place:カフェ　レックコート（ホテルオークラ京都内） 京都市中心部 京都": {
+    "lat": 35.0116831,
+    "lng": 135.7694683,
+    "place_id": "ChIJAZ4Ab40IAWART0blcCEd6pY"
+  },
+  "place:カフェアレンヌ（ホテルビスタプレミオ京都河原町通内） 京都市中心部 京都": {
+    "lat": 35.0079208,
+    "lng": 135.76820440000003,
+    "place_id": "ChIJSbQWVS8JAWARGZLOGiYh8TI"
   },
   "place:カフェアンソロジア 渋谷区富ヶ谷1-12-7田村ビル101": {
     "lat": 35.6672541,
@@ -3591,6 +3881,11 @@
     "lng": 139.7080741,
     "place_id": "ChIJMUHQZqGMGGARfai-W2fIz9Y"
   },
+  "place:カフェレストラン「ル・タン」（ホテルグランヴィア京都内） 京都駅周辺 京都": {
+    "lat": 34.9865468,
+    "lng": 135.7590586,
+    "place_id": "ChIJF7FjtZsIAWAR6NjxYCMy9wA"
+  },
   "place:カフェ・ド・チャコ 渋谷区恵比寿1-33-10タキセビル1階": {
     "lat": 35.646619199999996,
     "lng": 139.7163693,
@@ -3600,6 +3895,11 @@
     "lat": 35.6810219,
     "lng": 139.7074032,
     "place_id": "ChIJDx6upsCMGGARjUlWY62v_PY"
+  },
+  "place:カフェ＆バー　TEA AND BAR 京都駅周辺 京都": {
+    "lat": 34.9864702,
+    "lng": 135.7615528,
+    "place_id": "ChIJJYJJ_fkJAWARlOBUiTCxfjQ"
   },
   "place:カラオケスナックМ 渋谷区神山町9-14白樺ビル103": {
     "lat": 35.6636029,
@@ -3620,6 +3920,11 @@
     "lat": 35.675700299999995,
     "lng": 139.66826989999998,
     "place_id": "ChIJKS7SNgDzGGAREMBR2APuLb0"
+  },
+  "place:カ・デル・ヴィアーレ 京都市中心部 京都": {
+    "lat": 35.0087201,
+    "lng": 135.7413371,
+    "place_id": "ChIJKQUNgYMIAWARR1d1IlPySD0"
   },
   "place:カーサベッラ 渋谷区神宮前2-3-30第二竹上ビルB1": {
     "lat": 35.6744537,
@@ -3916,6 +4221,16 @@
     "lng": 139.6999325,
     "place_id": "ChIJq-wIwaiMGGAR8NT5o_lUrjo"
   },
+  "place:スカイレストラン ピトレスク（ホテルオークラ京都内） 京都市中心部 京都": {
+    "lat": 35.0114766,
+    "lng": 135.7696936,
+    "place_id": "ChIJaQOSnZIIAWARV84FiAARaVc"
+  },
+  "place:スコルピオーネ祇園 祇園・東山 京都": {
+    "lat": 35.00541,
+    "lng": 135.77534699999998,
+    "place_id": "ChIJmVlM_MEIAWARqI2vfEu1auI"
+  },
   "place:スシエビス 恵比寿本店 渋谷区恵比寿4-9-5マンションニュー恵比寿1階": {
     "lat": 35.6459347,
     "lng": 139.71320799999998,
@@ -4051,6 +4366,11 @@
     "lng": 139.7114365,
     "place_id": "ChIJQY1e_j-LGGARLKoQ9rx_ARw"
   },
+  "place:タイ料理 沸沙羅館 京都市中心部 京都": {
+    "lat": 34.9997541,
+    "lng": 135.7691017,
+    "place_id": "ChIJ74AHG78IAWARtE8n8lk9elg"
+  },
   "place:タカミヤズ アンド スイーツ 渋谷区広尾5-8-1": {
     "lat": 35.648577599999996,
     "lng": 139.7206958,
@@ -4111,6 +4431,11 @@
     "lng": 139.69598349999998,
     "place_id": "ChIJl9JXB-iNGGAR6QwF-avFh84"
   },
+  "place:トゥレドゥー 高雄・鞍馬・大原 京都": {
+    "lat": 35.0086388,
+    "lng": 135.7566824,
+    "place_id": "ChIJIQusiYMIAWARvtZEsinA-vA"
+  },
   "place:トウカカレー 渋谷区道玄坂1丁目6-10早川ビルB1F": {
     "lat": 35.6577505,
     "lng": 139.69867589999998,
@@ -4125,6 +4450,11 @@
     "lat": 35.6704483,
     "lng": 139.68131689999998,
     "place_id": "ChIJ49Yc_DfzGGARd3ANGwVsgtc"
+  },
+  "place:トラットリア ラ・ヴォーチェ 京都市中心部 京都": {
+    "lat": 35.0045592,
+    "lng": 135.7575285,
+    "place_id": "ChIJN4zvb5sIAWARGtAnUsIJTSI"
   },
   "place:トラットリア　ゴデレッチョ 渋谷区恵比寿西一丁目30番14号エコー代官山1階": {
     "lat": 35.6486273,
@@ -4160,6 +4490,11 @@
     "lat": 35.6604946,
     "lng": 139.7078329,
     "place_id": "ChIJgVIRH1-LGGARYthNR8MzNg8"
+  },
+  "place:ドロワ 京都市中心部 京都": {
+    "lat": 35.022372499999996,
+    "lng": 135.7676888,
+    "place_id": "ChIJHY7jDGEIAWAR3t4RyIRtZew"
   },
   "place:ナタデクリスチアノ 渋谷区富ヶ谷1-14-16-103スタンフォードコート": {
     "lat": 35.6672535,
@@ -4316,6 +4651,16 @@
     "lng": 139.7075606,
     "place_id": "ChIJLdGtQUGLGGARGMGJVOxLhGA"
   },
+  "place:バー グラナダ（リーガロイヤルホテル京都内） 京都駅周辺 京都": {
+    "lat": 34.985898,
+    "lng": 135.7524497,
+    "place_id": "ChIJ2_bqcpUIAWARt7Vb3FTHdw0"
+  },
+  "place:バー チッペンデール（ホテルオークラ京都内） 京都市中心部 京都": {
+    "lat": 35.0114217,
+    "lng": 135.7692209,
+    "place_id": "ChIJKfprYo0IAWARDkSSxzdfk3s"
+  },
   "place:バー　ムーンシャイナー 渋谷区宇田川町28-1高山ランド第15ビル9F": {
     "lat": 35.6603375,
     "lng": 139.6983768,
@@ -4451,6 +4796,11 @@
     "lng": 139.7110449,
     "place_id": "ChIJR9YjXb2MGGARmrGjPGOlhY8"
   },
+  "place:ビストロ ラ マンドリン 祇園・東山 京都": {
+    "lat": 35.004993999999996,
+    "lng": 135.7746242,
+    "place_id": "ChIJk6am4MEIAWARl7AmY_cbjg4"
+  },
   "place:ビストロ　イズミー 渋谷区幡ヶ谷1-9-6リッツ幡ヶ谷102": {
     "lat": 35.6755654,
     "lng": 139.6721359,
@@ -4511,6 +4861,11 @@
     "lng": 139.6838192,
     "place_id": "ChIJA4qrzknzGGAR0OT6Xazn0bQ"
   },
+  "place:ビュー&ダイニング コトシエール（ホテルグランヴィア京都内） 京都駅周辺 京都": {
+    "lat": 34.98571,
+    "lng": 135.7590093,
+    "place_id": "ChIJFw9Wnt4JAWARRmDXLEgN8FA"
+  },
   "place:ビーグル 渋谷区西原3-23-6K'sスクエア1F": {
     "lat": 35.6705325,
     "lng": 139.68313129999999,
@@ -4525,6 +4880,11 @@
     "lat": 35.667915799999996,
     "lng": 139.7055272,
     "place_id": "ChIJnS_EuDTzGGARJKwq3Q4c-wk"
+  },
+  "place:ピッツェリア　アル　カミーノ 京都市中心部 京都": {
+    "lat": 35.0052582,
+    "lng": 135.7464905,
+    "place_id": "ChIJFaV_oy4GAWARbgZT2pbiXek"
   },
   "place:ピポンペン 渋谷区神山町40-1鈴井ビル 2F": {
     "lat": 35.6650387,
@@ -4586,6 +4946,21 @@
     "lng": 139.7075218,
     "place_id": "ChIJVfjKScGLGGARwzplpb2sUfs"
   },
+  "place:フレンチダイニング トップ オブ キョウト（リーガロイヤルホテル京都内） 京都駅周辺 京都": {
+    "lat": 34.986115999999996,
+    "lng": 135.75246579999998,
+    "place_id": "ChIJSXsMB6gIAWARJlpCmGXzJww"
+  },
+  "place:ブイヤベースのお店　プチポワソン 京都市中心部 京都": {
+    "lat": 35.0017898,
+    "lng": 135.76268629999998,
+    "place_id": "ChIJw41OrPQJAWARguRUWasCwcQ"
+  },
+  "place:ブォナージョ 京都市中心部 京都": {
+    "lat": 35.0025317,
+    "lng": 135.7687082,
+    "place_id": "ChIJVbfUOxLnAGARr-jjIm7gY_s"
+  },
   "place:ブラックバードイータリー 渋谷区笹塚2-13-13": {
     "lat": 35.6750691,
     "lng": 139.66722289999998,
@@ -4620,6 +4995,11 @@
     "lat": 35.6470796,
     "lng": 139.7076217,
     "place_id": "ChIJdbBE-UCLGGARbZXWzZc0Roc"
+  },
+  "place:プランチャー健 祇園・東山 京都": {
+    "lat": 35.0042864,
+    "lng": 135.7764642,
+    "place_id": "ChIJJQpBMMIIAWARPFMfuclYEXo"
   },
   "place:ヘベレケワインショップ 渋谷区幡ヶ谷1-29-2THESTEPS 101": {
     "lat": 35.6748858,
@@ -4786,15 +5166,40 @@
     "lng": 139.6799216,
     "place_id": "ChIJffB_1crzGGARin_3paTYpTY"
   },
+  "place:ムムリク （mumurik） 京都市中心部 京都": {
+    "lat": 35.005685899999996,
+    "lng": 135.765773,
+    "place_id": "ChIJR4UTTZEIAWARLnnlWz9ZIY8"
+  },
   "place:ムーンドッグ 渋谷区千駄ヶ谷3-26-5金子裕俊": {
     "lat": 35.676964,
     "lng": 139.70754739999998,
     "place_id": "ChIJm0agUKiNGGARoV_K2q6BvJc"
   },
+  "place:メインダイニング いと桜（ザ・プリンス 京都宝ヶ池内） 京都市中心部 京都": {
+    "lat": 35.0631856,
+    "lng": 135.7810931,
+    "place_id": "ChIJK8v_xIenAWARq3Pr0O1n5Qw"
+  },
+  "place:メインバー オルビット（ホテルグランヴィア京都内） 京都駅周辺 京都": {
+    "lat": 34.9857581,
+    "lng": 135.7603057,
+    "place_id": "ChIJF7FjtZsIAWAR64cnRbOxp4U"
+  },
+  "place:メインバー　エセックス 京都駅周辺 京都": {
+    "lat": 34.986067,
+    "lng": 135.7618329,
+    "place_id": "ChIJsQsF_rEIAWARFcxjckxIWEg"
+  },
   "place:メキシカンダイニング　オトラ 渋谷区恵比寿南1丁目23番8号アメリカンブリッジビル3F": {
     "lat": 35.6431022,
     "lng": 139.71174159999998,
     "place_id": "ChIJLz5DhhWLGGARqtEoVih86K4"
+  },
+  "place:メゾン・ド・ヴァン鶉亭 京都市中心部 京都": {
+    "lat": 35.0028793,
+    "lng": 135.770724,
+    "place_id": "ChIJI-P4dpwIAWAR2--AtxX6M74"
   },
   "place:メデルデリ 渋谷区恵比寿西1-17-1プルミエール恵比寿1F": {
     "lat": 35.6484212,
@@ -4821,6 +5226,21 @@
     "lng": 139.7140605,
     "place_id": "ChIJ3SDwrFKNGGARjcud6wAkrq8"
   },
+  "place:モトイギョーザ 京都市中心部 京都": {
+    "lat": 35.0044131,
+    "lng": 135.7641669,
+    "place_id": "ChIJvdIoo6sJAWARV5LJsl9V6bU"
+  },
+  "place:モリタ屋 四条猪熊本店 京都市中心部 京都": {
+    "lat": 35.0038212,
+    "lng": 135.750208,
+    "place_id": "ChIJE0ZdZigGAWARgGDZN5wfAFw"
+  },
+  "place:モリタ屋 木屋町店 京都市中心部 京都": {
+    "lat": 35.009464099999995,
+    "lng": 135.7706255,
+    "place_id": "ChIJj6qdy-wIAWARHROIuPDhhPw"
+  },
   "place:モンキーカフェ 渋谷区猿楽町12-8-1F": {
     "lat": 35.65106,
     "lng": 139.702627,
@@ -4830,6 +5250,11 @@
     "lat": 35.6528882,
     "lng": 139.54196349999998,
     "place_id": "ChIJvXfMzCTzGGARBA8OnAZml9g"
+  },
+  "place:ヤサカタクシー 京都市中心部 京都": {
+    "lat": 34.9965529,
+    "lng": 135.74635619999998,
+    "place_id": "ChIJdRXAACQGAWARQmjnJ4WUFHY"
   },
   "place:ヤングスナック-芹奈- はなれ 渋谷区道玄坂2-25-5島田ビル3F": {
     "lat": 35.6601741,
@@ -4901,6 +5326,11 @@
     "lng": 139.700917,
     "place_id": "ChIJ85rhXFeLGGARBj05brrUP-w"
   },
+  "place:リストランテ ラ・ルーチェ 京都市中心部 京都": {
+    "lat": 35.009597899999996,
+    "lng": 135.75791859999998,
+    "place_id": "ChIJtZB9PYQIAWARukcmUTt_jhs"
+  },
   "place:リストランテマッサ 渋谷区恵比寿1-23-22小林鉄工ビル1F": {
     "lat": 35.6461408,
     "lng": 139.7147565,
@@ -4971,6 +5401,11 @@
     "lng": 139.70841389999998,
     "place_id": "ChIJj4VVegCLGGARIrNHJh0Vj-Q"
   },
+  "place:ル・ピックアシエット 伏見・山科 京都": {
+    "lat": 34.9356349,
+    "lng": 135.75605950000002,
+    "place_id": "ChIJM_ktFswIAWARvP48kN2W2QM"
+  },
   "place:レイスチームドバン 渋谷区西原3-1-4トライアングル1階": {
     "lat": 35.6702982,
     "lng": 139.6823674,
@@ -4997,6 +5432,11 @@
     "lng": 139.68644989999999,
     "place_id": "ChIJ_00w2jXzGGARC3pK7QM8aSA"
   },
+  "place:レストランひらまつ 高台寺 祇園・東山 京都": {
+    "lat": 34.998604199999996,
+    "lng": 135.78164320000002,
+    "place_id": "ChIJW8liP9AIAWARX12XJ33-YTM"
+  },
   "place:レストランみのる 渋谷区千駄ヶ谷5-12-6": {
     "lat": 35.683074399999995,
     "lng": 139.7056247,
@@ -5021,6 +5461,16 @@
     "lat": 35.6624775,
     "lng": 139.687341,
     "place_id": "ChIJPR2einLzGGARrE4GlV0RKks"
+  },
+  "place:レンタサイクル京の楽チャリ　京都駅七条店 京都駅周辺 京都": {
+    "lat": 34.9899973,
+    "lng": 135.7654057,
+    "place_id": "ChIJdd0m37AIAWARVm6JTsSzKDo"
+  },
+  "place:レンタサイクル京の楽チャリ　東山三条店 祇園・東山 京都": {
+    "lat": 35.0100966,
+    "lng": 135.7782964,
+    "place_id": "ChIJ1UcA4egIAWARduQVUU1Q17Y"
   },
   "place:ロク 渋谷区代々木4-1-6山下荘1F": {
     "lat": 35.6791817,
@@ -5057,10 +5507,20 @@
     "lng": 139.7025062,
     "place_id": "ChIJYxl0dUWLGGAR4wBLxS9jb-c"
   },
+  "place:ロビーラウンジ グランジュール（ホテルグランヴィア京都内） 京都駅周辺 京都": {
+    "lat": 34.9859483,
+    "lng": 135.7594303,
+    "place_id": "ChIJ_7mUYK4IAWARuKcZhke5Dv4"
+  },
   "place:ローカルインディア恵比寿本店 渋谷区恵比寿南1-23-8アメリカンブリッジビル2階": {
     "lat": 35.6431249,
     "lng": 139.7118074,
     "place_id": "ChIJLz5DhhWLGGARmsUXAKrRtrk"
+  },
+  "place:ワインのための煮込み料理研究所 NIKOLABO-二コラボ- 京都市中心部 京都": {
+    "lat": 35.002260199999995,
+    "lng": 135.7690896,
+    "place_id": "ChIJibxc0b8IAWARKRKJxSwnZlA"
   },
   "place:ワインバルRough 渋谷区道玄坂2-17-2トップ美奄1階": {
     "lat": 35.658654,
@@ -5102,15 +5562,35 @@
     "lng": 139.6996333,
     "place_id": "ChIJqZWNOKiMGGARlTDMmIRrJhQ"
   },
+  "place:ヴェーナ（Vena） 京都市中心部 京都": {
+    "lat": 35.0151646,
+    "lng": 135.7581293,
+    "place_id": "ChIJbdO2YIcIAWARhz-h0oecuVE"
+  },
   "place:㐂宵 渋谷区宇田川町36-16プラザマリーナビル103": {
     "lat": 35.6617134,
     "lng": 139.6963351,
     "place_id": "ChIJR1NdRrSNGGAR7oA7qv_cA2A"
   },
+  "place:一乗寺 乃り英 祇園・東山 京都": {
+    "lat": 35.0439346,
+    "lng": 135.7928272,
+    "place_id": "ChIJ80yqm7MJAWARSp5slumjYMM"
+  },
+  "place:一善や 祇園・東山 京都": {
+    "lat": 35.0366662,
+    "lng": 135.78781659999999,
+    "place_id": "ChIJXzBq9VIIAWARDxcNNxhulP8"
+  },
   "place:一堂 渋谷区千駄ヶ谷1-28-4": {
     "lat": 35.6804802,
     "lng": 139.7091073,
     "place_id": "ChIJQySPnr-MGGAReYm6MUyiReE"
+  },
+  "place:一華 京都市中心部 京都": {
+    "lat": 35.012175,
+    "lng": 135.753273,
+    "place_id": "ChIJQ90zFYAIAWARaCqUUf2VKDw"
   },
   "place:一食 渋谷区西原1-7-8ツインパレスK1 101": {
     "lat": 35.6738728,
@@ -5171,6 +5651,21 @@
     "lat": 35.6555919,
     "lng": 139.70591299999998,
     "place_id": "ChIJa46cDOuLGGARoHFYP4t51Ms"
+  },
+  "place:中国料理 桃季（ホテルオークラ京都内） 京都市中心部 京都": {
+    "lat": 35.0116875,
+    "lng": 135.7695675,
+    "place_id": "ChIJAZ4Ab40IAWAR5vSTU93bPmk"
+  },
+  "place:中国料理 皇家龍鳳（リーガロイヤルホテル京都内） 京都駅周辺 京都": {
+    "lat": 34.9858066,
+    "lng": 135.7525152,
+    "place_id": "ChIJoSNp_KcIAWARGCe99mC0FpQ"
+  },
+  "place:中国料理 青冥 Ching Ming 祇園店 祇園・東山 京都": {
+    "lat": 35.0041809,
+    "lng": 135.7750244,
+    "place_id": "ChIJ3bSjT-oIAWARwJq4Vtg3TXM"
   },
   "place:中国料理白鳳 渋谷区宇田川町24-1髙木ビル地下1階中国料理白鳳": {
     "lat": 35.6604248,
@@ -5282,15 +5777,185 @@
     "lng": 139.70557209999998,
     "place_id": "ChIJx-maE0SLGGARu8rbGO0gaN4"
   },
+  "place:二条城 ふる田 京都駅周辺 京都": {
+    "lat": 35.0122085,
+    "lng": 135.7538722,
+    "place_id": "ChIJOccsQ4AIAWARvrgPsgAejJc"
+  },
   "place:五音 渋谷区元代々木町3-7大森ビル1階": {
     "lat": 35.6705474,
     "lng": 139.6872503,
     "place_id": "ChIJWzSKdmjzGGARHvkp_aZqfxs"
   },
+  "place:京のつくね家 祇園・東山 京都": {
+    "lat": 35.0178497,
+    "lng": 135.7727094,
+    "place_id": "ChIJwcPznPQIAWARU-m0sgOyVzo"
+  },
+  "place:京の四季　いろどり　京都駅前店 京都駅周辺 京都": {
+    "lat": 34.9873881,
+    "lng": 135.7589011,
+    "place_id": "ChIJeaxXD68IAWARQtJ2CIec6jc"
+  },
+  "place:京の鴨料理 北斎 京都市中心部 京都": {
+    "lat": 35.005663999999996,
+    "lng": 135.7724346,
+    "place_id": "ChIJU9kt7OoIAWAR_1yAX0HIi3o"
+  },
+  "place:京・寿司おおきに 京都駅周辺 京都": {
+    "lat": 34.989346,
+    "lng": 135.75405039999998,
+    "place_id": "ChIJmwKJq1sJAWARenhr_OR6VgU"
+  },
+  "place:京友禅体験工房　丸益西村屋 京都市中心部 京都": {
+    "lat": 35.010442,
+    "lng": 135.75433470000002,
+    "place_id": "ChIJu1jfdIEIAWARjwAclayAr_0"
+  },
+  "place:京夕け 善哉 京都市中心部 京都": {
+    "lat": 35.0153518,
+    "lng": 135.7583369,
+    "place_id": "ChIJ2-jaY4cIAWAR7QvHkVRZRpM"
+  },
+  "place:京家きよみず木屋町 京都市中心部 京都": {
+    "lat": 35.0045935,
+    "lng": 135.7699264,
+    "place_id": "ChIJG3YaPZUIAWARtX_jIz0BZII"
+  },
+  "place:京家きよみず柳馬場本家 京都市中心部 京都": {
+    "lat": 35.0023694,
+    "lng": 135.7639357,
+    "place_id": "ChIJV9LMVJYIAWAR3yrtOo4EgaA"
+  },
+  "place:京家きよみず祇をん新橋 祇園・東山 京都": {
+    "lat": 35.0057077,
+    "lng": 135.7762993,
+    "place_id": "ChIJwfwekI0IAWARTpvfn6cg3oU"
+  },
+  "place:京家きよみず錦麩屋町 京都市中心部 京都": {
+    "lat": 35.0054055,
+    "lng": 135.7654973,
+    "place_id": "ChIJIy9cHucJAWARj_nDEd0rclA"
+  },
+  "place:京懐石吉泉 京都市中心部 京都": {
+    "lat": 35.035733,
+    "lng": 135.771335,
+    "place_id": "ChIJq6rqd5UIAWARDxj4sQBzO1o"
+  },
+  "place:京料理 およね 京都市中心部 京都": {
+    "lat": 35.002479699999995,
+    "lng": 135.7623897,
+    "place_id": "ChIJMX_1bpcIAWARHAnCHsBqYog"
+  },
+  "place:京料理 ふぐ はも 割烹 由兵衛 京都市中心部 京都": {
+    "lat": 35.0034401,
+    "lng": 135.77079799999998,
+    "place_id": "ChIJAWwhhZkIAWARPHhfaSvQPZ0"
+  },
+  "place:京料理 三栄 京都市中心部 京都": {
+    "lat": 35.0027158,
+    "lng": 135.76967159999998,
+    "place_id": "ChIJW73R3b8IAWARcOOulZOZi78"
+  },
+  "place:京料理 修伯 祇園・東山 京都": {
+    "lat": 34.9986293,
+    "lng": 135.7786202,
+    "place_id": "ChIJuxR_z9oIAWARZEWmeIhrnfc"
+  },
+  "place:京料理 入舟（ホテルオークラ京都内） 京都市中心部 京都": {
+    "lat": 35.011839099999996,
+    "lng": 135.76931679999998,
+    "place_id": "ChIJaQOSnZIIAWARRCiG0KNW2OI"
+  },
+  "place:京料理 八清 京都駅周辺 京都": {
+    "lat": 34.9950699,
+    "lng": 135.7474621,
+    "place_id": "ChIJjUXAzyMGAWARx_Av353PvqA"
+  },
+  "place:京料理 木乃婦 京都市中心部 京都": {
+    "lat": 35.0009656,
+    "lng": 135.75651779999998,
+    "place_id": "ChIJG1KGrp4IAWARwp2d7lmI5lw"
+  },
+  "place:京料理 本家 たん熊 本店 祇園・東山 京都": {
+    "lat": 35.000276,
+    "lng": 135.769221,
+    "place_id": "ChIJhfNcIKYIAWAR-MbSOL6N770"
+  },
+  "place:京料理 清和荘 伏見・山科 京都": {
+    "lat": 34.9490415,
+    "lng": 135.7625668,
+    "place_id": "ChIJTUL-bXcPAWARt71r22TVXmI"
+  },
+  "place:京料理 箔 京都市中心部 京都": {
+    "lat": 35.009600299999995,
+    "lng": 135.7709754,
+    "place_id": "ChIJ17MPzewIAWARLweYzdW10YY"
+  },
+  "place:京料理 藤や 京都市中心部 京都": {
+    "lat": 35.009262899999996,
+    "lng": 135.7700375,
+    "place_id": "ChIJdfh8rOwIAWARuroX5AVfeSw"
+  },
+  "place:京料理 藤本 京都市中心部 京都": {
+    "lat": 35.0103808,
+    "lng": 135.7567717,
+    "place_id": "ChIJ28O1moQIAWARJBfpkpBqXJU"
+  },
   "place:京料理　阿うん 渋谷区富ヶ谷 1-33-6代々木パークサイドB1": {
     "lat": 35.6666266,
     "lng": 139.68819249999999,
     "place_id": "ChIJse9z9zbzGGARs9hEHLuEo-8"
+  },
+  "place:京料理寿司 松廣 伏見・山科 京都": {
+    "lat": 34.9521738,
+    "lng": 135.76342390000002,
+    "place_id": "ChIJhZr63HAPAWARbXst__i1Tag"
+  },
+  "place:京極 かねよ 京都市中心部 京都": {
+    "lat": 35.007592,
+    "lng": 135.767949,
+    "place_id": "ChIJWUGtl5MIAWAROzQ6eOmGNH8"
+  },
+  "place:京焼肉　新　先斗町店 京都市中心部 京都": {
+    "lat": 35.005506,
+    "lng": 135.771131,
+    "place_id": "ChIJRTwOmOwIAWARJgZChHxSx1c"
+  },
+  "place:京町 京都市中心部 京都": {
+    "lat": 35.0058629,
+    "lng": 135.7711342,
+    "place_id": "ChIJWS5_KusIAWAR3HOcUghMXHY"
+  },
+  "place:京都　銭京 京都市中心部 京都": {
+    "lat": 35.0249464,
+    "lng": 135.7162421,
+    "place_id": "ChIJFSDXHZYIAWAR6uP0tsQPh-k"
+  },
+  "place:京都きものレンタル和凛 京都市中心部 京都": {
+    "lat": 34.9975144,
+    "lng": 135.7580935,
+    "place_id": "ChIJW8quCpgIAWARjsPlFBdJMcc"
+  },
+  "place:京都さしみ丸 京都市中心部 京都": {
+    "lat": 34.998893599999995,
+    "lng": 135.7660326,
+    "place_id": "ChIJ7_R5x94JAWARPVuRXdTXNSc"
+  },
+  "place:京都カレー製作所 カリル 京都市中心部 京都": {
+    "lat": 35.0182218,
+    "lng": 135.7566536,
+    "place_id": "ChIJReSnoX4IAWAR6JOorTC55JE"
+  },
+  "place:京都吉兆 嵐山本店 嵐山 京都": {
+    "lat": 35.0136211,
+    "lng": 135.6746552,
+    "place_id": "ChIJVVVFaACqAWARTiBmMRQ2LBg"
+  },
+  "place:京野菜フレンチ懐石 祇園 重なが 祇園・東山 京都": {
+    "lat": 35.0054841,
+    "lng": 135.7753712,
+    "place_id": "ChIJWYVnzyUJAWARFsmOfhkZMoQ"
   },
   "place:今尽 渋谷区広尾3-1-26": {
     "lat": 35.656889899999996,
@@ -5372,6 +6037,11 @@
     "lng": 139.70850439999998,
     "place_id": "ChIJW84q_Y6LGGARC_JxpUxRBaA"
   },
+  "place:傳八 京都市中心部 京都": {
+    "lat": 35.052619299999996,
+    "lng": 135.7596747,
+    "place_id": "ChIJOU79ZvinAWARTCdu6BQz6T0"
+  },
   "place:元祖うな鐡 渋谷区道玄坂道玄坂2-8-8コスモ渋谷館1階": {
     "lat": 35.6584309,
     "lng": 139.6983856,
@@ -5381,6 +6051,26 @@
     "lat": 35.682984999999995,
     "lng": 139.7028646,
     "place_id": "ChIJYzJm17mNGGARV05peFp_JSA"
+  },
+  "place:先斗町 あじ屋 京都市中心部 京都": {
+    "lat": 35.005030999999995,
+    "lng": 135.770921,
+    "place_id": "ChIJfboBM5UIAWARAZnnRRBaiyI"
+  },
+  "place:先斗町 魯ビン 京都市中心部 京都": {
+    "lat": 35.0076087,
+    "lng": 135.7711778,
+    "place_id": "ChIJ6aqQVJMIAWARCkhCadiYros"
+  },
+  "place:先斗町　ふじ田 祇園・東山 京都": {
+    "lat": 35.007906,
+    "lng": 135.770989,
+    "place_id": "ChIJ6aqQVJMIAWAR1Co1ZYUPhAQ"
+  },
+  "place:先斗町いづもや 京都市中心部 京都": {
+    "lat": 35.0040701,
+    "lng": 135.77116089999998,
+    "place_id": "ChIJSUQQreoIAWARkYoZLqBOPwk"
   },
   "place:兎屋 渋谷区笹塚1-10-6シーティービル1F": {
     "lat": 35.6735415,
@@ -5392,10 +6082,20 @@
     "lng": 139.68696699999998,
     "place_id": "ChIJx8yBORfzGGARvDQKj_ubvfU"
   },
+  "place:八つ橋庵とししゅうやかた 嵐山 京都": {
+    "lat": 34.998235799999996,
+    "lng": 135.7090515,
+    "place_id": "ChIJnwx4GQQHAWAR-hOiETZAX74"
+  },
   "place:八屋 渋谷区千駄ヶ谷3-2-10GSフェイスビル1階": {
     "lat": 35.676266,
     "lng": 139.7062628,
     "place_id": "ChIJ1z1--UOLGGARxIyF1p-uu34"
+  },
+  "place:八起庵 丸太町本店 祇園・東山 京都": {
+    "lat": 35.017827,
+    "lng": 135.7724742,
+    "place_id": "ChIJnYdKmfQIAWARDQPaxmvGKBU"
   },
   "place:六号酒場 渋谷区幡ヶ谷2-9-12コートリーブル103": {
     "lat": 35.6790241,
@@ -5416,6 +6116,11 @@
     "lat": 35.651897999999996,
     "lng": 139.712958,
     "place_id": "ChIJLzX9lGmLGGARYgMVPHNjYEQ"
+  },
+  "place:凌霄 祇園・東山 京都": {
+    "lat": 35.0024198,
+    "lng": 135.7758613,
+    "place_id": "ChIJK0mhhVwJAWARHe1hWlwF-k4"
   },
   "place:凛音 渋谷区恵比寿西1-8-13エムロード戸田3F": {
     "lat": 35.6476451,
@@ -5462,6 +6167,26 @@
     "lng": 139.6993609,
     "place_id": "ChIJnRkosc-MGGARShsG3YtTc0I"
   },
+  "place:割烹 さか本 祇園・東山 京都": {
+    "lat": 35.0052144,
+    "lng": 135.7736946,
+    "place_id": "ChIJM0yRfOoIAWARcn81FENA4Uc"
+  },
+  "place:割烹 久久 京都市中心部 京都": {
+    "lat": 34.999901300000005,
+    "lng": 135.7630046,
+    "place_id": "ChIJCTXN16sJAWARVrtV_mESFvo"
+  },
+  "place:割烹いずみ 京都市中心部 京都": {
+    "lat": 35.0095842,
+    "lng": 135.75797129999998,
+    "place_id": "ChIJURLZ9IQIAWARX1W5uNFmyqY"
+  },
+  "place:割烹ふじ原 祇園・東山 京都": {
+    "lat": 35.0045989,
+    "lng": 135.77587979999998,
+    "place_id": "ChIJ4WBAIMIIAWARmtqKXFim9S8"
+  },
   "place:割烹季誠 渋谷区幡ヶ谷2-25-3アーバン幡ヶ谷1F": {
     "lat": 35.6759792,
     "lng": 139.67180829999998,
@@ -5507,6 +6232,11 @@
     "lng": 139.6938685,
     "place_id": "ChIJdVvYgq2MGGARf_l_BukrM1E"
   },
+  "place:即今 藤本 京都市中心部 京都": {
+    "lat": 35.0152937,
+    "lng": 135.7668065,
+    "place_id": "ChIJlQ84ro0IAWARdnmL_hot_uk"
+  },
   "place:原宿うどん伊呂波 渋谷区神宮前4-28-26木村ビル1F": {
     "lat": 35.6697056,
     "lng": 139.70718779999999,
@@ -5547,6 +6277,11 @@
     "lng": 139.71369199999998,
     "place_id": "ChIJ3eXHWJiMGGARh6YfuG6uLUo"
   },
+  "place:呑喜屋むね 京都市中心部 京都": {
+    "lat": 35.015194,
+    "lng": 135.763443,
+    "place_id": "ChIJv0HN8IgIAWARJY_-jASZP6E"
+  },
   "place:呑喰らい Don't Cry 渋谷区恵比寿西1-3-2恵比寿テラスビル 1階A": {
     "lat": 35.6489902,
     "lng": 139.708519,
@@ -5567,6 +6302,11 @@
     "lng": 139.699143,
     "place_id": "ChIJK8b5I8-MGGARq-Vpy5msz3g"
   },
+  "place:味野里香 京都市中心部 京都": {
+    "lat": 35.012345499999995,
+    "lng": 135.7571097,
+    "place_id": "ChIJDbyuNYEIAWAROnG0ndnjmio"
+  },
   "place:味音 渋谷区代々木1-44-12R&Hビル1階": {
     "lat": 35.6822272,
     "lng": 139.6988931,
@@ -5576,6 +6316,16 @@
     "lat": 35.667488399999996,
     "lng": 139.6814478,
     "place_id": "ChIJZ2nihEjzGGARIxhBrCo08E0"
+  },
+  "place:和カフェ 季の音 京都市中心部 京都": {
+    "lat": 35.004353699999996,
+    "lng": 135.769521,
+    "place_id": "ChIJYVCOFpUIAWARskb9eJ_Y4RU"
+  },
+  "place:和レ和レ和 アラシヤマ 嵐山 京都": {
+    "lat": 35.0141633,
+    "lng": 135.67708059999998,
+    "place_id": "ChIJPYZlIgCpAWARgbmgsjMbmCU"
   },
   "place:和幻　初台本店 渋谷区本町2-1-9アップルアイレジデンス1F": {
     "lat": 35.6844718,
@@ -5596,6 +6346,16 @@
     "lat": 35.6566861,
     "lng": 139.6945194,
     "place_id": "ChIJ8Q4qkFWLGGARdUA_v4wOOsg"
+  },
+  "place:和空間　花鏡　西陣 京都市中心部 京都": {
+    "lat": 35.031354900000004,
+    "lng": 135.7410007,
+    "place_id": "ChIJtaHpvdoHAWARQPpp26_bMuQ"
+  },
+  "place:和食 浮橋（ホテルグランヴィア京都内） 京都駅周辺 京都": {
+    "lat": 34.985803,
+    "lng": 135.7592071,
+    "place_id": "ChIJF7FjtZsIAWARPjG_NTuwknM"
   },
   "place:和食おやまだ 渋谷区恵比寿南1-13-11ヴェール1F": {
     "lat": 35.6457506,
@@ -5707,6 +6467,11 @@
     "lng": 139.7170476,
     "place_id": "ChIJA7XvexOLGGARTwYBJOiqaVY"
   },
+  "place:壹銭洋食 祇園・東山 京都": {
+    "lat": 35.0040157,
+    "lng": 135.7731872,
+    "place_id": "ChIJK8DmiLYJAWAR8jY_lZ-1vaw"
+  },
   "place:多古菊 渋谷区道玄坂1丁目6番2号ファイブビル1階": {
     "lat": 35.657914,
     "lng": 139.699118,
@@ -5762,15 +6527,35 @@
     "lng": 139.6669779,
     "place_id": "ChIJX5VzTNjzGGARoVrgGHrku4M"
   },
+  "place:天ぷら 川辰 京都駅周辺 京都": {
+    "lat": 34.9634382,
+    "lng": 135.70785519999998,
+    "place_id": "ChIJWauOsoUGAWARvyLRVIFr5mA"
+  },
   "place:天ぷら北川 渋谷区恵比寿南1-17-15VORT恵比寿VI B1-A": {
     "lat": 35.644537199999995,
     "lng": 139.7102448,
     "place_id": "ChIJmYbCJQCLGGARTfRFtyeJdhc"
   },
+  "place:天下の焼肉 大将軍 京都駅前店 京都駅周辺 京都": {
+    "lat": 34.9874492,
+    "lng": 135.758892,
+    "place_id": "ChIJz7ZQD68IAWARhKoOAXzYbOQ"
+  },
+  "place:天下の焼肉 大将軍 四条大宮店 京都市中心部 京都": {
+    "lat": 35.0032938,
+    "lng": 135.7499101,
+    "place_id": "ChIJtwMtfSgGAWARrYXwj5MIgjg"
+  },
   "place:天宝 渋谷区笹塚2-43-4ハイムマスビル1階": {
     "lat": 35.6762472,
     "lng": 139.66804439999999,
     "place_id": "ChIJMz8JqxnzGGARJ7TO9Rp_4wI"
+  },
+  "place:奏絲綴苑 京都市中心部 京都": {
+    "lat": 35.0310404,
+    "lng": 135.73789879999998,
+    "place_id": "ChIJHQtG2O0HAWARsle0bHKL04A"
   },
   "place:奥渋谷 もつ焼のんき 渋谷区神山町4-18フィルトップ神山1F": {
     "lat": 35.665214399999996,
@@ -5796,6 +6581,11 @@
     "lat": 35.6456114,
     "lng": 139.7173728,
     "place_id": "ChIJc4Dq5NSLGGAR58EHQG75gfI"
+  },
+  "place:宮脇 京都市中心部 京都": {
+    "lat": 35.0100444,
+    "lng": 135.7536853,
+    "place_id": "ChIJVQF-ySgJAWAR1Rf-0LMqcwc"
   },
   "place:富ヶ谷　酒と焼肉橙 渋谷区富ヶ谷1-9-20エスペランサ代々木M1F": {
     "lat": 35.6683945,
@@ -5836,6 +6626,11 @@
     "lat": 35.679136799999995,
     "lng": 139.67713,
     "place_id": "ChIJ____PyPzGGARQ1doxUK2TYQ"
+  },
+  "place:小松 CUCINA ITALIANA 京都市中心部 京都": {
+    "lat": 35.026346,
+    "lng": 135.7534317,
+    "place_id": "ChIJg8CrrSIJAWAR41A8AofHTi4"
   },
   "place:小麦っ娘 渋谷区広尾5-2-25本国ビル3階": {
     "lat": 35.650256999999996,
@@ -5907,6 +6702,11 @@
     "lng": 139.68284169999998,
     "place_id": "ChIJQ433wb3zGGARNXTSzuZvkqc"
   },
+  "place:山ばな平八茶屋（レストラン） 高雄・鞍馬・大原 京都": {
+    "lat": 35.0540129,
+    "lng": 135.79113239999998,
+    "place_id": "ChIJeZzsxMwJAWARMgQ8lujT0Tw"
+  },
   "place:山形蕎麦茶寮月の山 渋谷区代々木1-25-5BIZSMART代々木1F": {
     "lat": 35.6815431,
     "lng": 139.7004182,
@@ -5962,10 +6762,50 @@
     "lng": 139.693853,
     "place_id": "ChIJq-jSnVWLGGARlVdSs-tKAWY"
   },
+  "place:廣澤 京都市中心部 京都": {
+    "lat": 35.0063654,
+    "lng": 135.75610939999999,
+    "place_id": "ChIJ6aF1WJwJAWAR62_nJe9WFHw"
+  },
+  "place:建仁寺 祇園 丸山 祇園・東山 京都": {
+    "lat": 34.998748,
+    "lng": 135.77457300000003,
+    "place_id": "ChIJxZU0isYIAWARTt94AyTfVco"
+  },
   "place:彩わ 渋谷区代々木3-43-1ガーリックビル103": {
     "lat": 35.6803242,
     "lng": 139.69450039999998,
     "place_id": "ChIJmTpAdsyMGGARmcUAHM13JWw"
+  },
+  "place:御幸町 田がわ 京都市中心部 京都": {
+    "lat": 35.0150059,
+    "lng": 135.7663818,
+    "place_id": "ChIJJTIQ_osIAWARa9En4ut9zKQ"
+  },
+  "place:御所 岩さき 京都市中心部 京都": {
+    "lat": 35.016886299999996,
+    "lng": 135.7618262,
+    "place_id": "ChIJ_____4AIAWAR_i-6rEnNGp0"
+  },
+  "place:御所DELino 京都市中心部 京都": {
+    "lat": 35.0181961,
+    "lng": 135.7680656,
+    "place_id": "ChIJfRZOclgJAWARxdhG4RdOmKo"
+  },
+  "place:御料理 辰むら 京都市中心部 京都": {
+    "lat": 35.0028876,
+    "lng": 135.7702239,
+    "place_id": "ChIJI-P4dpwIAWARcksHs4vzV7g"
+  },
+  "place:御肴ずっころばし 京都駅周辺 京都": {
+    "lat": 34.982962199999996,
+    "lng": 135.7605611,
+    "place_id": "ChIJ05VwdK0IAWARUXtqBqpUmCY"
+  },
+  "place:御肴凸鉾 京都市中心部 京都": {
+    "lat": 34.9899002,
+    "lng": 135.761225,
+    "place_id": "ChIJn2BO_K8IAWARpQsTb1P7MJI"
   },
   "place:志ぐれ 渋谷区神山町10-8グランドゥール1階": {
     "lat": 35.6637857,
@@ -6067,6 +6907,16 @@
     "lng": 139.7097206,
     "place_id": "ChIJuSchMSaLGGARctwNSsG1aYA"
   },
+  "place:悠々 高雄・鞍馬・大原 京都": {
+    "lat": 35.1181404,
+    "lng": 135.7708892,
+    "place_id": "ChIJnTF3sxKmAWAROIRwRX49KFA"
+  },
+  "place:懐石フランス料理 グルマン橘（リーガロイヤルホテル京都内） 京都駅周辺 京都": {
+    "lat": 34.986466899999996,
+    "lng": 135.7524847,
+    "place_id": "ChIJmXsMB6gIAWARmKS-SC8yJ8g"
+  },
   "place:房総ホルモン渋谷本店 渋谷区円山町7-11梅北ビル1F": {
     "lat": 35.6580662,
     "lng": 139.6945038,
@@ -6112,6 +6962,11 @@
     "lng": 139.6819028,
     "place_id": "ChIJC2894jfzGGARgsNPP7Rt5gw"
   },
+  "place:料庭 八千代 祇園・東山 京都": {
+    "lat": 35.0110666,
+    "lng": 135.7891994,
+    "place_id": "ChIJp94q6d8IAWARbEvwy-Iy_fc"
+  },
   "place:料理人のいる魚屋ガシラ 渋谷区道玄坂1丁目19番5号": {
     "lat": 35.6567906,
     "lng": 139.6961191,
@@ -6126,6 +6981,11 @@
     "lat": 35.686166799999995,
     "lng": 139.70368729999998,
     "place_id": "ChIJxfWyTB2NGGARf9wLMktNO_0"
+  },
+  "place:新門前 米村 祇園・東山 京都": {
+    "lat": 35.0062267,
+    "lng": 135.7766483,
+    "place_id": "ChIJB1aZxO0HAWARCa_AzffRouA"
   },
   "place:日々ごはん 穂の間。 渋谷区富ヶ谷1-53-2辰美ビル": {
     "lat": 35.6692335,
@@ -6142,10 +7002,25 @@
     "lng": 139.70787049999998,
     "place_id": "ChIJdx0dt7GNGGARJn9q7MflmOY"
   },
+  "place:日本料理  櫻川 京都市中心部 京都": {
+    "lat": 35.012116,
+    "lng": 135.770635,
+    "place_id": "ChIJ7YKCrJIIAWARoO_incUTp3c"
+  },
+  "place:日本料理　KIZAHASHI 京都駅周辺 京都": {
+    "lat": 34.9864921,
+    "lng": 135.7612637,
+    "place_id": "ChIJv_1vuzoJAWARzQA4b65_lHI"
+  },
   "place:日本料理いまここ 渋谷区円山町25-8ビション道玄坂1階": {
     "lat": 35.6558448,
     "lng": 139.6934755,
     "place_id": "ChIJC8VrdlWLGGARXMVsCCJb7AA"
+  },
+  "place:日本料理矢の 京都市中心部 京都": {
+    "lat": 35.0162421,
+    "lng": 135.76551279999998,
+    "place_id": "ChIJj2wk2WgJAWARsolmzajvM8s"
   },
   "place:旬おばんざいと発酵酒肴　ただ今 渋谷区神泉町15-6": {
     "lat": 35.6570404,
@@ -6166,6 +7041,11 @@
     "lat": 35.6673647,
     "lng": 139.7058065,
     "place_id": "ChIJSxJlEqSMGGARIeYRWSFEpao"
+  },
+  "place:春夏秋冬ざこや 京都市中心部 京都": {
+    "lat": 35.0083992,
+    "lng": 135.7612301,
+    "place_id": "ChIJAQDcUIUIAWARSOAeMtjS8ps"
   },
   "place:昭和歌謡居酒屋UFO 渋谷区千駄ヶ谷4丁目29-12千駄ヶ谷北参道ダイヤモンドパレス104": {
     "lat": 35.6811369,
@@ -6252,6 +7132,11 @@
     "lng": 139.6760133,
     "place_id": "ChIJE5IhdSTzGGARcZQmv7fipw0"
   },
+  "place:未完 京都市中心部 京都": {
+    "lat": 35.015754,
+    "lng": 135.7666552,
+    "place_id": "ChIJ__-v5osIAWARDyQvKL8hhCE"
+  },
   "place:末ぜん 渋谷区猿楽町20-8": {
     "lat": 35.6489232,
     "lng": 139.7015457,
@@ -6266,6 +7151,11 @@
     "lat": 35.682935199999996,
     "lng": 139.68025649999998,
     "place_id": "ChIJFTmT2uTzGGARD_x2fba9gxE"
+  },
+  "place:杢兵衛 祇園・東山 京都": {
+    "lat": 35.0020003,
+    "lng": 135.7746219,
+    "place_id": "ChIJM1_DFMEIAWARy1R50sSNCKk"
   },
   "place:東 渋谷区西原1-13-5": {
     "lat": 35.674672799999996,
@@ -6341,6 +7231,16 @@
     "lat": 35.6749703,
     "lng": 139.668139,
     "place_id": "ChIJS8DLzBnzGGARPyaAeC3WnAQ"
+  },
+  "place:柾木 京都市中心部 京都": {
+    "lat": 35.0080504,
+    "lng": 135.7446429,
+    "place_id": "ChIJ82TEGC0GAWARn7DVTN7ugbE"
+  },
+  "place:栞屋 京都市中心部 京都": {
+    "lat": 34.9893967,
+    "lng": 135.7586293,
+    "place_id": "ChIJqVyHhaUIAWAR3eqMe3TCvvg"
   },
   "place:株式会社ALAWA 渋谷区恵比寿4-9-1武川ビル2階": {
     "lat": 35.6460794,
@@ -6422,6 +7322,11 @@
     "lng": 139.7124891,
     "place_id": "ChIJE0LeiauNGGARWD6fe-6yqUU"
   },
+  "place:欧食屋 Kappa 京都市中心部 京都": {
+    "lat": 35.0012148,
+    "lng": 135.76170589999998,
+    "place_id": "ChIJ-99Kh5cIAWARSiez2l4_FKw"
+  },
   "place:此ノ奥 渋谷区富ヶ谷1-53-3Fビル1階": {
     "lat": 35.669173,
     "lng": 139.6883556,
@@ -6432,15 +7337,30 @@
     "lng": 139.718426,
     "place_id": "ChIJ_XRdLQCLGGARNNKq4xsdNbs"
   },
+  "place:比日氣 祇園・東山 京都": {
+    "lat": 35.00652770000001,
+    "lng": 135.7754333,
+    "place_id": "ChIJL07pzGUJAWAR7yDyyNllDvM"
+  },
   "place:気まぐれダイニングBAR PONすけ 渋谷区幡ヶ谷2-20-6第10岩田ビル": {
     "lat": 35.6767065,
     "lng": 139.67408849999998,
     "place_id": "ChIJqbr4MiPzGGARucVNWEZBy5o"
   },
+  "place:水の 祇園・東山 京都": {
+    "lat": 35.0063473,
+    "lng": 135.7755738,
+    "place_id": "ChIJkz6aoD4JAWARIHl5rtoIt7I"
+  },
   "place:水炊き　波多野 渋谷区円山町7-2edifice渋谷103": {
     "lat": 35.6580106,
     "lng": 139.6947129,
     "place_id": "ChIJ8eGVlMGNGGARcGlw6BfKz-Y"
+  },
+  "place:池内友禅 嵐山 京都": {
+    "lat": 35.0135773,
+    "lng": 135.6873287,
+    "place_id": "ChIJq6q3JFoHAWARTqNxSGg8xlM"
   },
   "place:沖縄居酒屋 香の帆 渋谷区宇田川町10-1パークビル5階": {
     "lat": 35.6625326,
@@ -6452,10 +7372,20 @@
     "lng": 139.6691456,
     "place_id": "ChIJ1Z6Po0LzGGARYIpIIpjQDA8"
   },
+  "place:泉仙 大慈院店 京都市中心部 京都": {
+    "lat": 35.041809799999996,
+    "lng": 135.7448249,
+    "place_id": "ChIJ_cQoofkHAWARZ3I0NaiOmjg"
+  },
   "place:波の家 渋谷区恵比寿西1-14-6HAGIWARA BLDG6 3階": {
     "lat": 35.647735,
     "lng": 139.7076017,
     "place_id": "ChIJq6pTQEGLGGAR97LC3mWmxzc"
+  },
+  "place:洋食とワインAo 京都市中心部 京都": {
+    "lat": 35.0087,
+    "lng": 135.758673,
+    "place_id": "ChIJXUZ7dz4JAWAR9QblSGVx0HI"
   },
   "place:海 渋谷区笹塚2-16-4アロービル101": {
     "lat": 35.674312199999996,
@@ -6562,6 +7492,16 @@
     "lng": 139.6927991,
     "place_id": "ChIJmUmvZa2MGGARGw8le6-X2E8"
   },
+  "place:漁港直送 海鮮酒場 あんじ 麩屋町綾小路店 京都市中心部 京都": {
+    "lat": 35.002566099999996,
+    "lng": 135.7657345,
+    "place_id": "ChIJ68vhcZYIAWARrocIP9OLClA"
+  },
+  "place:漁港直送海鮮酒場 あんじ 烏丸六角店 京都市中心部 京都": {
+    "lat": 35.007278899999996,
+    "lng": 135.76082639999998,
+    "place_id": "ChIJ06EAXoMIAWARXQbZ3GyEn-4"
+  },
   "place:潮待ち 渋谷区上原1丁目34-10志賀屋ビル202号室": {
     "lat": 35.6694014,
     "lng": 139.6819449,
@@ -6626,6 +7566,26 @@
     "lat": 35.6718603,
     "lng": 139.6689125,
     "place_id": "ChIJOY_NTRbzGGARzy6EuuXbqnE"
+  },
+  "place:無双心　祇園店 祇園・東山 京都": {
+    "lat": 35.001608,
+    "lng": 135.7731267,
+    "place_id": "ChIJAWwhhZkIAWAR6eQzrnNB1ik"
+  },
+  "place:無碍山房 Salon de Muge 祇園・東山 京都": {
+    "lat": 35.0018178,
+    "lng": 135.7815599,
+    "place_id": "ChIJT-pnScUIAWARM1C50UQtn_Q"
+  },
+  "place:焼き鳥 刺し身 ワイン まそほ3B 京都市中心部 京都": {
+    "lat": 35.0042815,
+    "lng": 135.7607432,
+    "place_id": "ChIJBQz_AAIJAWARo9zr7esi-cc"
+  },
+  "place:焼とん けむり 京都駅周辺 京都": {
+    "lat": 35.000756599999995,
+    "lng": 135.7298913,
+    "place_id": "ChIJKQcCDksGAWARl9cMkGlkceg"
   },
   "place:焼ジビエ罠　手止メ宮益坂 渋谷区渋谷2-8-6宮野ビル1F": {
     "lat": 35.660293599999996,
@@ -6711,6 +7671,11 @@
     "lat": 35.6735402,
     "lng": 139.6696427,
     "place_id": "ChIJiZUgmw7zGGARY4LsVhVL2H0"
+  },
+  "place:焼肉矢澤京都 京都市中心部 京都": {
+    "lat": 35.0022653,
+    "lng": 135.7615877,
+    "place_id": "ChIJkVEaYpcIAWARLGYsohcOk4Q"
   },
   "place:焼鳥ワイン星乃 渋谷区円山町25-7ファザーランド渋谷　3階": {
     "lat": 35.6559197,
@@ -6798,6 +7763,11 @@
     "place_id": "ChIJTSRJocqLGGARf9ahrBj5Lpw"
   },
   "place:発酵喫茶と酒場 yuen 渋谷区笹塚3-40-12F": null,
+  "place:登喜和 高雄・鞍馬・大原 京都": {
+    "lat": 35.15645080000001,
+    "lng": 135.6317254,
+    "place_id": "ChIJexMF0vOyAWARRzUGeKLI31Y"
+  },
   "place:白龍 渋谷区上原2-48-10第二大貴ビル1F": {
     "lat": 35.667698,
     "lng": 139.68179999999998,
@@ -6807,6 +7777,66 @@
     "lat": 35.6455027,
     "lng": 139.70947859999998,
     "place_id": "ChIJIcVFY0CLGGARAF-wQ6nkMG0"
+  },
+  "place:真白 京都市中心部 京都": {
+    "lat": 35.0072508,
+    "lng": 135.7607062,
+    "place_id": "ChIJA22_aq0JAWARDnaisCmDcOQ"
+  },
+  "place:石塀小路 しぇりークラブ 祇園・東山 京都": {
+    "lat": 35.0009211,
+    "lng": 135.7789612,
+    "place_id": "ChIJASZI5cQIAWARsf6ITfp0-cQ"
+  },
+  "place:祇をん かじ正 祇園・東山 京都": {
+    "lat": 35.0026882,
+    "lng": 135.77514,
+    "place_id": "ChIJsY-fb8EIAWARuPHoyCcPlCE"
+  },
+  "place:祇園 なん波 祇園・東山 京都": {
+    "lat": 35.0041564,
+    "lng": 135.77615319999998,
+    "place_id": "ChIJO7opKcIIAWARkoH2tY0jk1E"
+  },
+  "place:祇園 丸山 祇園・東山 京都": {
+    "lat": 35.0026292,
+    "lng": 135.77600909999998,
+    "place_id": "ChIJ-fLt3sMIAWARyh-_BxuNDxM"
+  },
+  "place:祇園 岩元 祇園・東山 京都": {
+    "lat": 35.0026755,
+    "lng": 135.77519759999998,
+    "place_id": "ChIJsY-fb8EIAWARo2m4aXodDdI"
+  },
+  "place:祇園ししし 祇園・東山 京都": {
+    "lat": 35.0043315,
+    "lng": 135.7745928,
+    "place_id": "ChIJuwMgL58JAWARBZzxqcS6pG0"
+  },
+  "place:祇園そのう 祇園・東山 京都": {
+    "lat": 35.0042714,
+    "lng": 135.77285369999998,
+    "place_id": "ChIJFzOdULEJAWARH1O3pYSNqWs"
+  },
+  "place:祇園にしかわ 祇園・東山 京都": {
+    "lat": 34.9997751,
+    "lng": 135.7788781,
+    "place_id": "ChIJB1aZxO0HAWAR8l3CP2AA0C8"
+  },
+  "place:祇園まんま 祇園・東山 京都": {
+    "lat": 35.004959299999996,
+    "lng": 135.77579889999998,
+    "place_id": "ChIJXauX0bsJAWARW7ORr75XkAM"
+  },
+  "place:祇園らんぶる 祇園・東山 京都": {
+    "lat": 35.0030913,
+    "lng": 135.7753277,
+    "place_id": "ChIJ-7z-e8EIAWARoNVQa9gIgVw"
+  },
+  "place:祇園新橋中谷 祇園・東山 京都": {
+    "lat": 35.0059997,
+    "lng": 135.7744108,
+    "place_id": "ChIJLW-Fa-oIAWAR5UmRKeRFgTI"
   },
   "place:祐定 渋谷区西原2-28-3クローバービル1F": {
     "lat": 35.675355499999995,
@@ -6853,10 +7883,20 @@
     "lng": 139.7221078,
     "place_id": "ChIJTzmkpnKLGGARcHriOA2vY4k"
   },
+  "place:福栄堂 祇園・東山 京都": {
+    "lat": 35.0039465,
+    "lng": 135.77297249999998,
+    "place_id": "ChIJqzSFHsAIAWARtQbIFb_Xew8"
+  },
   "place:福臨門　台湾料理 渋谷区本町2-20-5富裕ビル1F": {
     "lat": 35.68318620000001,
     "lng": 139.6810358,
     "place_id": "ChIJyejV9yXzGGARzPVH9BC3YTg"
+  },
+  "place:私房菜 すみよし 祇園・東山 京都": {
+    "lat": 34.992254200000005,
+    "lng": 135.7747657,
+    "place_id": "ChIJf-1yG94JAWARDWYBwCklreM"
   },
   "place:秘蜜な焼き芋 渋谷区神宮前4-7-2": {
     "lat": 35.6685387,
@@ -6893,6 +7933,16 @@
     "lng": 139.6669374,
     "place_id": "ChIJiV6POBnzGGARNsBa0COtdzE"
   },
+  "place:竹久 京都市中心部 京都": {
+    "lat": 35.0163071,
+    "lng": 135.7584517,
+    "place_id": "ChIJk6kckX0IAWAR0pmIpbExPMs"
+  },
+  "place:竹屋町 三多 京都市中心部 京都": {
+    "lat": 35.0161381,
+    "lng": 135.7671863,
+    "place_id": "ChIJIToxR48IAWARavd_DoML8os"
+  },
   "place:笑助 渋谷区西原3-4-5アミティ代々木上原1F": {
     "lat": 35.6701822,
     "lng": 139.6817811,
@@ -6922,6 +7972,21 @@
     "lat": 35.6740389,
     "lng": 139.667161,
     "place_id": "ChIJJ7vsrc_zGGARI1hlxBuBRYA"
+  },
+  "place:笹屋伊織 別邸 京都駅周辺 京都": {
+    "lat": 34.9890051,
+    "lng": 135.7485963,
+    "place_id": "ChIJiexinx4GAWARp-TDXSipkCw"
+  },
+  "place:笹屋伊織 南店 京都駅周辺 京都": {
+    "lat": 34.9890051,
+    "lng": 135.7485963,
+    "place_id": "ChIJiexinx4GAWARp-TDXSipkCw"
+  },
+  "place:笹屋伊織 本店 京都駅周辺 京都": {
+    "lat": 34.989411499999996,
+    "lng": 135.7423254,
+    "place_id": "ChIJ_3juFzgHAWARqqrFBhrkHR0"
   },
   "place:米子 渋谷区幡ヶ谷2-5-3": {
     "lat": 35.678353,
@@ -6973,6 +8038,11 @@
     "lng": 139.6786574,
     "place_id": "ChIJcZD3K0bzGGARWhfO3LBLY_A"
   },
+  "place:綾小路 唐津 京都市中心部 京都": {
+    "lat": 35.0024455,
+    "lng": 135.75556600000002,
+    "place_id": "ChIJI4LPCxgJAWARfeClbJQwaww"
+  },
   "place:縁家とりつぎ 渋谷区元代々木町11-1田中ビル1F": {
     "lat": 35.670223,
     "lng": 139.6849743,
@@ -6987,6 +8057,11 @@
     "lat": 35.648904,
     "lng": 139.7082596,
     "place_id": "ChIJvbvkYkGLGGAR8SUoX3PXbNs"
+  },
+  "place:而今 平たて 京都市中心部 京都": {
+    "lat": 35.0156266,
+    "lng": 135.76034239999998,
+    "place_id": "ChIJIV8dZd8JAWARWuuGQEwdycQ"
   },
   "place:肉とワインの酒場　Wolfun 渋谷区代々木2-1-1新宿マインズタワーB1": {
     "lat": 35.6866069,
@@ -7028,6 +8103,11 @@
     "lng": 139.689008,
     "place_id": "ChIJp0rwRqfzGGAR8Xjjc-OdmLY"
   },
+  "place:花梓侘 高雄・鞍馬・大原 京都": {
+    "lat": 35.0463667,
+    "lng": 135.7593418,
+    "place_id": "ChIJg9DBgPinAWARgjCJjdcp8CM"
+  },
   "place:茶々Tokyo 渋谷区西原2-28-4宮嶋ビル102": {
     "lat": 35.6753079,
     "lng": 139.6782603,
@@ -7043,10 +8123,25 @@
     "lng": 139.7053723,
     "place_id": "ChIJrfCtchmNGGARV92iP3q6lcs"
   },
+  "place:茶道体験 古都 京都市中心部 京都": {
+    "lat": 35.039369,
+    "lng": 135.732612,
+    "place_id": "ChIJ0-HDByCoAWAR8TyiMiQaUKE"
+  },
   "place:草原 渋谷区初台1-37-7": {
     "lat": 35.6796882,
     "lng": 139.68678029999998,
     "place_id": "ChIJBYZzygXzGGARp7C8iQTlND0"
+  },
+  "place:草喰 なかひがし 祇園・東山 京都": {
+    "lat": 35.027595,
+    "lng": 135.792715,
+    "place_id": "ChIJga5LcQEJAWARQ9OxOxh3-m0"
+  },
+  "place:菊乃井 本店 祇園・東山 京都": {
+    "lat": 35.0014754,
+    "lng": 135.7820562,
+    "place_id": "ChIJVVXF5doIAWARUetIixOU-sw"
   },
   "place:蕎麦と日本酒八福寿家恵比寿店 渋谷区恵比寿南1-18-11エビステムズコート　八福寿家": {
     "lat": 35.6450315,
@@ -7078,10 +8173,20 @@
     "lng": 139.6692273,
     "place_id": "ChIJc4z5_A_zGGARppkFYk8iHiM"
   },
+  "place:観山 祇園・東山 京都": {
+    "lat": 35.006476899999996,
+    "lng": 135.77398309999998,
+    "place_id": "ChIJVVW5WuoIAWAR7xxjWj0Cc7g"
+  },
   "place:諸星 渋谷区代々木5-55-5松尾店舗B-2階": {
     "lat": 35.677831499999996,
     "lng": 139.69231310000004,
     "place_id": "ChIJn0LCPcuMGGARkALm5dK40P4"
+  },
+  "place:豆屋源蔵 京都市中心部 京都": {
+    "lat": 35.0122134,
+    "lng": 135.7706157,
+    "place_id": "ChIJrVcpqpIIAWAReEf1igp02_U"
   },
   "place:豚吉もツ焼き酒場 渋谷区幡ヶ谷2-13-6富士ビルB1": {
     "lat": 35.6775083,
@@ -7113,10 +8218,25 @@
     "lng": 139.676068,
     "place_id": "ChIJa9BqWjvzGGARSh8leeiK4aQ"
   },
+  "place:輝月 京都駅周辺 京都": {
+    "lat": 34.9880188,
+    "lng": 135.7605141,
+    "place_id": "ChIJb_PzmaEJAWARBvYNdRG4BB4"
+  },
   "place:辛トォンデジ 渋谷区道玄坂1-20-12MT道玄坂ビル1F": {
     "lat": 35.6569346,
     "lng": 139.6964749,
     "place_id": "ChIJtUaKBz2LGGARFN7cWfOsvtk"
+  },
+  "place:近又 京都市中心部 京都": {
+    "lat": 35.00472920000001,
+    "lng": 135.7662947,
+    "place_id": "ChIJf4KvoZYIAWAR0Yuis7LNO2Y"
+  },
+  "place:近又 岩倉邸 京都市中心部 京都": {
+    "lat": 35.0707743,
+    "lng": 135.7754639,
+    "place_id": "ChIJdRXC25OnAWARjNuyBwnvUPY"
   },
   "place:近江うし焼肉にくTATSU渋谷店 渋谷区神南1-20-15神南101ビル　1階": {
     "lat": 35.6621743,
@@ -7132,6 +8252,11 @@
     "lat": 35.647461,
     "lng": 139.71757399999998,
     "place_id": "ChIJIYC7RROLGGARTtnw0LhkrkY"
+  },
+  "place:郷和 京都市中心部 京都": {
+    "lat": 35.0085257,
+    "lng": 135.7604701,
+    "place_id": "ChIJAflpQDUJAWARzEnp42zshvQ"
   },
   "place:酒とご飯ビオサケダイニングリンリン 渋谷区道玄坂1-22-11星野ビルB!": {
     "lat": 35.656463099999996,
@@ -7152,6 +8277,11 @@
     "lat": 35.6465274,
     "lng": 139.7088077,
     "place_id": "ChIJA1X2Oy2LGGARpFPE0rj8yNQ"
+  },
+  "place:酒と米　おきな屋 伏見・山科 京都": {
+    "lat": 34.9328102,
+    "lng": 135.7564834,
+    "place_id": "ChIJBbdiKokPAWARjRUKEmGuZpE"
   },
   "place:酒と魚の隠れ家兼六 渋谷区幡ヶ谷2-13-4定石ビル地下1階": {
     "lat": 35.677569399999996,
@@ -7213,6 +8343,11 @@
     "lng": 139.69406,
     "place_id": "ChIJ0VTCo62MGGARHyD8hFXe3pY"
   },
+  "place:野菜とステーキ ぼるた 嵐山 京都": {
+    "lat": 35.0193728,
+    "lng": 135.6790698,
+    "place_id": "ChIJkbJrLPmpAWARXudoqGepLLc"
+  },
   "place:野趣家 渋谷区神宮前5-51-8ラ・ポルト青山B1F": {
     "lat": 35.6628845,
     "lng": 139.7093856,
@@ -7227,6 +8362,11 @@
     "lat": 35.6608944,
     "lng": 139.69797789999998,
     "place_id": "ChIJAxN6p6mMGGARV4ZCE8RH4pc"
+  },
+  "place:釜めし割烹 あげ半 京都市中心部 京都": {
+    "lat": 35.04424220000001,
+    "lng": 135.77483709999998,
+    "place_id": "ChIJUUbOLZUIAWAR1A7oZWkj-rs"
   },
   "place:鉄板お好焼昇次郎 渋谷区代々木4-6-5七福ビル2F": {
     "lat": 35.6785469,
@@ -7243,10 +8383,25 @@
     "lng": 139.6768531,
     "place_id": "ChIJTwJ_2rzzGGARHwMQ2w6LHYg"
   },
+  "place:鉄板焼 ときわ（ホテルオークラ京都内） 京都市中心部 京都": {
+    "lat": 35.0116831,
+    "lng": 135.7694683,
+    "place_id": "ChIJaQOSnZIIAWARg8Avuu3uM8g"
+  },
   "place:鉄板焼 よしむら 渋谷区広尾5-19-11マリオン広尾ビルB1": {
     "lat": 35.6485237,
     "lng": 139.7203994,
     "place_id": "ChIJO70OxxKLGGARrYyjWDgaeio"
+  },
+  "place:鉄板焼 五山望（ホテルグランヴィア京都内） 京都駅周辺 京都": {
+    "lat": 34.9858347,
+    "lng": 135.75878889999998,
+    "place_id": "ChIJF7FjtZsIAWARfjcv39dRrvM"
+  },
+  "place:鉄板焼 葵（リーガロイヤルホテル京都内） 京都駅周辺 京都": {
+    "lat": 34.9860307,
+    "lng": 135.7527346,
+    "place_id": "ChIJtXTn0a8IAWAR7LZ9MJr4iCQ"
   },
   "place:鉄板焼Note 渋谷区西原3-3-1アラキビルB1F": {
     "lat": 35.67042,
@@ -7273,6 +8428,11 @@
     "lng": 139.7125049,
     "place_id": "ChIJn2KWu4SNGGARC4AjRkpDGeA"
   },
+  "place:閼伽井（あかい） 祇園・東山 京都": {
+    "lat": 35.0005178,
+    "lng": 135.7781576,
+    "place_id": "ChIJRXig-cEIAWARSDlzaVY8zvM"
+  },
   "place:隠れ酒場　円空 渋谷区道玄坂1-15-7アネックスサクマ201": {
     "lat": 35.6569686,
     "lng": 139.6975232,
@@ -7287,6 +8447,11 @@
     "lat": 35.6607512,
     "lng": 139.7073814,
     "place_id": "ChIJFYpiO1-LGGAR9WHtdudO334"
+  },
+  "place:青蓮院門跡前 月おか 祇園・東山 京都": {
+    "lat": 35.0080555,
+    "lng": 135.7825655,
+    "place_id": "ChIJlWTPnDIJAWARx_-qvDTSgzA"
   },
   "place:韓ぐる 渋谷区幡ヶ谷2-9-20第二DNビル　2F": {
     "lat": 35.6783041,
@@ -7333,6 +8498,16 @@
     "lng": 139.71779379999998,
     "place_id": "ChIJqc32PjyLGGARzmvlkCV56ys"
   },
+  "place:食｜京都小川生薬RESTAURANT 京都市中心部 京都": {
+    "lat": 35.0124238,
+    "lng": 135.7535505,
+    "place_id": "ChIJAdeo7DMJAWAROA1rjF-hFsU"
+  },
+  "place:饗宴 祇園・東山 京都": {
+    "lat": 35.001675,
+    "lng": 135.7742069,
+    "place_id": "ChIJc-KELwQJAWARUNsOmKT79BQ"
+  },
   "place:香港ロジ 渋谷区神宮前2丁目19番15号コーポ松園102": {
     "lat": 35.6738447,
     "lng": 139.7105296,
@@ -7347,6 +8522,11 @@
     "lat": 35.680606,
     "lng": 139.6931917,
     "place_id": "ChIJ6xSZNSqNGGARg1TYJxvDjYM"
+  },
+  "place:高台寺 十牛庵 祇園・東山 京都": {
+    "lat": 34.998593,
+    "lng": 135.7814799,
+    "place_id": "ChIJne5iP9AIAWARVK5mP9NcAoU"
   },
   "place:魚きんめ 渋谷区道玄坂2-6-14HYビル2F": {
     "lat": 35.6591105,
@@ -7397,6 +8577,11 @@
     "lat": 35.6472194,
     "lng": 139.7159694,
     "place_id": "ChIJS-uSsRSLGGAR-1AFsDXZkRo"
+  },
+  "place:魚師匠 -BURISHO- 京都市中心部 京都": {
+    "lat": 34.9988995,
+    "lng": 135.7634956,
+    "place_id": "ChIJS8mj8GAJAWARHWxNt-u4oRo"
   },
   "place:魚音 渋谷区初台1-11-12": {
     "lat": 35.679368499999995,
@@ -7472,6 +8657,11 @@
     "lat": 35.6789686,
     "lng": 139.7090768,
     "place_id": "ChIJdTvCHdaNGGARCgY_ftD5HZ8"
+  },
+  "place:鳴海餅 本店 京都市中心部 京都": {
+    "lat": 35.01989,
+    "lng": 135.7515525,
+    "place_id": "ChIJicwK564IAWARiJPscnlxIeA"
   },
   "place:鶏なか 渋谷区宇田川町11-11柳光ビル本館1階": {
     "lat": 35.6625656,
@@ -7567,6 +8757,11 @@
     "lat": 35.6458723,
     "lng": 139.71549149999998,
     "place_id": "ChIJsb7b_5uLGGAReVYJdx7jaYc"
+  },
+  "place:黒毛和牛ヘレ肉専門店 炭火焼肉 りきちゃん 祇園店 祇園・東山 京都": {
+    "lat": 35.0034771,
+    "lng": 135.77452800000003,
+    "place_id": "ChIJf1074jIJAWARPwQ8T019OFQ"
   },
   "place:黒牛 渋谷区代々木3-1-11パシフィックスクエア代々木": {
     "lat": 35.6821836,
