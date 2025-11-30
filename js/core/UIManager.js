@@ -1,3 +1,5 @@
+import { isIOS } from '../utils/helpers.js';
+
 export class UIManager {
   constructor(containerIds) {
     this.filterContainer = document.getElementById(containerIds.filters);
@@ -185,8 +187,14 @@ export class UIManager {
         if (col.isLink) {
             const a = document.createElement('a');
             a.href = row.mapUrl || '#';
-            a.target = "_blank";
-            a.rel = "noopener";
+            
+            // On iOS, target="_blank" can prevent Universal Links (app switching) from working.
+            // We only set it for non-iOS devices.
+            if (!isIOS()) {
+                a.target = "_blank";
+                a.rel = "noopener";
+            }
+            
             a.textContent = content || '(No Title)';
             td.appendChild(a);
         } else {

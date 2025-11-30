@@ -5,6 +5,10 @@ const statusMessage = document.getElementById("status");
 const tableBody = document.getElementById("restaurant-body");
 const mapContainer = document.getElementById("map");
 
+function isIOS() {
+  return /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+}
+
 const AREA_PATTERNS = [
   "代々木上原",
   "南平台町",
@@ -381,8 +385,12 @@ function renderTable(rows) {
     link.dataset.role = "map-link";
     link.textContent = restaurant.name;
     link.href = buildMapUrl(restaurant);
-    link.target = "_blank";
-    link.rel = "noopener";
+    
+    if (!isIOS()) {
+        link.target = "_blank";
+        link.rel = "noopener";
+    }
+    
     nameCell.append(link);
     tr.append(nameCell);
 
@@ -536,8 +544,12 @@ function createInfoWindowContent(restaurant) {
 
   const titleLink = document.createElement("a");
   titleLink.href = buildMapUrl(restaurant);
-  titleLink.target = "_blank";
-  titleLink.rel = "noopener";
+  
+  if (!isIOS()) {
+      titleLink.target = "_blank";
+      titleLink.rel = "noopener";
+  }
+  
   titleLink.textContent = restaurant.name || "(No title)";
   titleLink.style.fontWeight = "600";
   titleLink.style.color = "#1a73e8";

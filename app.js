@@ -9,6 +9,10 @@ const statusMessage = document.getElementById("status");
 const tableBody = document.getElementById("table-body");
 const mapContainer = document.getElementById("map");
 
+function isIOS() {
+  return /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+}
+
 let allShops = [];
 const activeTags = new Set();
 let currentFilteredRows = [];
@@ -311,8 +315,12 @@ function renderTable(rows) {
     const displayName = shop.name || "(No title)";
     link.textContent = displayName;
     link.href = buildMapUrl(shop);
-    link.target = "_blank";
-    link.rel = "noopener";
+    
+    if (!isIOS()) {
+        link.target = "_blank";
+        link.rel = "noopener";
+    }
+    
     nameCell.append(link);
     tr.append(nameCell);
 
@@ -456,8 +464,12 @@ function createInfoWindowContent(shop) {
 
   const titleLink = document.createElement("a");
   titleLink.href = buildMapUrl(shop);
-  titleLink.target = "_blank";
-  titleLink.rel = "noopener";
+  
+  if (!isIOS()) {
+      titleLink.target = "_blank";
+      titleLink.rel = "noopener";
+  }
+  
   titleLink.textContent = shop.name || "(No title)";
   titleLink.style.fontWeight = "600";
   titleLink.style.color = "#1a73e8";

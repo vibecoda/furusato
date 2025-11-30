@@ -1,6 +1,7 @@
 import { MapManager } from './core/MapManager.js';
 import { DataManager } from './core/DataManager.js';
 import { UIManager } from './core/UIManager.js';
+import { isIOS } from './utils/helpers.js';
 
 import { tokyoConfig } from './config/tokyo.js';
 import { kyotoConfig } from './config/kyoto.js';
@@ -151,8 +152,12 @@ class App {
 
         const title = document.createElement('a');
         title.href = item.mapUrl;
-        title.target = "_blank";
-        title.rel = "noopener";
+        
+        if (!isIOS()) {
+            title.target = "_blank";
+            title.rel = "noopener";
+        }
+        
         title.style.fontWeight = "bold";
         title.style.color = "#1a73e8";
         title.textContent = item.title || "(No Title)";
