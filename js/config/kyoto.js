@@ -1,6 +1,8 @@
 function buildMapUrl(shop) {
   if (shop.GooglePlaceId && typeof shop.GooglePlaceId === 'string' && shop.GooglePlaceId.trim()) {
-    return `https://www.google.com/maps/place/?q=place_id:${shop.GooglePlaceId.trim()}`;
+    const placeId = shop.GooglePlaceId.trim();
+    const name = shop.Title || "Shop";
+    return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(name)}&query_place_id=${placeId}`;
   }
 
   const queryParts = [shop.Title, shop.AreaName, shop.ProductPrefectureName]

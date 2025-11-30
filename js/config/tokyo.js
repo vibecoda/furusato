@@ -1,6 +1,8 @@
 function buildMapUrl(shop, municipality) {
   if (shop.googlePlaceId && typeof shop.googlePlaceId === 'string' && shop.googlePlaceId.trim()) {
-    return `https://www.google.com/maps/place/?q=place_id:${shop.googlePlaceId.trim()}`;
+    const placeId = shop.googlePlaceId.trim();
+    const name = shop.name || "Shop";
+    return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(name)}&query_place_id=${placeId}`;
   }
 
   const queryParts = [shop.name, shop.details?.["住所"], municipality, shop.area?.prefecture]

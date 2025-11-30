@@ -96,7 +96,8 @@ function buildMapUrl(record, name, address, latitude, longitude, hasCoordinates)
   }
 
   if (record.google_place_id?.trim()) {
-    return `https://www.google.com/maps/place/?q=place_id:${record.google_place_id.trim()}`;
+    const placeId = record.google_place_id.trim();
+    return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(name)}&query_place_id=${placeId}`;
   }
 
   const queryParts = [name, address]

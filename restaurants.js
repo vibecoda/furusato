@@ -434,7 +434,7 @@ function buildMapUrl(restaurant) {
   }
 
   if (restaurant.googlePlaceId) {
-    return `https://www.google.com/maps/place/?q=place_id:${restaurant.googlePlaceId}`;
+    return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(restaurant.name)}&query_place_id=${restaurant.googlePlaceId}`;
   }
 
   const queryParts = [restaurant.name, restaurant.address]

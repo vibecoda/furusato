@@ -354,7 +354,7 @@ function renderTable(rows) {
 
 function buildMapUrl(shop) {
   if (shop.placeId) {
-    return `https://www.google.com/maps/place/?q=place_id:${shop.placeId}`;
+    return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(shop.name)}&query_place_id=${shop.placeId}`;
   }
 
   const queryParts = [shop.name, shop.address, shop.municipality, shop.prefecture]
