@@ -66,6 +66,49 @@ class App {
     // Default to Tokyo (or check URL hash?)
     // Let's default to Tokyo for now.
     await this.switchContext('tokyo');
+
+    // Bind "Find Me" button
+    const findMeBtn = document.getElementById('find-me-btn');
+    if (findMeBtn) {
+      findMeBtn.addEventListener('click', () => this.handleFindMe(findMeBtn));
+    }
+  }
+
+  async handleFindMe(button) {
+    if (!navigator.geolocation) {
+      alert("Geolocation is not supported by your browser.");
+      return;
+    }
+
+    const originalText = button.innerHTML;
+    button.disabled = true;
+    button.innerHTML = `
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="animate-spin">
+        <line x1="12" y1="2" x2="12" y2="6"></line>
+        <line x1="12" y1="18" x2="12" y2="22"></line>
+        <line x1="4.93" y1="4.93" x2="7.76" y2="7.76"></line>
+        <line x1="16.24" y1="16.24" x2="19.07" y2="19.07"></line>
+        <line x1="2" y1="12" x2="6" y2="12"></line>
+        <line x1="18" y1="12" x2="22" y2="12"></line>
+        <line x1="4.93" y1="19.07" x2="7.76" y2="16.24"></line>
+        <line x1="16.24" y1="7.76" x2="19.07" y2="4.93"></line>
+      </svg> Locating...`;
+
+    navigator.geolocation.getCurrentPosition(
+      (position) => {
+        const { latitude, longitude } = position.coords;
+        this.mapManager.showUserLocation(latitude, longitude);
+        button.innerHTML = originalText;
+        button.disabled = false;
+      },
+      (error) => {
+        console.error("Error getting location:", error);
+        alert("Unable to retrieve your location.");
+        button.innerHTML = originalText;
+        button.disabled = false;
+      },
+      { timeout: 10000, maximumAge: 60000, enableHighAccuracy: true }
+    );
   }
 
   async switchContext(configId) {

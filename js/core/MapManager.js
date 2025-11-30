@@ -4,6 +4,7 @@ export class MapManager {
     this.map = null;
     this.markers = [];
     this.infoWindow = null;
+    this.userMarker = null;
     // Defaults, can be overridden per config if needed, or set via `setCenter`
     this.defaultCenter = { lat: 35.6895, lng: 139.6917 }; 
     this.defaultZoom = 12;
@@ -25,6 +26,37 @@ export class MapManager {
     });
 
     this.infoWindow = new google.maps.InfoWindow();
+  }
+
+  showUserLocation(lat, lng) {
+    if (!this.map) return;
+
+    const position = { lat, lng };
+
+    // Remove existing user marker if any
+    if (this.userMarker) {
+      this.userMarker.setMap(null);
+    }
+
+    // Create a blue circle marker or similar to represent user
+    // Using a standard marker with a blue icon for simplicity
+    this.userMarker = new google.maps.Marker({
+      map: this.map,
+      position: position,
+      title: "Your Location",
+      icon: {
+        path: google.maps.SymbolPath.CIRCLE,
+        scale: 7,
+        fillColor: "#4285F4",
+        fillOpacity: 1,
+        strokeColor: "white",
+        strokeWeight: 2,
+      },
+      zIndex: 999 // Keep it on top
+    });
+
+    this.map.setCenter(position);
+    this.map.setZoom(15); // Closer zoom for user location
   }
 
   updateMarkers(items, contentGenerator) {

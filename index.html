@@ -170,6 +170,40 @@
         height: 100%;
       }
 
+      .map-control-btn {
+        position: absolute;
+        bottom: 1.5rem;
+        right: 1rem;
+        background: white;
+        border: 1px solid #ccc;
+        border-radius: 2rem;
+        padding: 0.6rem 1rem;
+        font-size: 0.9rem;
+        font-weight: 600;
+        color: #555;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        z-index: 10; /* Above map */
+        transition: all 0.2s;
+      }
+
+      .map-control-btn:hover {
+        background: #f0f4ff;
+        color: var(--primary-color);
+      }
+
+      .animate-spin {
+        animation: spin 1s linear infinite;
+      }
+
+      @keyframes spin {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
+      }
+
       /* Table */
       .table-container {
         background: white;
@@ -230,6 +264,12 @@
         <div class="content-grid">
             <section id="map-container" class="map-container">
                 <div id="map"></div>
+                <button id="find-me-btn" class="map-control-btn" type="button">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <polygon points="3 11 22 2 13 21 11 13 3 11"></polygon>
+                    </svg>
+                    Find Me
+                </button>
             </section>
             
             <section class="table-container">
