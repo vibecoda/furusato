@@ -1,0 +1,590 @@
+[
+  {
+    "region": "\u5317\u6d77\u9053\u5730\u65b9",
+    "municipalities": [
+      {
+        "name": "\u5317\u6d77\u9053\uff08\u9053\u5e81\uff09",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=10001"
+      },
+      {
+        "name": "\u5317\u6d77\u9053\u672d\u5e4c\u5e02",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=1"
+      },
+      {
+        "name": "\u5317\u6d77\u9053\u51fd\u9928\u5e02",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=2"
+      },
+      {
+        "name": "\u5317\u6d77\u9053\u5c0f\u6a3d\u5e02",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=3"
+      },
+      {
+        "name": "\u5317\u6d77\u9053\u91e7\u8def\u5e02",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=6"
+      },
+      {
+        "name": "\u5317\u6d77\u9053\u5343\u6b73\u5e02",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=24"
+      },
+      {
+        "name": "\u5317\u6d77\u9053\u5bcc\u826f\u91ce\u5e02",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=29"
+      },
+      {
+        "name": "\u5317\u6d77\u9053\u767b\u5225\u5e02",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=30"
+      },
+      {
+        "name": "\u5317\u6d77\u9053\u5036\u77e5\u5b89\u753a",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=63"
+      },
+      {
+        "name": "\u5317\u6d77\u9053\u5f1f\u5b50\u5c48\u753a",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=173"
+      }
+    ]
+  },
+  {
+    "region": "\u6771\u5317\u5730\u65b9",
+    "municipalities": [
+      {
+        "name": "\u9752\u68ee\u770c\uff08\u770c\u5e81\uff09",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=10002"
+      },
+      {
+        "name": "\u5ca9\u624b\u770c\uff08\u770c\u5e81\uff09",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=10003"
+      },
+      {
+        "name": "\u5ca9\u624b\u770c\u82b1\u5dfb\u5e02",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=223"
+      },
+      {
+        "name": "\u5bae\u57ce\u770c\uff08\u770c\u5e81\uff09",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=10004"
+      },
+      {
+        "name": "\u5bae\u57ce\u770c\u4ed9\u53f0\u5e02",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=253"
+      },
+      {
+        "name": "\u79cb\u7530\u770c\uff08\u770c\u5e81\uff09",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=10005"
+      },
+      {
+        "name": "\u5c71\u5f62\u770c\uff08\u770c\u5e81\uff09",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=10006"
+      },
+      {
+        "name": "\u5c71\u5f62\u770c\u7c73\u6ca2\u5e02",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=314"
+      },
+      {
+        "name": "\u5c71\u5f62\u770c\u5c3e\u82b1\u6ca2\u5e02",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=324"
+      },
+      {
+        "name": "\u798f\u5cf6\u770c\u798f\u5cf6\u5e02",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=348"
+      },
+      {
+        "name": "\u798f\u5cf6\u770c\u4f1a\u6d25\u82e5\u677e\u5e02",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=349"
+      }
+    ]
+  },
+  {
+    "region": "\u95a2\u6771\u5730\u65b9",
+    "municipalities": [
+      {
+        "name": "\u8328\u57ce\u770c\uff08\u770c\u5e81\uff09",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=10008"
+      },
+      {
+        "name": "\u6803\u6728\u770c\uff08\u770c\u5e81\uff09",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=10009"
+      },
+      {
+        "name": "\u6803\u6728\u770c\u65e5\u5149\u5e02",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=456"
+      },
+      {
+        "name": "\u6803\u6728\u770c\u90a3\u9808\u5869\u539f\u5e02",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=461"
+      },
+      {
+        "name": "\u6803\u6728\u770c\u90a3\u9808\u753a",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=475"
+      },
+      {
+        "name": "\u7fa4\u99ac\u770c\uff08\u770c\u5e81\uff09",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=10010"
+      },
+      {
+        "name": "\u5343\u8449\u770c\u9928\u5c71\u5e02",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=579"
+      },
+      {
+        "name": "\u5343\u8449\u770c\u6d66\u5b89\u5e02",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=599"
+      },
+      {
+        "name": "\u6771\u4eac\u90fd\u5343\u4ee3\u7530\u533a",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=629"
+      },
+      {
+        "name": "\u6771\u4eac\u90fd\u6e2f\u533a",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=631"
+      },
+      {
+        "name": "\u6771\u4eac\u90fd\u65b0\u5bbf\u533a",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=632"
+      },
+      {
+        "name": "\u6771\u4eac\u90fd\u58a8\u7530\u533a",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=635"
+      },
+      {
+        "name": "\u6771\u4eac\u90fd\u6c5f\u6771\u533a",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=636"
+      },
+      {
+        "name": "\u6771\u4eac\u90fd\u5927\u7530\u533a",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=639"
+      },
+      {
+        "name": "\u6771\u4eac\u90fd\u6e0b\u8c37\u533a",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=641"
+      },
+      {
+        "name": "\u6771\u4eac\u90fd\u4e2d\u91ce\u533a",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=642"
+      },
+      {
+        "name": "\u6771\u4eac\u90fd\u8c4a\u5cf6\u533a",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=644"
+      },
+      {
+        "name": "\u795e\u5948\u5ddd\u770c\u6a2a\u6d5c\u5e02",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=691"
+      },
+      {
+        "name": "\u795e\u5948\u5ddd\u770c\u6a2a\u9808\u8cc0\u5e02",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=694"
+      },
+      {
+        "name": "\u795e\u5948\u5ddd\u770c\u938c\u5009\u5e02",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=696"
+      },
+      {
+        "name": "\u795e\u5948\u5ddd\u770c\u79e6\u91ce\u5e02",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=702"
+      },
+      {
+        "name": "\u795e\u5948\u5ddd\u770c\u7bb1\u6839\u753a",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=719"
+      },
+      {
+        "name": "\u795e\u5948\u5ddd\u770c\u6e6f\u6cb3\u539f\u753a",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=721"
+      }
+    ]
+  },
+  {
+    "region": "\u4e2d\u90e8\u5730\u65b9",
+    "municipalities": [
+      {
+        "name": "\u65b0\u6f5f\u770c\uff08\u770c\u5e81\uff09",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=10015"
+      },
+      {
+        "name": "\u65b0\u6f5f\u770c\u6e6f\u6ca2\u753a",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=749"
+      },
+      {
+        "name": "\u5bcc\u5c71\u770c\uff08\u770c\u5e81\uff09",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=10016"
+      },
+      {
+        "name": "\u77f3\u5ddd\u770c\u91d1\u6ca2\u5e02",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=769"
+      },
+      {
+        "name": "\u77f3\u5ddd\u770c\u4e03\u5c3e\u5e02",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=770"
+      },
+      {
+        "name": "\u77f3\u5ddd\u770c\u52a0\u8cc0\u5e02",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=774"
+      },
+      {
+        "name": "\u798f\u4e95\u770c\uff08\u770c\u5e81\uff09",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=10018"
+      },
+      {
+        "name": "\u798f\u4e95\u770c\u3042\u308f\u3089\u5e02",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=794"
+      },
+      {
+        "name": "\u5c71\u68a8\u770c\u7532\u5e9c\u5e02",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=805"
+      },
+      {
+        "name": "\u5c71\u68a8\u770c\u5bcc\u58eb\u5409\u7530\u5e02",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=806"
+      },
+      {
+        "name": "\u5c71\u68a8\u770c\u5317\u675c\u5e02",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=812"
+      },
+      {
+        "name": "\u5c71\u68a8\u770c\u7b1b\u5439\u5e02",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=814"
+      },
+      {
+        "name": "\u5c71\u68a8\u770c\u5c71\u4e2d\u6e56\u6751",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=827"
+      },
+      {
+        "name": "\u5c71\u68a8\u770c\u5bcc\u58eb\u6cb3\u53e3\u6e56\u753a",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=829"
+      },
+      {
+        "name": "\u9577\u91ce\u770c\u4e0a\u7530\u5e02",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=834"
+      },
+      {
+        "name": "\u9577\u91ce\u770c\u8acf\u8a2a\u5e02",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=837"
+      },
+      {
+        "name": "\u9577\u91ce\u770c\u98ef\u5c71\u5e02",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=844"
+      },
+      {
+        "name": "\u9577\u91ce\u770c\u8305\u91ce\u5e02",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=845"
+      },
+      {
+        "name": "\u9577\u91ce\u770c\u5343\u66f2\u5e02",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=848"
+      },
+      {
+        "name": "\u9577\u91ce\u770c\u8efd\u4e95\u6ca2\u753a",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=857"
+      },
+      {
+        "name": "\u9577\u91ce\u770c\u767d\u99ac\u6751",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=897"
+      },
+      {
+        "name": "\u9577\u91ce\u770c\u5c0f\u8c37\u6751",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=898"
+      },
+      {
+        "name": "\u5c90\u961c\u770c\u9ad8\u5c71\u5e02",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=911"
+      },
+      {
+        "name": "\u5c90\u961c\u770c\u90e1\u4e0a\u5e02",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=927"
+      },
+      {
+        "name": "\u5c90\u961c\u770c\u767d\u5ddd\u6751",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=950"
+      },
+      {
+        "name": "\u9759\u5ca1\u770c\uff08\u770c\u5e81\uff09",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=10022"
+      },
+      {
+        "name": "\u9759\u5ca1\u770c\u6d5c\u677e\u5e02",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=952"
+      },
+      {
+        "name": "\u9759\u5ca1\u770c\u71b1\u6d77\u5e02",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=954"
+      },
+      {
+        "name": "\u9759\u5ca1\u770c\u4f0a\u6771\u5e02",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=957"
+      },
+      {
+        "name": "\u9759\u5ca1\u770c\u5fa1\u6bbf\u5834\u5e02",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=964"
+      },
+      {
+        "name": "\u9759\u5ca1\u770c\u4e0b\u7530\u5e02",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=966"
+      },
+      {
+        "name": "\u9759\u5ca1\u770c\u4f0a\u8c46\u5e02",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=969"
+      },
+      {
+        "name": "\u9759\u5ca1\u770c\u4f0a\u8c46\u306e\u56fd\u5e02",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=972"
+      },
+      {
+        "name": "\u9759\u5ca1\u770c\u6771\u4f0a\u8c46\u753a",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=974"
+      },
+      {
+        "name": "\u9759\u5ca1\u770c\u6cb3\u6d25\u753a",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=975"
+      },
+      {
+        "name": "\u9759\u5ca1\u770c\u5357\u4f0a\u8c46\u753a",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=976"
+      },
+      {
+        "name": "\u9759\u5ca1\u770c\u897f\u4f0a\u8c46\u753a",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=978"
+      },
+      {
+        "name": "\u611b\u77e5\u770c\u540d\u53e4\u5c4b\u5e02",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=986"
+      },
+      {
+        "name": "\u611b\u77e5\u770c\u5357\u77e5\u591a\u753a",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=1033"
+      }
+    ]
+  },
+  {
+    "region": "\u8fd1\u757f\u5730\u65b9",
+    "municipalities": [
+      {
+        "name": "\u4e09\u91cd\u770c\u4f0a\u52e2\u5e02",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=1042"
+      },
+      {
+        "name": "\u4e09\u91cd\u770c\u6851\u540d\u5e02",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=1044"
+      },
+      {
+        "name": "\u4e09\u91cd\u770c\u9ce5\u7fbd\u5e02",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=1049"
+      },
+      {
+        "name": "\u4e09\u91cd\u770c\u5fd7\u6469\u5e02",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=1052"
+      },
+      {
+        "name": "\u6ecb\u8cc0\u770c\uff08\u770c\u5e81\uff09",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=10025"
+      },
+      {
+        "name": "\u6ecb\u8cc0\u770c\u9ad8\u5cf6\u5e02",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=1079"
+      },
+      {
+        "name": "\u4eac\u90fd\u5e9c\uff08\u5e9c\u5e81\uff09",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=10026"
+      },
+      {
+        "name": "\u4eac\u90fd\u5e9c\u4eac\u90fd\u5e02",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=1088"
+      },
+      {
+        "name": "\u4eac\u90fd\u5e9c\u5bae\u6d25\u5e02",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=1093"
+      },
+      {
+        "name": "\u4eac\u90fd\u5e9c\u4e80\u5ca1\u5e02",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=1094"
+      },
+      {
+        "name": "\u4eac\u90fd\u5e9c\u4eac\u4e39\u5f8c\u5e02",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=1100"
+      },
+      {
+        "name": "\u5927\u962a\u5e9c\u5927\u962a\u5e02",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=1114"
+      },
+      {
+        "name": "\u5927\u962a\u5e9c\u6cc9\u4f50\u91ce\u5e02",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=1127"
+      },
+      {
+        "name": "\u5175\u5eab\u770c\uff08\u770c\u5e81\uff09",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=10028"
+      },
+      {
+        "name": "\u5175\u5eab\u770c\u795e\u6238\u5e02",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=1157"
+      },
+      {
+        "name": "\u5175\u5eab\u770c\u6d32\u672c\u5e02",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=1162"
+      },
+      {
+        "name": "\u5175\u5eab\u770c\u8c4a\u5ca1\u5e02",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=1166"
+      },
+      {
+        "name": "\u5175\u5eab\u770c\u5357\u3042\u308f\u3058\u5e02",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=1180"
+      },
+      {
+        "name": "\u5948\u826f\u770c\uff08\u770c\u5e81\uff09",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=10029"
+      },
+      {
+        "name": "\u5948\u826f\u770c\u5948\u826f\u5e02",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=1198"
+      },
+      {
+        "name": "\u548c\u6b4c\u5c71\u770c\u9ad8\u91ce\u753a",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=1249"
+      },
+      {
+        "name": "\u548c\u6b4c\u5c71\u770c\u767d\u6d5c\u753a",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=1259"
+      },
+      {
+        "name": "\u548c\u6b4c\u5c71\u770c\u90a3\u667a\u52dd\u6d66\u753a",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=1262"
+      }
+    ]
+  },
+  {
+    "region": "\u4e2d\u56fd\u5730\u65b9",
+    "municipalities": [
+      {
+        "name": "\u9ce5\u53d6\u770c\u4e09\u671d\u753a",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=1275"
+      },
+      {
+        "name": "\u5cf6\u6839\u770c\u51fa\u96f2\u5e02",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=1288"
+      },
+      {
+        "name": "\u5ca1\u5c71\u770c\u5009\u6577\u5e02",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=1306"
+      },
+      {
+        "name": "\u5e83\u5cf6\u770c\u5eff\u65e5\u5e02\u5e02",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=1343"
+      }
+    ]
+  },
+  {
+    "region": "\u56db\u56fd\u5730\u65b9",
+    "municipalities": [
+      {
+        "name": "\u5fb3\u5cf6\u770c\uff08\u770c\u5e81\uff09",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=10036"
+      },
+      {
+        "name": "\u5fb3\u5cf6\u770c\u9cf4\u9580\u5e02",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=1375"
+      },
+      {
+        "name": "\u611b\u5a9b\u770c\uff08\u770c\u5e81\uff09",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=10038"
+      },
+      {
+        "name": "\u611b\u5a9b\u770c\u677e\u5c71\u5e02",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=1415"
+      },
+      {
+        "name": "\u9ad8\u77e5\u770c\uff08\u770c\u5e81\uff09",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=10039"
+      }
+    ]
+  },
+  {
+    "region": "\u4e5d\u5dde\u5730\u65b9",
+    "municipalities": [
+      {
+        "name": "\u798f\u5ca1\u770c\u5317\u4e5d\u5dde\u5e02",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=1469"
+      },
+      {
+        "name": "\u798f\u5ca1\u770c\u798f\u5ca1\u5e02",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=1470"
+      },
+      {
+        "name": "\u798f\u5ca1\u770c\u7cf8\u5cf6\u5e02",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=1496"
+      },
+      {
+        "name": "\u4f50\u8cc0\u770c\uff08\u770c\u5e81\uff09",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=10041"
+      },
+      {
+        "name": "\u9577\u5d0e\u770c\uff08\u770c\u5e81\uff09",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=10042"
+      },
+      {
+        "name": "\u9577\u5d0e\u770c\u9577\u5d0e\u5e02",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=1549"
+      },
+      {
+        "name": "\u718a\u672c\u770c\u5357\u5c0f\u56fd\u753a",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=1591"
+      },
+      {
+        "name": "\u5927\u5206\u770c\uff08\u770c\u5e81\uff09",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=10044"
+      },
+      {
+        "name": "\u5927\u5206\u770c\u5225\u5e9c\u5e02",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=1616"
+      },
+      {
+        "name": "\u5927\u5206\u770c\u7531\u5e03\u5e02",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=1627"
+      },
+      {
+        "name": "\u5bae\u5d0e\u770c\u5bae\u5d0e\u5e02",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=1633"
+      },
+      {
+        "name": "\u9e7f\u5150\u5cf6\u770c\u9e7f\u5150\u5cf6\u5e02",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=1659"
+      },
+      {
+        "name": "\u9e7f\u5150\u5cf6\u770c\u6307\u5bbf\u5e02",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=1664"
+      },
+      {
+        "name": "\u9e7f\u5150\u5cf6\u770c\u9727\u5cf6\u5e02",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=1670"
+      },
+      {
+        "name": "\u9e7f\u5150\u5cf6\u770c\u5944\u7f8e\u5e02",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=1674"
+      },
+      {
+        "name": "\u6c96\u7e04\u770c\u90a3\u8987\u5e02",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=1702"
+      },
+      {
+        "name": "\u6c96\u7e04\u770c\u77f3\u57a3\u5e02",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=1704"
+      },
+      {
+        "name": "\u6c96\u7e04\u770c\u7cf8\u6e80\u5e02",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=1707"
+      },
+      {
+        "name": "\u6c96\u7e04\u770c\u3046\u308b\u307e\u5e02",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=1710"
+      },
+      {
+        "name": "\u6c96\u7e04\u770c\u4eca\u5e30\u4ec1\u6751",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=1716"
+      },
+      {
+        "name": "\u6c96\u7e04\u770c\u672c\u90e8\u753a",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=1717"
+      },
+      {
+        "name": "\u6c96\u7e04\u770c\u6069\u7d0d\u6751",
+        "detailUrl": "https://tp.furunavi.jp/Municipal/Detail?municipalid=1718"
+      }
+    ]
+  }
+]

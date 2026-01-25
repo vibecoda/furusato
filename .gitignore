@@ -2,4 +2,5 @@ push.sh
 .env
 .claude
 js/env.js
+__pycache__
 
