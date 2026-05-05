@@ -157,7 +157,7 @@ The `process_shops()` helper in `geocode.py` is generic. Call it with:
 
 ## Notes
 
-- The `index.html` file contains two copies of the Google Maps JS API key (one hardcoded production key, one from `env.js` as a dynamic override). The production key is `AIzaSyAP9kDSLG9wPHPfn2u1SiTGGWYBAFhqz7E`.
+- The `index.html` file contains two copies of the Google Maps JS API key (one hardcoded production key, one from `env.js` as a dynamic override).
 - iOS detection in `helpers.js` controls whether map links use `target="_blank"` (avoided on iOS to preserve Universal Links / app switching).
 - The `vibecoda` remote is used for deployment; the `push.sh` script uses `~/.ssh/id_rsa` explicitly.
 - The Hachipay config has hardcoded Shibuya-area patterns and romaji mappings for area detection from addresses.
