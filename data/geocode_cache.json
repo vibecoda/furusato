@@ -4,6 +4,11 @@
     "lng": 139.6677258,
     "place_id": "ChIJkck5ioXzGGARL5v3JO4Ge6w"
   },
+  "place: Touch wood 渋谷区笹塚3-7-13つるやビル2F": {
+    "lat": 35.6768143,
+    "lng": 139.6677258,
+    "place_id": "ChIJkck5ioXzGGARL5v3JO4Ge6w"
+  },
   "place:1500(ミレチンクエチェント) 渋谷区元代々木町4-2": {
     "lat": 35.6699537,
     "lng": 139.68724,
@@ -23,6 +28,11 @@
     "lat": 35.6708827,
     "lng": 139.813887,
     "place_id": "ChIJTaKcGMmJGGARRzDpbxXFZDc"
+  },
+  "place:336 ebisu 渋谷区恵比寿3-36-1クーカイテラス1F": {
+    "lat": 35.6429137,
+    "lng": 139.718911,
+    "place_id": "ChIJy7ECaROLGGARg36Wf2XlmzQ"
   },
   "place:4000ChineseRestaurant 〒107-0062 東京都港区南青山7-10-10 パークアクシス南青山7丁目 1F": {
     "lat": 35.6588614,
@@ -139,6 +149,11 @@
     "lng": 139.6910015,
     "place_id": "ChIJX9j_zErzGGARL7ZBBuCM5uQ"
   },
+  "place:ASTERISK 渋谷区本町6-43-7黒田屋ハイツ1F": {
+    "lat": 35.681728299999996,
+    "lng": 139.6755484,
+    "place_id": "ChIJX0Ib_iPzGGARor6DXJnYvvA"
+  },
   "place:AYUR CEYLON Shibuya 渋谷区円山町22-15": {
     "lat": 35.6566101,
     "lng": 139.6942133,
@@ -209,6 +224,11 @@
     "lng": 139.71415299999998,
     "place_id": "ChIJ7SRClsCLGGARP1elBLMol_I"
   },
+  "place:Attitude 渋谷区初台1-9-7初台T&Tビル102": {
+    "lat": 35.6781169,
+    "lng": 139.6871292,
+    "place_id": "ChIJXSCL6zPzGGARVrDDBIeVPCA"
+  },
   "place:B.M.L 渋谷区宇田川町32-7HULIC &New UDAGAWA11階": {
     "lat": 35.661159,
     "lng": 139.69740059999998,
@@ -278,6 +298,11 @@
     "lat": 35.6593227,
     "lng": 139.6967756,
     "place_id": "ChIJO1NRhKmMGGARWY0H5eKiq6A"
+  },
+  "place:BAR TROY 渋谷区千駄ヶ谷5-21-2スペース9 BAR TROY": {
+    "lat": 35.68338130000001,
+    "lng": 139.7043297,
+    "place_id": "ChIJZfBSL-6NGGAR-QoxQVVw4m4"
   },
   "place:BAR TRUST 渋谷区恵比寿1-22-10カマスヤビル地下1階": {
     "lat": 35.6463878,
@@ -510,6 +535,16 @@
     "lng": 139.7086599,
     "place_id": "ChIJQ9A1_F6LGGARFR3hNJ4hRrg"
   },
+  "place:Bar Marvin 渋谷区道玄坂1-20-12MT道玄坂　B102": {
+    "lat": 35.6569904,
+    "lng": 139.6965114,
+    "place_id": "ChIJdQucl1H1GGARkwRrl6cSPWI"
+  },
+  "place:Bar Perch 渋谷 渋谷区桜丘町1-4渋谷サクラステージSHIBUYAサイドB107": {
+    "lat": 35.6566757,
+    "lng": 139.7021833,
+    "place_id": "ChIJRRkJAgCLGGAR6QF_pi846hg"
+  },
   "place:Bar Perche 渋谷区神宮前2-3-30第二竹上ビル101": {
     "lat": 35.674425,
     "lng": 139.7133456,
@@ -575,6 +610,11 @@
     "lng": 139.70802659999998,
     "place_id": "ChIJ9zAfbKuLGGARaocbFVosozU"
   },
+  "place:Bar star star 渋谷区桜丘町17-10吉野ビル3階": {
+    "lat": 35.6562489,
+    "lng": 139.7010906,
+    "place_id": "ChIJ-xwzXFeLGGARTRVKEAqD_gU"
+  },
   "place:Bar 松虎 渋谷区広尾1-16-2VORT恵比寿II 2F": {
     "lat": 35.6486818,
     "lng": 139.711161,
@@ -604,6 +644,11 @@
     "lat": 35.6638836,
     "lng": 139.69382579999998,
     "place_id": "ChIJ1zwHcVSNGGARI7wfBR5iljM"
+  },
+  "place:Bar蒼央 渋谷区代々木1-36-6代々木駅前ビルB1-12号室": {
+    "lat": 35.6592409,
+    "lng": 139.6975914,
+    "place_id": "ChIJyzFZwqmMGGAR2MGbc9Fn42w"
   },
   "place:Be full 渋谷区道玄坂2-8-8コスモ渋谷会館601号": {
     "lat": 35.65853,
@@ -650,6 +695,11 @@
     "lng": 139.721115,
     "place_id": "ChIJszwxRG2LGGARaCZUG-0TGiw"
   },
+  "place:Bistro BOO 〒160-0007 東京都新宿区荒木町3-11 フォレストビル1階": {
+    "lat": 35.688755900000004,
+    "lng": 139.72271379999998,
+    "place_id": "ChIJsRCptreNGGARjj1GBhEEYxc"
+  },
   "place:Bistro Horitetsu 渋谷区宇田川町42-15中島ビルB1": {
     "lat": 35.663160999999995,
     "lng": 139.695177,
@@ -661,6 +711,11 @@
     "place_id": "ChIJ-a0DHJ2NGGARdijkfl-J1B8"
   },
   "place:Bistro W 〒160-0004 東京都新宿区四谷3-14-1\nホテルウィングインターナショナルプレミアム東京四谷 1F": {
+    "lat": 35.6880976,
+    "lng": 139.7184246,
+    "place_id": "ChIJV0IRW-yMGGARw68AuQ2VK0k"
+  },
+  "place:Bistro W（KOKO HOTEL 新宿四谷内） 〒160-0004 東京都新宿区四谷3-14-1\nKOKO HOTEL 新宿四谷 1F": {
     "lat": 35.6880976,
     "lng": 139.7184246,
     "place_id": "ChIJV0IRW-yMGGARw68AuQ2VK0k"
@@ -960,6 +1015,11 @@
     "lng": 139.7540675,
     "place_id": "ChIJkdNFqiGLGGARJzY9nE_OxxU"
   },
+  "place:Cendrillon 渋谷区広尾5-1-22 1階": {
+    "lat": 35.6498421,
+    "lng": 139.7199078,
+    "place_id": "ChIJdS76FwCLGGARHU0ViqoQoAA"
+  },
   "place:Cheval de Hyotan 〒171-0021 東京都豊島区西池袋3-5-7 ウィルコート1F": {
     "lat": 35.7287319,
     "lng": 139.705126,
@@ -1030,6 +1090,11 @@
     "lng": 139.6860696,
     "place_id": "ChIJe14Zv2DzGGAR5pe50H1r-LE"
   },
+  "place:Cucina Shige 〒136-0072 東京都江東区大島2-41-16 1F": {
+    "lat": 35.6898319,
+    "lng": 139.8260992,
+    "place_id": "ChIJ3V3WT-iIGGARQExEUAW_ovc"
+  },
   "place:Curry Leaves（カレーリーブス） 〒130-0013 東京都墨田区錦糸3-13-1": {
     "lat": 35.6993633,
     "lng": 139.8141268,
@@ -1044,6 +1109,11 @@
     "lat": 35.6456613,
     "lng": 139.7077069,
     "place_id": "ChIJafzzjgOLGGARCbPQw8ATIKc"
+  },
+  "place:DADAÏ THAI VIETNAMESE DIMSUM 〒150-0001 東京都渋谷区神宮前6-20-10 MIYASHITA PARK North 1階 10500": {
+    "lat": 35.6623369,
+    "lng": 139.70190209999998,
+    "place_id": "ChIJ-TxoAkaNGGARGwjXXIdlEyw"
   },
   "place:DADA　-DARTS AND KARAOKE- 渋谷区代官山町13-4セレサ代官山　地下一階": {
     "lat": 35.6498437,
@@ -1140,6 +1210,11 @@
     "lng": 139.6922749,
     "place_id": "ChIJH8sxL6KNGGARSpCZ89NgUX8"
   },
+  "place:Dreamin’B Sumiyosi/Bakery & Café 〒135-0002 東京都江東区住吉2-2-4": {
+    "lat": 35.6884192,
+    "lng": 139.8137671,
+    "place_id": "ChIJ88-wYb-JGGARIkidZ8vcn04"
+  },
   "place:Drogheria Sancricca 〒108-0072 東京都港区白金1-5-7": {
     "lat": 35.6467308,
     "lng": 139.7332214,
@@ -1155,6 +1230,11 @@
     "lng": 139.71795649999999,
     "place_id": "ChIJp3SBcQCLGGARBakHz-J_JN4"
   },
+  "place:EBISU16番 渋谷区恵比寿南3-3-1恵比寿VORT VI 1F": {
+    "lat": 35.6462973,
+    "lng": 139.7048448,
+    "place_id": "ChIJC90UZQCLGGARyVXp2jDrUEg"
+  },
   "place:EBISUBASHI珊瑚 渋谷区恵比寿1-16-18": {
     "lat": 35.6478124,
     "lng": 139.7149365,
@@ -1164,6 +1244,11 @@
     "lat": 35.6590833,
     "lng": 139.6963801,
     "place_id": "ChIJyWc59amMGGARoBACEVNF45U"
+  },
+  "place:ECO FARM CAFE 632 渋谷区神宮前6丁目32番10号": {
+    "lat": 35.6679576,
+    "lng": 139.7043191,
+    "place_id": "ChIJs0ZFVqSMGGARFO5AP3pXcak"
   },
   "place:EIGHT COFFEE 渋谷区恵比寿1-11-8TCビル1階": {
     "lat": 35.6463594,
@@ -1190,6 +1275,11 @@
     "lng": 139.7019257,
     "place_id": "ChIJnRCAewCNGGAR-CbhSNsPpH8"
   },
+  "place:ESPRESSO BON 渋谷区神山町3-3T'sGreen渋谷神山101": {
+    "lat": 35.6656486,
+    "lng": 139.6930202,
+    "place_id": "ChIJ8UZwPQCNGGARtu1e09YAiuQ"
+  },
   "place:EXCITE LUCKY 渋谷区笹塚3-31-10笹塚サンハイツ": {
     "lat": 35.67551840000001,
     "lng": 139.6623123,
@@ -1199,6 +1289,11 @@
     "lat": 35.6620419,
     "lng": 139.7326824,
     "place_id": "ChIJl_GVaJ2LGGARpKYvM-_z_eE"
+  },
+  "place:Et Nunc Daikanyama 渋谷区代官山町20番23号　1-4": {
+    "lat": 35.6486137,
+    "lng": 139.7023777,
+    "place_id": "ChIJddy3mVyLGGARJQcULEh8WSY"
   },
   "place:Etape 〒130-0005 東京都墨田区東駒形2-21-6 ディアウぃステリア102": {
     "lat": 35.7074535,
@@ -1214,6 +1309,11 @@
     "lat": 35.6799126,
     "lng": 139.70638499999998,
     "place_id": "ChIJw4NWZpKNGGARMqOwDWjOm34"
+  },
+  "place:FACES麻布十番 〒106-0045 東京都港区麻布十番1-5-18 カートブラン麻布十番2F": {
+    "lat": 35.6565577,
+    "lng": 139.7337747,
+    "place_id": "ChIJo33yyjSLGGAR9BIVnV7ohvM"
   },
   "place:FERMiNTXO（フェルミンチョ） 〒106-0031 東京都港区西麻布1-8-13": {
     "lat": 35.660807999999996,
@@ -1339,6 +1439,11 @@
     "lat": 35.6836882,
     "lng": 139.6827325,
     "place_id": "ChIJOc6BNEfzGGAR0ssArvYXmG0"
+  },
+  "place:GINGER GRASS modern thai vietnamese 〒151-0053 東京都渋谷区代々木2-2-1 小田急サザンタワー1階": {
+    "lat": 35.6864001,
+    "lng": 139.700471,
+    "place_id": "ChIJr3yKTtWNGGARym8k9QX8bj8"
   },
   "place:GOFUKU 〒136-0073 東京都江東区北砂3-32-18 岩崎ビル1F": {
     "lat": 35.67950400000001,
@@ -1475,10 +1580,20 @@
     "lng": 139.7049423,
     "place_id": "ChIJbd28zs2NGGAR9ylKuVvzNqc"
   },
+  "place:HOW'z 渋谷区神宮前6-31-21東急プラザ原宿ハラカド3階": {
+    "lat": 35.6684807,
+    "lng": 139.7049423,
+    "place_id": "ChIJbd28zs2NGGAR9ylKuVvzNqc"
+  },
   "place:HUIT 渋谷区道玄坂2-17-1渋谷野武士ビル1F": {
     "lat": 35.6585374,
     "lng": 139.69654359999998,
     "place_id": "ChIJ6annXKSNGGAR0D2HWHc73HQ"
+  },
+  "place:Hacienda del cielo MODERN MEXICANO 〒150-0033 東京都渋谷区猿楽町10-1 マンサード代官山9F": {
+    "lat": 35.6504276,
+    "lng": 139.7025852,
+    "place_id": "ChIJDxVYR0WLGGARVrfI38KyHZE"
   },
   "place:Harmonie agreable 〒150-0002 東京都渋谷区渋谷4-1-13": {
     "lat": 35.65992,
@@ -1494,6 +1609,11 @@
     "lat": 35.6629515,
     "lng": 139.6950661,
     "place_id": "ChIJhQEqWwCNGGARrRQoE3VDAoM"
+  },
+  "place:Hi,coffee Hey,herb 渋谷区鶯谷町4-15鶯谷北野ビル102": {
+    "lat": 35.6541603,
+    "lng": 139.7025916,
+    "place_id": "ChIJiQZ0QwCLGGAR0X1mxd__nS8"
   },
   "place:Hotel Tanzer 渋谷区道玄坂2-29-18清水ビル7階": {
     "lat": 35.6586607,
@@ -1524,6 +1644,11 @@
     "lat": 35.6883173,
     "lng": 139.7998431,
     "place_id": "ChIJZ4GTSTqJGGARaU0IIBNgwUA"
+  },
+  "place:JAM17 DINING（ホテルグルーヴ新宿内） 〒160-0021 東京都新宿区歌舞伎町1-29-1": {
+    "lat": 35.695925599999995,
+    "lng": 139.7006705,
+    "place_id": "ChIJVQzraO2NGGARBgWAM5IIReY"
   },
   "place:JAPANESE GELATERIA & CAFE ASANOHA 渋谷区恵比寿西1-8-11昴Aビル1階": {
     "lat": 35.6474526,
@@ -1584,6 +1709,16 @@
     "lat": 35.658662199999995,
     "lng": 139.6965895,
     "place_id": "ChIJEcEPQ7iNGGARyZFxDXAqf_c"
+  },
+  "place:KOKO HOTEL 新宿四谷 〒160-0004 東京都新宿区四谷3-14-1": {
+    "lat": 35.6880976,
+    "lng": 139.7184246,
+    "place_id": "ChIJV0IRW-yMGGARX7omEG9tP0M"
+  },
+  "place:KOKO HOTEL 池袋 〒170-0013 東京都豊島区東池袋3-7-1": {
+    "lat": 35.7325756,
+    "lng": 139.7173228,
+    "place_id": "ChIJi1Bte8aNGGARO-vzvuFx_6c"
   },
   "place:KO‐KO 渋谷区道玄坂2-26-5ひまわりビル2F": {
     "lat": 35.6593018,
@@ -1655,6 +1790,11 @@
     "lng": 139.7087681,
     "place_id": "ChIJbfvLAb-MGGARZ420NprWoao"
   },
+  "place:LAS DOS CARAS MODERN MEXICANO Y TACOS 〒150-0001 東京都渋谷区神宮前1-10-37 CASCADE HARAJUKU 1F／B1": {
+    "lat": 35.6700793,
+    "lng": 139.7037585,
+    "place_id": "ChIJCfSEKqWMGGARR4G1S_6p1-I"
+  },
   "place:LATTEST OMOTESANDO Espresso Bar 渋谷区神宮前3丁目5番2号EFビルディング1F": {
     "lat": 35.6691612,
     "lng": 139.7069181,
@@ -1674,6 +1814,16 @@
     "lat": 35.660762,
     "lng": 139.708599,
     "place_id": "ChIJ5S6oA1-LGGAREG-V6VQQP_0"
+  },
+  "place:LE BISTRO 〒151-0051 東京都渋谷区千駄ケ谷4丁目6-8": {
+    "lat": 35.680013599999995,
+    "lng": 139.7050185,
+    "place_id": "ChIJ_yG2T12NGGARMlajHlP0SIg"
+  },
+  "place:LIVE & DINING BAR WOODSTOCK 渋谷区桜丘町16-7鈴木ビルB1F": {
+    "lat": 35.6564196,
+    "lng": 139.7010187,
+    "place_id": "ChIJc_vUXQ6LGGAR4QkoUdG92ds"
   },
   "place:LOCAVORE 渋谷区上原1-35-6水上ビル1-C": {
     "lat": 35.669475,
@@ -1720,15 +1870,30 @@
     "lng": 139.7203532,
     "place_id": "ChIJd2xOFGWLGGARkGNzKFqqZzE"
   },
+  "place:La Coquina cervecería 〒150-6113 東京都渋谷区渋谷2-24-12 渋谷スクランブルスクエア ショップ＆レストラン13階": {
+    "lat": 35.6583189,
+    "lng": 139.7022323,
+    "place_id": "ChIJRcxhIdCLGGARwgylNGX8n4c"
+  },
   "place:La Fede 〒136-0073 東京江東区北砂7-5-14 1F": {
     "lat": 35.6796492,
     "lng": 139.8350596,
     "place_id": "ChIJgcCtEY2IGGARqDfbJ0xvSCs"
   },
+  "place:La Maison Confortable 〒106-0045 東京都港区麻布十番3-7-4 Coms Azabujuban 4F": {
+    "lat": 35.653734799999995,
+    "lng": 139.73505079999998,
+    "place_id": "ChIJjeUE1hyLGGARrTB_3QOFq3g"
+  },
   "place:La Padella d'Oro.1 〒131-0045 東京都墨田区押上1-22-1 スカイグランデ押上 1F": {
     "lat": 35.7107454,
     "lng": 139.8150461,
     "place_id": "ChIJ5_ANA9ePGGARLp41Gt0dBbQ"
+  },
+  "place:La Pesquera MARISQUERIA 〒100-0004 東京都千代田区大手町1-5-5 大手町タワーOOTEMORI B2F": {
+    "lat": 35.6854775,
+    "lng": 139.7656705,
+    "place_id": "ChIJxaQqgfiLGGARFFLbjHc0CWc"
   },
   "place:La Scène（ラ・セヌ）（メルキュール東京日比谷内） 〒100-0011 東京都千代田区内幸町1-5-2": {
     "lat": 35.6695893,
@@ -1975,6 +2140,11 @@
     "lng": 139.69122969999998,
     "place_id": "ChIJAZeE1LKMGGARQfh6xThzmbo"
   },
+  "place:Mangiafuoco 渋谷区初台1-38-10第二近江ビル1階3号室": {
+    "lat": 35.680414899999995,
+    "lng": 139.6871893,
+    "place_id": "ChIJlXStODLzGGAR6eSg9NIWdMI"
+  },
   "place:Mareana 渋谷区道玄坂2-18-7ヴィラフルデリ201": {
     "lat": 35.658881699999995,
     "lng": 139.695824,
@@ -2045,6 +2215,11 @@
     "lng": 139.6661814,
     "place_id": "ChIJKxlxyJbyGGARTKiEQDGhodA"
   },
+  "place:NAMASTE RAJYA 渋谷区富ヶ谷1-14-13Ray Quon OKUSHIBU　4F": {
+    "lat": 35.666852899999995,
+    "lng": 139.6915421,
+    "place_id": "ChIJdUXgCwCNGGARXOxdlp359Vs"
+  },
   "place:NAPRIMO 中野店 〒164-0001 東京都中野区中野5-60-2 ライオンズプラザ中野1F": {
     "lat": 35.7070995,
     "lng": 139.666325,
@@ -2069,6 +2244,11 @@
     "lat": 35.660928399999996,
     "lng": 139.72199559999999,
     "place_id": "ChIJ69TEg_OLGGAR4yaAKql9AEA"
+  },
+  "place:NOHGA HOTEL AKIHABARA TOKYO 〒101-0021 東京都千代田区外神田三丁目10番11号": {
+    "lat": 35.7009061,
+    "lng": 139.7707141,
+    "place_id": "ChIJo9ZdPxyMGGARfEDCj-YrUyQ"
   },
   "place:NUTS&MILK 渋谷区本町6-38-4-1階店舗": {
     "lat": 35.6808131,
@@ -2199,6 +2379,11 @@
     "lat": 35.6792752,
     "lng": 139.69362999999998,
     "place_id": "ChIJYzjJRviNGGARED_2EvyYdRM"
+  },
+  "place:Osteria IL VIAGGIO 〒100-0005 東京都千代田区丸の内1丁目9-1 JR東日本東京駅八重洲口（改札外）グランルーフ2F「グランスタ八重洲」": {
+    "lat": 35.6803467,
+    "lng": 139.7682484,
+    "place_id": "ChIJK_lg2faLGGARw55sG95K_Cg"
   },
   "place:Osteria NORA（ホテルマイステイズ御茶ノ水コンファレンスセンター内） 〒101-0063 東京都千代田区神田淡路町2-10-6 ホテルマイステイズ御茶ノ水コンファレンスセンター1F": {
     "lat": 35.697344099999995,
@@ -2375,6 +2560,16 @@
     "lng": 139.7409123,
     "place_id": "ChIJjdT5wlqMGGAR-X1whq1quWM"
   },
+  "place:RIGOLETTO BAR AND GRILL 〒106-0032 東京都港区六本木6-10-1六本木ヒルズ ウェストウォーク 5F": {
+    "lat": 35.660452299999996,
+    "lng": 139.7292314,
+    "place_id": "ChIJX15hBWyLGGARSXY6S3l3TYI"
+  },
+  "place:RIGOLETTO WINE AND BAR 〒100-6507 東京都千代田区丸の内1-5-1 新丸の内ビル7F 丸の内ハウス": {
+    "lat": 35.6824589,
+    "lng": 139.764502,
+    "place_id": "ChIJN4zgs_mLGGARlJ439UQwPyI"
+  },
   "place:RIMSHOT ETHEREAL 渋谷区笹塚2-41-17滝沢ビルB1": {
     "lat": 35.676196399999995,
     "lng": 139.667776,
@@ -2400,6 +2595,11 @@
     "lng": 139.71796129999998,
     "place_id": "ChIJf1sMtmyLGGARR9PL4QSN9s8"
   },
+  "place:RYUDUKI TEPPAN 〒130-0022 東京都墨田区江東橋4-25-5 SUZUKI BUILDING6F": {
+    "lat": 35.695453799999996,
+    "lng": 139.8168646,
+    "place_id": "ChIJH0Y9L06JGGARfoKznRiiRpI"
+  },
   "place:Rainbow Art Salon Tokyo 〒150-0013 東京都渋谷区恵比寿4-5-13 カーサ恵比寿壱番館201号": {
     "lat": 35.644964699999996,
     "lng": 139.71248319999998,
@@ -2419,6 +2619,11 @@
     "lat": 35.683969000000005,
     "lng": 139.6831245,
     "place_id": "ChIJQ-DychXzGGARHvZdrQeTJtA"
+  },
+  "place:Restaurant Bellustar（ベルスター東京内） 〒160-0021 東京都新宿区歌舞伎町1-29-1": {
+    "lat": 35.695945,
+    "lng": 139.7003703,
+    "place_id": "ChIJvc26aH-NGGARgkng3fdb_2s"
   },
   "place:Restaurant DA CIRO 祇園・東山 京都": {
     "lat": 35.0040681,
@@ -2550,10 +2755,20 @@
     "lng": 139.7028545,
     "place_id": "ChIJGyRcEwCLGGARqsP0XkZ5n7s"
   },
+  "place:SHIBUYA BREWERY 渋谷区桜丘町1番4号渋谷サクラステージSHIBUYAサイド　4F": {
+    "lat": 35.6560878,
+    "lng": 139.7028545,
+    "place_id": "ChIJGyRcEwCLGGARqsP0XkZ5n7s"
+  },
   "place:SHIGE tei 〒162-0825 東京都新宿区神楽坂4丁目2-27": {
     "lat": 35.7019981,
     "lng": 139.73959299999999,
     "place_id": "ChIJW7FqxoONGGARQk1z-r_6Czk"
+  },
+  "place:SHIRO 渋谷区笹塚1-16-3百瀬ビル地下1階": {
+    "lat": 35.6720963,
+    "lng": 139.6689463,
+    "place_id": "ChIJw7lzGyrzGGARwNrpTj5SH5Y"
   },
   "place:SHUTTERS表参道 渋谷区神宮前6-28-6キュープラザ原宿3F": {
     "lat": 35.6669378,
@@ -2579,6 +2794,11 @@
     "lat": 35.6685489,
     "lng": 139.6827226,
     "place_id": "ChIJiZmEpwTzGGARYo5EWAVBnoY"
+  },
+  "place:SOW COFFEE ROASTERS 〒108-0074 東京都港区高輪二丁目21番2号 ニュウマン高輪South4F": {
+    "lat": 35.6347309,
+    "lng": 139.7393849,
+    "place_id": "ChIJRUz9dwCLGGAR40SaviAvYSg"
   },
   "place:SOWAT 渋谷区千駄ヶ谷3-36-2アトラス原宿1階": {
     "lat": 35.6923402,
@@ -2615,6 +2835,11 @@
     "lng": 139.7067126,
     "place_id": "ChIJ235dKoyNGGARxcsD_r7fd5E"
   },
+  "place:SUNSIDE DONUTS 渋谷区富ヶ谷1-10-1ラトゥール代々木公園1F": {
+    "lat": 35.6683263,
+    "lng": 139.69119329999998,
+    "place_id": "ChIJmWe0SdONGGARuZLgDw741qo"
+  },
   "place:SUPPLY 渋谷区幡ヶ谷1-5-6金井ビル　1階": {
     "lat": 35.6764498,
     "lng": 139.6749369,
@@ -2635,6 +2860,16 @@
     "lng": 139.691776,
     "place_id": "ChIJ_3QgRsuMGGAR60Uta0kkRfk"
   },
+  "place:Sanva Refreshment Complex 渋谷区富ヶ谷1-6-8Tomigaya East Garden": {
+    "lat": 35.6689617,
+    "lng": 139.6896349,
+    "place_id": "ChIJNUqUfQDzGGARRbivMfeX4Bo"
+  },
+  "place:Sauna-Tokyo（サウナ東京） 〒107-0052 東京都港区赤坂3-13-4": {
+    "lat": 35.673291,
+    "lng": 139.7377125,
+    "place_id": "ChIJCXXkNHeLGGARq3ixFKm7m5w"
+  },
   "place:SeRieUX（セリュー） 〒106-0032 東京都港区六本木7-4-4": {
     "lat": 35.665588199999995,
     "lng": 139.72878359999999,
@@ -2649,6 +2884,16 @@
     "lat": 35.666786099999996,
     "lng": 139.7101521,
     "place_id": "ChIJVWXnSQCNGGARtY5a2oRs8AQ"
+  },
+  "place:Shake Tree Burger & Bar 〒130-0014 東京都墨田区亀沢3-13-6 岩﨑ビル1階": {
+    "lat": 35.6972061,
+    "lng": 139.8051097,
+    "place_id": "ChIJs3na3i2JGGARJLQ9YwH-Prk"
+  },
+  "place:Shake Tree Diner 〒131-0033 東京都墨田区向島1-23-11 東京ミズマチE06": {
+    "lat": 35.7102779,
+    "lng": 139.8061404,
+    "place_id": "ChIJ_dpwC2uPGGAR0O6D7JZhS0k"
   },
   "place:She お肉とお野菜 〒100​-0006 東京都千代田区有楽町1-2-2 日比谷シャンテ B2F": {
     "lat": 35.6734758,
@@ -2675,6 +2920,11 @@
     "lng": 139.75275689999998,
     "place_id": "ChIJbaPtUe2LGGAR3cQKlYfYKuo"
   },
+  "place:Sillage 〒108-0072 東京都港区白金1-27-6 白金高輪ステーションビル1F": {
+    "lat": 35.6440325,
+    "lng": 139.7341689,
+    "place_id": "ChIJ6ykdHFiLGGARXmPBYHROIMc"
+  },
   "place:Sky Gallery Lounge Levita / The Bar illumiid（ザ・プリンスギャラリー 東京紀尾井町内） 〒102-8585 東京都千代田区紀尾井町1-2 ザ・プリンスギャラリー東京紀尾井町,ラグジュアリーコレクションホテル35F": {
     "lat": 35.6794453,
     "lng": 139.737261,
@@ -2684,6 +2934,16 @@
     "lat": 35.6588853,
     "lng": 139.69447209999998,
     "place_id": "ChIJa63bxYSNGGAR5J8_fmhFHtg"
+  },
+  "place:Soufflé & 〒106-0045 東京都港区麻布十番1-7-9 酒井ビルC": {
+    "lat": 35.6561302,
+    "lng": 139.73488609999998,
+    "place_id": "ChIJk6uSNRmLGGARa0YMqB3_Y8I"
+  },
+  "place:Soup Well　薬膳＋名水 渋谷区笹塚2丁目19番1号ザ・シティ笹塚1階": {
+    "lat": 35.6741289,
+    "lng": 139.6654678,
+    "place_id": "ChIJ_aVOmSTzGGARezYVylUMzFA"
   },
   "place:Spice and Vegetable 夢民 〒105-0003 東京都港区西新橋2-13-3 西新橋2丁目ビル 1F": {
     "lat": 35.6670245,
@@ -2729,6 +2989,11 @@
     "lat": 35.662679,
     "lng": 139.7005906,
     "place_id": "ChIJWQ5gkKiMGGAR4aCFNceg_A0"
+  },
+  "place:TAKA's Bar Travis 渋谷区桜丘町17-10吉野ビル3B": {
+    "lat": 35.6562724,
+    "lng": 139.7009995,
+    "place_id": "ChIJfZg0XFeLGGARklztz_DFkpk"
   },
   "place:TAKASEGAWA 京都市中心部 京都": {
     "lat": 35.00146,
@@ -2780,6 +3045,16 @@
     "lng": 139.6949486,
     "place_id": "ChIJTWusCl-NGGARiiUnot6mN88"
   },
+  "place:THE FRONT ROOM 〒100-6301 東京都千代田区丸の内2-4-1 丸ビル1F": {
+    "lat": 35.6812689,
+    "lng": 139.7638917,
+    "place_id": "ChIJRc0u95GLGGARCt-gXrexQ9Q"
+  },
+  "place:THE GRILL TORANOMON 〒105-5502 東京都港区虎ノ門2丁目6番3号 虎ノ門ヒルズステーションタワー2階": {
+    "lat": 35.667477,
+    "lng": 139.7474801,
+    "place_id": "ChIJiSWP31qLGGARMA2XYgxOC04"
+  },
   "place:THE GRUB 代々木上原 渋谷区上原1-32-15第二小林ビル2階": {
     "lat": 35.668791399999996,
     "lng": 139.67992619999998,
@@ -2800,6 +3075,11 @@
     "lng": 139.7091394,
     "place_id": "ChIJXcT54EKLGGARNcjxhgZgW18"
   },
+  "place:THE RIGOLETTO 〒150-0002 東京都渋谷区渋谷1-23-21 渋谷キャストGF／1F": {
+    "lat": 35.6624483,
+    "lng": 139.7026884,
+    "place_id": "ChIJ-UdqNaaMGGARuNSrjc-NbKE"
+  },
   "place:THE TEST KITCHEN 渋谷区恵比寿4丁目20-4恵比寿ガーデンプレイス グラススクエア B1F POTAL POINT Ebisu E": {
     "lat": 35.6426363,
     "lng": 139.71290059999998,
@@ -2809,6 +3089,11 @@
     "lat": 35.659055099999996,
     "lng": 139.7035292,
     "place_id": "ChIJ43YiUFiLGGARlsXC9pTlrlA"
+  },
+  "place:THYME American Bistro 〒107-0052 東京都港区赤坂2-5-17": {
+    "lat": 35.672555599999995,
+    "lng": 139.7396584,
+    "place_id": "ChIJMeA5jpyLGGAR2-0COkq4yls"
   },
   "place:TOKYO KAKI STAND 渋谷道玄坂 渋谷区道玄坂2-16-1ミノハナビル1F": {
     "lat": 35.6589724,
@@ -3080,6 +3365,11 @@
     "lng": 139.6907708,
     "place_id": "ChIJOUIqb_vzGGARBdnn5-KiPjA"
   },
+  "place:Vegan Sushi Tokyo 渋谷区松濤1丁目25-6パークサイド松涛103": {
+    "lat": 35.6594766,
+    "lng": 139.6931827,
+    "place_id": "ChIJrfUCzHuLGGARzZ8cXAiaZTU"
+  },
   "place:Vegeater 渋谷区東1-14-12常盤松マンション1F": {
     "lat": 35.6562452,
     "lng": 139.7074721,
@@ -3115,6 +3405,11 @@
     "lng": 139.6927428,
     "place_id": "ChIJkWtYa8uMGGAR0qvQUq98nEY"
   },
+  "place:WAGYU YAKINIKU TOKYO渋谷店 渋谷区桜丘町16-9渋谷Xeビル2F": {
+    "lat": 35.661141799999996,
+    "lng": 139.6985508,
+    "place_id": "ChIJyRxsPA-NGGARPMBtvIMnPZU"
+  },
   "place:WAGYUYAKINIKU IBUSANA 渋谷区代々木4-10-7小淵ビル1F": {
     "lat": 35.6783747,
     "lng": 139.6927428,
@@ -3139,6 +3434,11 @@
     "lat": 35.6732797,
     "lng": 139.81985179999998,
     "place_id": "ChIJX5sDvzSJGGARLvtf16HO-x0"
+  },
+  "place:WINE & DINING 流石 渋谷区桜丘町16-5泉屋ビル": {
+    "lat": 35.6562799,
+    "lng": 139.70141379999998,
+    "place_id": "ChIJb23gI96LGGARAywaEik0Wrs"
   },
   "place:WINE SALON R 〒164-0003 東京都中野区東中野1-50-4 日進ビル BF": {
     "lat": 35.7059743,
@@ -3425,6 +3725,11 @@
     "lng": 139.70751479999998,
     "place_id": "ChIJnbeS3ECLGGARUmJrWtx_fq8"
   },
+  "place:caffè NODO 渋谷区鶯谷町12-6LOKOビル 101": {
+    "lat": 35.6515412,
+    "lng": 139.70126879999998,
+    "place_id": "ChIJk4iEdneLGGARghaRqwY-W14"
+  },
   "place:calore 〒135-0047 東京都江東区富岡1-25-4 NICハイム八幡2Ｆ": {
     "lat": 35.6702678,
     "lng": 139.7989527,
@@ -3489,6 +3794,11 @@
     "lat": 35.6490636,
     "lng": 139.71090569999998,
     "place_id": "ChIJs9eD6EGLGGARiOTr9Ywnpx0"
+  },
+  "place:el calientemodern mexicano 〒108-0075 東京都港区港南2-18-1 アトレ品川4F": {
+    "lat": 35.6291652,
+    "lng": 139.7405423,
+    "place_id": "ChIJz5fYlFqKGGARs_mfvMcvaD8"
   },
   "place:emuN 〒151-0066 東京都渋谷区西原3-11-9 蜂章ビル 3F": {
     "lat": 35.6693997,
@@ -3655,11 +3965,27 @@
     "lng": 139.7182619,
     "place_id": "ChIJ1T3bjZ2MGGARXkCCTSTvHkI"
   },
+  "place:la la tacos恵比寿店 渋谷区恵比寿2-37-5": {
+    "lat": 35.645103399999996,
+    "lng": 139.7221133,
+    "place_id": "ChIJ51aRDFaLGGARhj3dgCw63nk"
+  },
   "place:la princesse kyoto （ラ プランセス 京都） 京都市中心部 京都": {
     "lat": 35.0073007,
     "lng": 135.7611499,
     "place_id": "ChIJr9Gd2LEJAWARaPNzUKYRklA"
   },
+  "place:lib 〒135-0047 東京都江東区富岡1-14-19 向殿ビル1F": {
+    "lat": 35.6729468,
+    "lng": 139.79687099999998,
+    "place_id": "ChIJ8cQesR-JGGARYvzN1a25bxE"
+  },
+  "place:loom 幡ヶ谷 渋谷区幡ヶ谷2-13-4": {
+    "lat": 35.677666599999995,
+    "lng": 139.6767634,
+    "place_id": "ChIJrQKQbGTzGGARcKLR-PwUCss"
+  },
+  "place:lotto 渋谷区渋谷3-25-7Bre.S SHIBUYA D": null,
   "place:lyla ライラ 〒107-0052 東京都港区赤坂7-5-34 インペリアル赤坂フォーラム1階": {
     "lat": 35.6711556,
     "lng": 139.73027629999999,
@@ -3744,6 +4070,11 @@
     "lat": 35.6562573,
     "lng": 139.7010819,
     "place_id": "ChIJfZg0XFeLGGAR5UjGMTKXJqQ"
+  },
+  "place:mærge 〒107-0062 東京都港区南青山3-8-14 VORT 南青山III 1F": {
+    "lat": 35.666978,
+    "lng": 139.7155967,
+    "place_id": "ChIJGxxcwTqNGGAR5oaHvuYXXng"
   },
   "place:nadoya no kaTte 渋谷区西原3丁目19-3": {
     "lat": 35.670932799999996,
@@ -3945,6 +4276,11 @@
     "lng": 139.6942684,
     "place_id": "ChIJpYH_bQCNGGAR9q5Rcd5w10s"
   },
+  "place:tavern on S <és> 〒151-0051 東京都渋谷区千駄ヶ谷5-24-55 ニュウマン新宿店フードホール内": {
+    "lat": 35.6885471,
+    "lng": 139.70041609999998,
+    "place_id": "ChIJ4RGBbNCMGGARpdIYor-BYg8"
+  },
   "place:the TAG 〒150-0001 東京都渋谷区神宮前6-31-21": {
     "lat": 35.668337099999995,
     "lng": 139.7048337,
@@ -4055,6 +4391,16 @@
     "lng": 139.74011299999998,
     "place_id": "ChIJb6SvOgCLGGARmzbSFlQ2yYg"
   },
+  "place:「TORRENT」Bar（SHIBUYA STREAM HOTEL内） 〒150-0002 東京都渋谷区渋谷3-21-3渋谷ストリーム4階": {
+    "lat": 35.6573615,
+    "lng": 139.7031959,
+    "place_id": "ChIJIZ_JXi6LGGARUzsctUGoX7k"
+  },
+  "place:「TORRENT」Dining（SHIBUYA STREAM HOTEL内） 〒150-0002 東京都渋谷区渋谷3-21-3渋谷ストリーム4階": {
+    "lat": 35.6573615,
+    "lng": 139.7031959,
+    "place_id": "ChIJIZ_JXi6LGGARUzsctUGoX7k"
+  },
   "place:あいと電氣餅店 渋谷区富ヶ谷1-3-4川端ハイツ　1F": {
     "lat": 35.6694104,
     "lng": 139.6896639,
@@ -4074,6 +4420,11 @@
     "lat": 35.6820868,
     "lng": 139.6757197,
     "place_id": "ChIJw1KXCtDzGGARE2l0RimbQAw"
+  },
+  "place:あかさか割烹和史 〒107-0052 東京都港区赤坂3-13-6 国際天野ビル6F": {
+    "lat": 35.6730963,
+    "lng": 139.7376568,
+    "place_id": "ChIJRYgz_tiLGGARRIlzbbOIpao"
   },
   "place:あきさば 渋谷区神宮前6丁目19-14神宮前ハッピービル": {
     "lat": 35.6632856,
@@ -4144,6 +4495,11 @@
     "lat": 35.6761421,
     "lng": 139.7074461,
     "place_id": "ChIJk7nyJQCNGGARXOwXM6M4FXY"
+  },
+  "place:うず食堂 〒131-0044 東京都墨田区文花2丁目10-2": {
+    "lat": 35.7100033,
+    "lng": 139.8281029,
+    "place_id": "ChIJo7DLaJGJGGARmOR5xWC84b4"
   },
   "place:うなぎ  ふじもと 渋谷区千駄ヶ谷3丁目15番12号": {
     "lat": 35.676688999999996,
@@ -4235,6 +4591,11 @@
     "lng": 135.6615546,
     "place_id": "ChIJi3CsmTmqAWAR0pV6QRGvt1c"
   },
+  "place:おとと。 渋谷区桜丘町17-10吉野ビル2A": {
+    "lat": 35.6698532,
+    "lng": 139.7144595,
+    "place_id": "ChIJe8HEqY-NGGARjFgXzcVe04k"
+  },
   "place:おにぎり原宿三丁目たるら 渋谷区神宮前1-21-2 1F": {
     "lat": 35.6722701,
     "lng": 139.70415119999998,
@@ -4244,6 +4605,11 @@
     "lat": 35.691278,
     "lng": 139.7061036,
     "place_id": "ChIJ1Uw_fNuMGGARPlpQRwjAArQ"
+  },
+  "place:おばんざい　澄華 渋谷区道玄坂2丁目6番12号道玄坂トロワー地下1階b101": {
+    "lat": 35.658885,
+    "lng": 139.6984477,
+    "place_id": "ChIJq7NkB7yNGGARhvZDnrN8qc0"
   },
   "place:おばん菜スタンド ふじな 〒171-0051 東京都豊島区長崎1-2-3ウツギビル2階": {
     "lat": 35.7267514,
@@ -4329,6 +4695,11 @@
     "lat": 35.6711332,
     "lng": 139.73839859999998,
     "place_id": "ChIJYWEaqEeLGGARCT_pdtyl7rA"
+  },
+  "place:かきのおきて水道橋店 〒101-0061 東京都千代田区神田三崎町3丁目3-17 ABリバー水道橋1F": {
+    "lat": 35.700744799999995,
+    "lng": 139.7523041,
+    "place_id": "ChIJib2cNEWNGGARueLL-439klE"
   },
   "place:かつお食堂 渋谷区鶯谷町7-12B1": {
     "lat": 35.6541103,
@@ -4465,6 +4836,11 @@
     "lng": 139.69785819999998,
     "place_id": "ChIJ192SDamMGGARDTtvB6wZxOo"
   },
+  "place:さくら鳥居坂 〒106-0045 東京都港区麻布十番1-5-7 第一長門ビルB1F": {
+    "lat": 35.6571315,
+    "lng": 139.7332453,
+    "place_id": "ChIJAydJNp6LGGARed27MtLY6h4"
+  },
   "place:さけとさかなばとん 渋谷区笹塚1-24-4三好ビル1F": {
     "lat": 35.6720593,
     "lng": 139.66877119999998,
@@ -4479,6 +4855,11 @@
     "lat": 35.660442599999996,
     "lng": 139.7074546,
     "place_id": "ChIJkcbeI1-LGGARem9mFnqwquk"
+  },
+  "place:さつまおごじょ 渋谷区西原3-7-5渡部ビル1F": {
+    "lat": 35.6698571,
+    "lng": 139.68086340000002,
+    "place_id": "ChIJqWyT_kfzGGARQVq5nyYZwpE"
   },
   "place:さんじゅうろくどごぶのお昼ご飯 渋谷区幡ヶ谷2-13-1平沼ビル201": {
     "lat": 35.6775989,
@@ -4725,6 +5106,11 @@
     "lng": 139.71368099999998,
     "place_id": "ChIJy5SQ25iMGGARDwuG8iTDNY0"
   },
+  "place:とみがや食堂 渋谷区富ヶ谷2-16-6": {
+    "lat": 35.663208499999996,
+    "lng": 139.6860228,
+    "place_id": "ChIJgaINpenzGGARxruyxkvjFgs"
+  },
   "place:ともあれ呑もうよ 渋谷区幡ヶ谷2-48-1三木ビル 1F": {
     "lat": 35.6796311,
     "lng": 139.6770051,
@@ -4734,6 +5120,11 @@
     "lat": 35.658645799999995,
     "lng": 139.6985665,
     "place_id": "ChIJrRd0K1aLGGARiO4IPRAXO7A"
+  },
+  "place:とりや 渋谷区西原3-23-9": {
+    "lat": 35.6706056,
+    "lng": 139.6829617,
+    "place_id": "ChIJhwZDgYnzGGARbdk_AjmK0uM"
   },
   "place:とり料理鳥者 〒150-0021 東京都渋谷区恵比寿西1-7-2 ビックストーンビル5F": {
     "lat": 35.6480355,
@@ -4775,10 +5166,20 @@
     "lng": 139.6859029,
     "place_id": "ChIJG1glgEnzGGARM9E_rxuAxbc"
   },
+  "place:どさんこととなり（ランチ） 渋谷区元代々木町9-7トップリバー1F": {
+    "lat": 35.669908,
+    "lng": 139.6859029,
+    "place_id": "ChIJG1glgEnzGGARM9E_rxuAxbc"
+  },
   "place:なごみの輪　着物レンタル 京都駅周辺 京都": {
     "lat": 34.993652399999995,
     "lng": 135.7560233,
     "place_id": "ChIJ89GFyrYJAWARIuaSBKrYeSI"
+  },
+  "place:なるよう 渋谷区富ヶ谷1-3-14リオネビル201": {
+    "lat": 35.6694917,
+    "lng": 139.6893551,
+    "place_id": "ChIJd0qWHgDzGGARSON5z73DsFM"
   },
   "place:なんなん亭 渋谷区代々木2-13-6YU-WAビル　B1F": {
     "lat": 35.6872945,
@@ -5271,6 +5672,11 @@
     "lng": 135.7692598,
     "place_id": "ChIJhfNcIKYIAWARIm2P65rKNuo"
   },
+  "place:アラビアンレストラン　オアシス 渋谷区千駄ヶ谷1-17-1東京体育館プール棟2階": {
+    "lat": 35.6792343,
+    "lng": 139.7114571,
+    "place_id": "ChIJVVMKHf-NGGARmyGk7ctL9Lg"
+  },
   "place:アルカディア市ヶ谷 私学会館 〒102-0073 東京都千代田区九段北4-2-25": {
     "lat": 35.6919401,
     "lng": 139.73763270000003,
@@ -5481,6 +5887,11 @@
     "lng": 139.7282409,
     "place_id": "ChIJXdG95xBhGGARKimzamy8mO4"
   },
+  "place:インド料理　DARVISH 渋谷区幡ヶ谷2-13-4": {
+    "lat": 35.6775624,
+    "lng": 139.6768277,
+    "place_id": "ChIJtcxjTDvzGGARacj4358zMC0"
+  },
   "place:インド料理サモサ初台店 渋谷区本町2-4-101F": {
     "lat": 35.684125699999996,
     "lng": 139.6837636,
@@ -5516,6 +5927,11 @@
     "lng": 139.7053577,
     "place_id": "ChIJOW7spKaMGGARQf2NmufcgLs"
   },
+  "place:ウートーンタイレストラン 渋谷区初台1-39-12初台富士ハイライズ1階": {
+    "lat": 35.680205799999996,
+    "lng": 139.6871093,
+    "place_id": "ChIJfcVQNQDzGGAR5QFbVaIy3WQ"
+  },
   "place:エスグロッソ 渋谷区道玄坂1-11-3フォースワンビル1F": {
     "lat": 35.6576953,
     "lng": 139.69891230000002,
@@ -5525,6 +5941,11 @@
     "lat": 35.6450283,
     "lng": 139.7074069,
     "place_id": "ChIJCWgioT-LGGARfaedrfCOWmw"
+  },
+  "place:エナジーテラスSunnyGo! 〒106-0045 東京都港区麻布十番3-5-4 JLBグランエクリュ麻布十番Ⅱ1B": {
+    "lat": 35.6532513,
+    "lng": 139.7356986,
+    "place_id": "ChIJ_3x3EKiLGGARGNZhoPRg0UE"
   },
   "place:エネコ東京 〒106-0031 東京都港区西麻布3丁目16-28 Toki-On西麻布": {
     "lat": 35.658383199999996,
@@ -5611,6 +6032,11 @@
     "lng": 139.7055536,
     "place_id": "ChIJ72PMY0SLGGARchh68pBrakA"
   },
+  "place:オンリー鴨ん!? 〒135-0047 東京都江東区富岡1丁目3-9": {
+    "lat": 35.670913899999995,
+    "lng": 139.7966596,
+    "place_id": "ChIJ7zyjlASJGGARshvSaqTSl-4"
+  },
   "place:オーガニック鮨大内 渋谷区渋谷2丁目8-4佐野ビル1F": {
     "lat": 35.6604859,
     "lng": 139.7075087,
@@ -5666,6 +6092,11 @@
     "lng": 139.70854989999998,
     "place_id": "ChIJGdPockGLGGARZPEJNrjsV5M"
   },
+  "place:カエルカフェ 渋谷区神宮前2-15-15カエルカフェビル": {
+    "lat": 35.674437000000005,
+    "lng": 139.711444,
+    "place_id": "ChIJ35xlYL2MGGAREl9G50OEdAk"
+  },
   "place:カジュアル日本酒バー94 渋谷区南平台町1-6": {
     "lat": 35.6555642,
     "lng": 139.6969425,
@@ -5695,6 +6126,11 @@
     "lat": 35.675540700000006,
     "lng": 139.6779573,
     "place_id": "ChIJK-XrqDvzGGARXzA_2XVcLk4"
+  },
+  "place:カフェ　な 渋谷区神宮前1-8-5メナー神宮前3F": {
+    "lat": 35.6701927,
+    "lng": 139.7064647,
+    "place_id": "ChIJnb6bX6OMGGAREcf2qj3tCyM"
   },
   "place:カフェ　ウズナオムオム 渋谷区神宮前5丁目17-8原宿XS 203": {
     "lat": 35.665866699999995,
@@ -5966,6 +6402,11 @@
     "lng": 139.7358893,
     "place_id": "ChIJK0t2Z3eNGGARSwxWeEm1AXo"
   },
+  "place:グランドニッコー東京 台場 〒135-8701 東京都港区台場二丁目6番1号": {
+    "lat": 35.6251435,
+    "lng": 139.7715694,
+    "place_id": "ChIJq0s44BuMGGAR15wOlfVd2tE"
+  },
   "place:グランドプリンスホテル新高輪 〒108-8612 東京都港区高輪3-13-1": {
     "lat": 35.6300117,
     "lng": 139.7334779,
@@ -6206,6 +6647,16 @@
     "lng": 139.760722,
     "place_id": "ChIJ55FqKPCLGGAR2GqcmoYJNzM"
   },
+  "place:ザ・ワンファイブ亀戸 〒136-0071 東京都江東区亀戸2-27-12": {
+    "lat": 35.699263099999996,
+    "lng": 139.82517629999998,
+    "place_id": "ChIJ-3hMXQCJGGARRogc4XL5fzU"
+  },
+  "place:ザ・ワンファイブ東京渋谷 〒150-0041 東京都渋谷区神南1-8-11": {
+    "lat": 35.6642795,
+    "lng": 139.700112,
+    "place_id": "ChIJ-_RhNa-MGGARsT2wprqOljs"
+  },
   "place:シェ オリビエ 〒102-0074 東京都千代田区九段南4-1-10 グランドメゾン九段南 1F": {
     "lat": 35.691608599999995,
     "lng": 139.7411897,
@@ -6296,6 +6747,11 @@
     "lng": 139.7042008,
     "place_id": "ChIJ2Yhc40SLGGARo2ylHhCYvTs"
   },
+  "place:ジャンボステーキ はらぺこや 〒144-0052 東京都大田区蒲田5-21-13": {
+    "lat": 35.5619673,
+    "lng": 139.7191025,
+    "place_id": "ChIJ3SRB0ltgGGARF75jA8XONw0"
+  },
   "place:ジュリーズスパイス 渋谷区笹塚3-19-5": {
     "lat": 35.6771342,
     "lng": 139.6673214,
@@ -6320,6 +6776,11 @@
     "lat": 35.6630421,
     "lng": 139.6999325,
     "place_id": "ChIJq-wIwaiMGGAR8NT5o_lUrjo"
+  },
+  "place:スイートロール 渋谷区千駄ヶ谷3-26-5金子ビル101": {
+    "lat": 35.6770511,
+    "lng": 139.70756939999998,
+    "place_id": "ChIJYRDJwBONGGAR5VVHhrEnEjc"
   },
   "place:スカイレストラン ピトレスク（ホテルオークラ京都内） 京都市中心部 京都": {
     "lat": 35.0114766,
@@ -6541,6 +7002,11 @@
     "lng": 135.7691017,
     "place_id": "ChIJ74AHG78IAWARtE8n8lk9elg"
   },
+  "place:タイ料理ミャオミャオ 渋谷区幡ヶ谷2丁目1番4号2階ACN渋谷幡ヶ谷ビル": {
+    "lat": 35.677967599999995,
+    "lng": 139.6785554,
+    "place_id": "ChIJ8fwDTZ_zGGARtjesYZZsxKw"
+  },
   "place:タカミヤズ アンド スイーツ 渋谷区広尾5-8-1": {
     "lat": 35.648577599999996,
     "lng": 139.7206958,
@@ -6570,6 +7036,11 @@
     "lat": 35.6779054,
     "lng": 139.6775984,
     "place_id": "ChIJJSMWg8jzGGARBXp6GP-QkN8"
+  },
+  "place:ダイニング 流（庭のホテル 東京内 1F） 〒101-0061 東京都千代田区神田三崎町1-1-16": {
+    "lat": 35.7004839,
+    "lng": 139.756713,
+    "place_id": "ChIJZ0ntHT6MGGARw-Zc3CcQUtE"
   },
   "place:ダイニングバー　クー 渋谷区宇田川町34-6M&Iビル2F": {
     "lat": 35.661255,
@@ -6605,6 +7076,11 @@
     "lat": 35.6693291,
     "lng": 139.68900299999999,
     "place_id": "ChIJhYOSekvzGGARWPMHNUEmGB4"
+  },
+  "place:ティグレ ノアール 〒105-0001 東京都港区虎ノ門1-7-7": {
+    "lat": 35.669479599999995,
+    "lng": 139.7497564,
+    "place_id": "ChIJHVKSx62LGGAR1xPkApJbbxo"
   },
   "place:ティースイーツラボ・コンテナート 〒151-0053 東京都渋谷区代々木1-42-14 村野ビル1F": {
     "lat": 35.6830176,
@@ -6836,6 +7312,11 @@
     "lng": 139.757092,
     "place_id": "ChIJg1vBE3OLGGARxpjwiQVHXQE"
   },
+  "place:ハタガヤクレープ 渋谷区幡ヶ谷3-16-3": {
+    "lat": 35.6798365,
+    "lng": 139.67339579999998,
+    "place_id": "ChIJ08ET6azzGGARjq9BaquHxT0"
+  },
   "place:ハタガヤサカバ獣’s 渋谷区幡ヶ谷2-13-4定石ビル2階": {
     "lat": 35.6774821,
     "lng": 139.67679099999998,
@@ -7035,6 +7516,11 @@
     "lat": 35.6477657,
     "lng": 139.70825499999998,
     "place_id": "ChIJgZXtEkGLGGARIPKkjfqrkoY"
+  },
+  "place:パスタニノ 渋谷区恵比寿2-17-18小海ハイツ1階": {
+    "lat": 35.646731700000004,
+    "lng": 139.7194259,
+    "place_id": "ChIJRWRf_hKLGGARb_U9ILmVigc"
   },
   "place:パスタンダードウエハラ 渋谷区西原3-3-3三誠ビルディング102": {
     "lat": 35.670308899999995,
@@ -7351,6 +7837,11 @@
     "lng": 139.7261612,
     "place_id": "ChIJe9zwPHqLGGARygDLYoz2Lfo"
   },
+  "place:フロリダ亭 〒171-0022 東京都豊島区南池袋2-6-7 サンシャインタワー1F": {
+    "lat": 35.7251184,
+    "lng": 139.7155722,
+    "place_id": "ChIJFc5JCpGNGGARkh68T3XI4T4"
+  },
   "place:ブイヤベースのお店　プチポワソン 京都市中心部 京都": {
     "lat": 35.0017898,
     "lng": 135.76268629999998,
@@ -7576,6 +8067,11 @@
     "lng": 139.7294521,
     "place_id": "ChIJSWjzeC1gGGAR0QrWURzorAk"
   },
+  "place:ホテルヒラリーズ赤坂 〒107-0052 東京都港区赤坂3-12-5": {
+    "lat": 35.673643299999995,
+    "lng": 139.73788919999998,
+    "place_id": "ChIJEzfcRoeLGGARWDwNAE4X7T8"
+  },
   "place:ホテルマイステイズ御茶ノ水コンファレンスセンター 〒101-0063 東京都千代田区神田淡路町2-10-6": {
     "lat": 35.697375,
     "lng": 139.7684414,
@@ -7595,6 +8091,16 @@
     "lat": 35.7281019,
     "lng": 139.70783129999998,
     "place_id": "ChIJ10L5hPaLGGARw7Hsz5bxKxc"
+  },
+  "place:ホテルモントレ半蔵門 〒102-0082 東京都千代田区一番町23番1号": {
+    "lat": 35.686602,
+    "lng": 139.74212,
+    "place_id": "ChIJP86FX2WMGGAR0ikmK6KtXcw"
+  },
+  "place:ホテルモントレ赤坂 〒107-0052 東京都港区赤坂4-9-24": {
+    "lat": 35.6755584,
+    "lng": 139.73272369999998,
+    "place_id": "ChIJCV-IMH6MGGAR2n7SEK0AMTI"
   },
   "place:ホテルリソル池袋 〒171-0022 東京都豊島区南池袋2-30-14": {
     "lat": 35.727100799999995,
@@ -7671,6 +8177,11 @@
     "lng": 139.70480329999998,
     "place_id": "ChIJDeibEVuLGGAR5ijUd4cgHIg"
   },
+  "place:マイグレ南青山 宙 -Sora- 〒107-0062 東京都港区南青山1丁目15-2": {
+    "lat": 35.6699737,
+    "lng": 139.726331,
+    "place_id": "ChIJh7S2fHCLGGAR1s6grfTA1T0"
+  },
   "place:マイン 渋谷区千駄ヶ谷4-10-5-B1Asway Sendagaya": {
     "lat": 35.6798377,
     "lng": 139.7065531,
@@ -7690,6 +8201,11 @@
     "lat": 35.680069599999996,
     "lng": 139.6860768,
     "place_id": "ChIJfy6lIDLzGGARQBr15C9SD6I"
+  },
+  "place:マッジョーレ 〒130-0012 東京都墨田区太平3丁目8-8": {
+    "lat": 35.700401,
+    "lng": 139.81458089999998,
+    "place_id": "ChIJX6c-D9aIGGAR_5y1lYPX2Dc"
   },
   "place:マヌエル丸の内 〒100-0005 東京都千代田区丸の内3-3-1 新東京ビルB1": {
     "lat": 35.677607699999996,
@@ -7730,6 +8246,11 @@
     "lat": 35.6706134,
     "lng": 139.7593724,
     "place_id": "ChIJU2SgYeeLGGARMeTDIShFY0M"
+  },
+  "place:ミクロとくじら幡ヶ谷 渋谷区本町1-22-5山下ビル1階": {
+    "lat": 35.6783351,
+    "lng": 139.6792586,
+    "place_id": "ChIJOeP4VS_zGGARLi8Wc4ccM44"
   },
   "place:ミジュリ 渋谷区笹塚1丁目29番3号ファーストビル4F": {
     "lat": 35.673249999999996,
@@ -7866,6 +8387,11 @@
     "lng": 135.7641669,
     "place_id": "ChIJvdIoo6sJAWARV5LJsl9V6bU"
   },
+  "place:モモ　スタンド　トーキョー 渋谷区広尾5-18-8-1": {
+    "lat": 35.649022599999995,
+    "lng": 139.7205141,
+    "place_id": "ChIJK9LnanCLGGARb8JkcRynMJk"
+  },
   "place:モリタ屋 四条猪熊本店 京都市中心部 京都": {
     "lat": 35.0038212,
     "lng": 135.750208,
@@ -7915,6 +8441,11 @@
     "lat": 35.668385,
     "lng": 139.68751939999999,
     "place_id": "ChIJBUcWuI7zGGARn-KXusLyPJ4"
+  },
+  "place:ヨシダフウチュウゴクカテイリョウリジーテン 渋谷区西原3-2-3": {
+    "lat": 35.6704097,
+    "lng": 139.68256019999998,
+    "place_id": "ChIJA0X2I0jzGGAR9R9emkdGXUs"
   },
   "place:ヨヨナム 渋谷区代々木5丁目66-4": {
     "lat": 35.671381499999995,
@@ -8191,6 +8722,11 @@
     "lng": 139.6823674,
     "place_id": "ChIJh7d9RwDzGGARFZFX7PxC-wo"
   },
+  "place:レイヨン ドゥ ソレイユ 〒105-0001 東京都港区虎ノ門1-11-13": {
+    "lat": 35.668706799999995,
+    "lng": 139.75004579999998,
+    "place_id": "ChIJhwBov7SLGGARXhH8lw-bqAw"
+  },
   "place:レインボーパンケーキ 渋谷区神宮前4-28-4": {
     "lat": 35.6694483,
     "lng": 139.70731419999998,
@@ -8276,6 +8812,11 @@
     "lat": 35.683074399999995,
     "lng": 139.7056247,
     "place_id": "ChIJXeTmxMaMGGAR0HOGY7KHHvU"
+  },
+  "place:レストランアイリス（都市センターホテル内） 〒102-0093 東京都千代田区平河町2-4-1 都市センターホテルロビー階": {
+    "lat": 35.6810409,
+    "lng": 139.73887449999998,
+    "place_id": "ChIJuee7u3uMGGARU-DgHUu3kjA"
   },
   "place:レストランケン 渋谷区代々木1-45-7-1階": {
     "lat": 35.682225599999995,
@@ -8457,6 +8998,11 @@
     "lng": 139.6991798,
     "place_id": "ChIJzdXCSaiMGGARjJcb-jpqQnY"
   },
+  "place:ワンプレート 渋谷区代々木1-37-21アイビー代々木1階": {
+    "lat": 35.683938999999995,
+    "lng": 139.7006964,
+    "place_id": "ChIJgwUNQNWNGGAR3TOVENS0wMY"
+  },
   "place:ワールドフードラボ 渋谷区千駄ヶ谷5-23-2イノスビル1F": {
     "lat": 35.6834311,
     "lng": 139.7033334,
@@ -8626,6 +9172,11 @@
     "lat": 35.7132313,
     "lng": 139.80545569999998,
     "place_id": "ChIJf2YRHduOGGAR43rPpBKcA5M"
+  },
+  "place:下町食堂 麺屋ばらいち 〒135-0011 東京都江東区扇橋3-15-8": {
+    "lat": 35.683257499999996,
+    "lng": 139.8177057,
+    "place_id": "ChIJVVVZSsWIGGAR9ftGHkK0nxw"
   },
   "place:下関 春帆楼東京店 〒102-0093 東京都千代田区平河町2-7-9 JA共済ビル": {
     "lat": 35.6804394,
@@ -8876,6 +9427,16 @@
     "lat": 35.6845047,
     "lng": 139.76257239999998,
     "place_id": "ChIJA2pHXfeNGGARqcEnkreCQSQ"
+  },
+  "place:乃木坂しん 〒107-0052 東京都港区赤坂8-11-19 エクレール乃木坂1F": {
+    "lat": 35.6685799,
+    "lng": 139.7289823,
+    "place_id": "ChIJQ4ig-X6LGGAR7jKZ0y3b8T0"
+  },
+  "place:久高 〒106-0032 東京都港区六本木6-8-29 シローマンション 1F": {
+    "lat": 35.660198099999995,
+    "lng": 139.73197249999998,
+    "place_id": "ChIJSbfzJ3aLGGARfoWwrzAFEsI"
   },
   "place:九九九 〒106-0032 東京都港区六本木7-5-11カサグランデミワ2F": {
     "lat": 35.66492590000001,
@@ -9237,6 +9798,11 @@
     "lng": 139.697898,
     "place_id": "ChIJjQycDqmMGGAREzn15kh40X4"
   },
+  "place:俺の割烹　炉ばた恵比寿 渋谷区恵比寿西一丁目7番12号MKTビル 2F": {
+    "lat": 35.6479137,
+    "lng": 139.70850439999998,
+    "place_id": "ChIJW84q_Y6LGGARC_JxpUxRBaA"
+  },
   "place:俺の炉ばた恵比寿 渋谷区恵比寿西一丁目7番12号MKTビル 2F": {
     "lat": 35.6479137,
     "lng": 139.70850439999998,
@@ -9472,6 +10038,11 @@
     "lng": 139.7640615,
     "place_id": "ChIJuch2teSLGGARgNaSnc1_UnI"
   },
+  "place:割烹一楓 渋谷区上原1-32-5ロイヤルテラス101": {
+    "lat": 35.6687409,
+    "lng": 139.6806832,
+    "place_id": "ChIJVVX53kfzGGARrkobFDcLwfU"
+  },
   "place:割烹季誠 渋谷区幡ヶ谷2-25-3アーバン幡ヶ谷1F": {
     "lat": 35.6759792,
     "lng": 139.67180829999998,
@@ -9516,6 +10087,11 @@
     "lat": 35.6624355,
     "lng": 139.6973068,
     "place_id": "ChIJ1XeaSKmMGGARsJR8tPLBkTU"
+  },
+  "place:北参道hug 渋谷区千駄ヶ谷3-41-8北参道スタイル1階": {
+    "lat": 35.678758699999996,
+    "lng": 139.7055003,
+    "place_id": "ChIJK1rI6maNGGARXzxnTT7Wh4U"
   },
   "place:北国炉端 ときしらず飯田橋 〒102-0072 東京都千代田区飯田橋4-9-8 大和ビル5F": {
     "lat": 35.7015596,
@@ -9666,6 +10242,11 @@
     "lat": 35.7184846,
     "lng": 139.80908879999998,
     "place_id": "ChIJryVNmt6OGGARDgDQ4rXh6gI"
+  },
+  "place:吞兵衛　幡ケ谷店 渋谷区幡ヶ谷2丁目13-4幡ヶ谷中央ビル2F": {
+    "lat": 35.6776171,
+    "lng": 139.6768482,
+    "place_id": "ChIJtcxjTDvzGGARA00LJWP7t1Q"
   },
   "place:呑み処谷 渋谷区宇田川町37-14篠原ビル203": {
     "lat": 35.6625765,
@@ -9877,6 +10458,11 @@
     "lng": 139.7415394,
     "place_id": "ChIJ775M5pONGGARARmt7TuYUOY"
   },
+  "place:和食日和おさけと霞が関 〒100-0013 東京都千代田区霞が関3-2-6 東京倶楽部ビルディング3F": {
+    "lat": 35.6706399,
+    "lng": 139.7466018,
+    "place_id": "ChIJfXz9qjKLGGAR4hLox8yHU_Y"
+  },
   "place:唐揚げ餃子忠吉 渋谷区本町3丁目8番10号": {
     "lat": 35.6890199,
     "lng": 139.68329079999998,
@@ -10086,6 +10672,11 @@
     "lat": 35.681931899999995,
     "lng": 139.702323,
     "place_id": "ChIJX6v_O8aMGGARNi9u01gKoWI"
+  },
+  "place:大衆浜焼き酒場 かごや 幡ヶ谷本店 渋谷区幡ヶ谷2丁目13-4幡ケ谷第2中央ビル 1F": {
+    "lat": 35.6777991,
+    "lng": 139.6767939,
+    "place_id": "ChIJkS7lHAbzGGAR8yNgy6a58YU"
   },
   "place:大衆肉酒場一屋 〒131-0046 東京都墨田区京島3-48-9": {
     "lat": 35.7133939,
@@ -10367,6 +10958,11 @@
     "lng": 139.687399,
     "place_id": "ChIJjSijtU3zGGARPoDAW17xJ9M"
   },
+  "place:山田 渋谷区西原1-21-16パラスト西原104": {
+    "lat": 35.6760732,
+    "lng": 139.6774888,
+    "place_id": "ChIJveR8OYHzGGARB-U7Hguwre0"
+  },
   "place:左とう 〒107-0052 東京都港区赤坂3-21-8 高和赤坂ビル1F": {
     "lat": 35.6764425,
     "lng": 139.7360905,
@@ -10432,6 +11028,11 @@
     "lng": 139.6985077,
     "place_id": "ChIJ778GSlaLGGARvnN1WA_jf1Q"
   },
+  "place:庭のホテル 東京 〒101-0061 東京都千代田区神田三崎町1-1-16": {
+    "lat": 35.7006393,
+    "lng": 139.7566894,
+    "place_id": "ChIJ6Z0O6QuMGGAR6KmJZr_fbz0"
+  },
   "place:庵狐　代官山店 渋谷区代官山町13-688DAIKANYAMA1階": {
     "lat": 35.6500511,
     "lng": 139.7045006,
@@ -10456,6 +11057,11 @@
     "lat": 34.998748,
     "lng": 135.77457300000003,
     "place_id": "ChIJxZU0isYIAWARTt94AyTfVco"
+  },
+  "place:弐万馬力 渋谷区神宮前2丁目21番17号": {
+    "lat": 35.6750277,
+    "lng": 139.71108189999998,
+    "place_id": "ChIJ41UtYL2MGGARSxrwzDeeFG4"
   },
   "place:彩わ 渋谷区代々木3-43-1ガーリックビル103": {
     "lat": 35.6803242,
@@ -10612,6 +11218,11 @@
     "lng": 139.7080937,
     "place_id": "ChIJtwtp5ECLGGARaOfLJAVyHwg"
   },
+  "place:恵比寿山の上バル 渋谷区恵比寿南1-16-3サンライズ恵比寿　1階": {
+    "lat": 35.6442884,
+    "lng": 139.7097798,
+    "place_id": "ChIJB975kD-LGGAR72l5ibNl7Jo"
+  },
   "place:恵比寿横丁　だるまてんぐ 渋谷区恵比寿1-7-2オークビル1階": {
     "lat": 35.6482904,
     "lng": 139.7107043,
@@ -10656,6 +11267,11 @@
     "lat": 35.6655879,
     "lng": 139.7394516,
     "place_id": "ChIJrWZE0YSLGGARm5tnejwuBqE"
+  },
+  "place:戸隠つきや 〒106-0031 東京都港区西麻布1-4-46-1F": {
+    "lat": 35.66223910000001,
+    "lng": 139.7262121,
+    "place_id": "ChIJDY-pPHqLGGARAoK1O6GXKRM"
   },
   "place:房総ホルモン渋谷本店 渋谷区円山町7-11梅北ビル1F": {
     "lat": 35.6580662,
@@ -10847,6 +11463,11 @@
     "lng": 139.70787049999998,
     "place_id": "ChIJdx0dt7GNGGARJn9q7MflmOY"
   },
+  "place:日本ワインバー1111 渋谷区神泉町11-11イーデンビル1F": {
+    "lat": 35.6557046,
+    "lng": 139.69242789999998,
+    "place_id": "ChIJpe0oTPSLGGARIh9Bx6a14N4"
+  },
   "place:日本料理  櫻川 京都市中心部 京都": {
     "lat": 35.012116,
     "lng": 135.770635,
@@ -10871,6 +11492,11 @@
     "lat": 35.7010856,
     "lng": 139.74077459999998,
     "place_id": "ChIJIUax4nCNGGARKfCxKB1tL-8"
+  },
+  "place:日本料理 縁（庭のホテル 東京内 1F） 〒101-0061 東京都千代田区神田三崎町1-1-16": {
+    "lat": 35.700482699999995,
+    "lng": 139.7565454,
+    "place_id": "ChIJZ0ntHT6MGGARJLAZGY2Hgac"
   },
   "place:日本料理 花味兆 〒107-0062 東京都港区南青山2-4-4 南青山コアパレス1F": {
     "lat": 35.6711046,
@@ -11137,6 +11763,11 @@
     "lng": 139.699176,
     "place_id": "ChIJhz4bRHqLGGARHcvjDJ8LbIo"
   },
+  "place:札幌スープカリー 東京ドミニカ 〒160-0022 東京都新宿区新宿3丁目31-1 大伸第2ビルB1F": {
+    "lat": 35.690520899999996,
+    "lng": 139.70437030000002,
+    "place_id": "ChIJ-3_eBNuMGGARAKgDhLpR8FM"
+  },
   "place:杜ト家 渋谷区本町6-11-1田中ハウス1階": {
     "lat": 35.682935199999996,
     "lng": 139.68025649999998,
@@ -11292,6 +11923,16 @@
     "lng": 139.7092175,
     "place_id": "ChIJh6wTfQCLGGARUfMxvokQOjw"
   },
+  "place:東陽町らぁ麺ばらや 〒136-0016 東京都江東区東陽4-3-1 信栄ビル1F": {
+    "lat": 35.6704541,
+    "lng": 139.8166522,
+    "place_id": "ChIJ2eWa9zWJGGARXTbwLOxOGmg"
+  },
+  "place:東陽町パンとかき氷〜君と果実と宝石と。〜 〒135-0016 東京都江東区東陽3-27-19-1F": {
+    "lat": 35.6703585,
+    "lng": 139.8161209,
+    "place_id": "ChIJE_hUinaJGGARJJeWiNmB8Jk"
+  },
   "place:東風-cochi- 渋谷区鶯谷町15-10ロイヤルパレス渋谷103": {
     "lat": 35.6540976,
     "lng": 139.70083,
@@ -11416,6 +12057,11 @@
     "lat": 35.650928,
     "lng": 139.70250099999998,
     "place_id": "ChIJqSuZSUWLGGARMFPugsGm71M"
+  },
+  "place:梅家 〒164-0001 東京都中野区中野5-58-6": {
+    "lat": 35.7079989,
+    "lng": 139.6656818,
+    "place_id": "ChIJkxmULJfyGGARAs4yp8Inqnw"
   },
   "place:椋鳥 渋谷区鶯谷町8-8イートス代官山B1": {
     "lat": 35.6509314,
@@ -11617,6 +12263,11 @@
     "lng": 139.7815795,
     "place_id": "ChIJIw1YEtmLGGARqleScsgA2Kk"
   },
+  "place:海鮮処向井 渋谷区富ヶ谷1丁目3-14根本ビル1階": {
+    "lat": 35.669518,
+    "lng": 139.68933339999998,
+    "place_id": "ChIJ91tyuUONGGARCbGRh8EAjCQ"
+  },
   "place:海鮮処向井 渋谷区神泉町15-61F": {
     "lat": 35.657055799999995,
     "lng": 139.6926843,
@@ -11631,6 +12282,11 @@
     "lat": 35.629813000000006,
     "lng": 139.74400699999998,
     "place_id": "ChIJmWq5V_-LGGAR_O43AF25TA4"
+  },
+  "place:涅槃処わか 渋谷区幡ヶ谷1-6-5幡ヶ谷コーエイマンション101A": {
+    "lat": 35.6762133,
+    "lng": 139.6742461,
+    "place_id": "ChIJO3W4Xu3zGGARoYa9enIHtRQ"
   },
   "place:淡水研究室 渋谷区代々木1-13-2エンドウビル101": {
     "lat": 35.681947,
@@ -11672,6 +12328,11 @@
     "lng": 139.70759560000002,
     "place_id": "ChIJ9WJlK16LGGARsmZBSYfRn5M"
   },
+  "place:渋三魚金 渋谷区渋谷3-27-11GEMS渋谷2階": {
+    "lat": 35.6557369,
+    "lng": 139.70476979999998,
+    "place_id": "ChIJP1QWx1uLGGAR2-8LX3dkp6s"
+  },
   "place:渋谷 牡蠣屋 〒150-8377 東京都渋谷区宇田川町15-1 7F": {
     "lat": 35.6621373,
     "lng": 139.6991648,
@@ -11706,6 +12367,11 @@
     "lat": 35.6555854,
     "lng": 139.7015879,
     "place_id": "ChIJZcUXNQCLGGARGF7wBTr6Qf4"
+  },
+  "place:渋谷パスタバル 渋谷区桜丘町16-9渋谷Xeビル1F": {
+    "lat": 35.6603461,
+    "lng": 139.6983621,
+    "place_id": "ChIJY50-KACNGGARMzNVDuBYPaw"
   },
   "place:渋谷フォルチェ 渋谷区道玄坂1-5-2渋谷SEDEビル5F": {
     "lat": 35.6580491,
@@ -11957,6 +12623,11 @@
     "lng": 139.76478889999999,
     "place_id": "ChIJ7xxqsPmLGGARM3OVY3t5jEY"
   },
+  "place:焼肉 たかなわ 〒108-0074 東京都港区高輪二丁目21番2号 ニュウマン高輪South4F": {
+    "lat": 35.6347309,
+    "lng": 139.7393849,
+    "place_id": "ChIJFfq2OgCLGGARPXNa0c2qmHg"
+  },
   "place:焼肉 にくだらけ 〒106-0031 東京都港区西麻布1-12-5 SW六本木通ビル2F": {
     "lat": 35.6601103,
     "lng": 139.7241493,
@@ -11966,6 +12637,11 @@
     "lat": 35.680242299999996,
     "lng": 139.83411569999998,
     "place_id": "ChIJ40Kis_SIGGARnoyI9PLAyVc"
+  },
+  "place:焼肉 思食 〒107-0052 東京都港区赤坂3-19-5": {
+    "lat": 35.6756722,
+    "lng": 139.73639799999998,
+    "place_id": "ChIJOYhwqeeNGGARwi0aaVjyRes"
   },
   "place:焼肉 粋 (iki) 〒135-0034 東京都江東区永代1-2-9": {
     "lat": 35.6753011,
@@ -12117,6 +12793,11 @@
     "lng": 139.73255699999999,
     "place_id": "ChIJP0e7tA6LGGARcK0PEJwFDvs"
   },
+  "place:焼鳥みなと 渋谷区桜丘町16-7鈴木ビル一階": {
+    "lat": 35.656411999999996,
+    "lng": 139.7010793,
+    "place_id": "ChIJc40QYFeLGGARHeFTCj9xvYo"
+  },
   "place:焼鳥ワイン星乃 渋谷区円山町25-7ファザーランド渋谷　3階": {
     "lat": 35.6559197,
     "lng": 139.6935752,
@@ -12187,6 +12868,11 @@
     "lng": 139.7150127,
     "place_id": "ChIJpZOFAgBhGGAR0aSBtf4o0cI"
   },
+  "place:牛に金棒 麻布十番 〒106-0045 東京都港区麻布十番2丁目13番地10号 SK麻布十番ビル2F": {
+    "lat": 35.6548306,
+    "lng": 139.73492629999998,
+    "place_id": "ChIJbyM7umaLGGARAkfTwTFvGek"
+  },
   "place:牛タンいろ葉別邸 渋谷区千駄ヶ谷5-20-10ほぼ新宿のれん街": {
     "lat": 35.6830244,
     "lng": 139.70339429999999,
@@ -12252,6 +12938,11 @@
     "lng": 139.7167855,
     "place_id": "ChIJTSRJocqLGGARf9ahrBj5Lpw"
   },
+  "place:甚六 渋谷区富ヶ谷1-14-11": {
+    "lat": 35.6666445,
+    "lng": 139.6916759,
+    "place_id": "ChIJk90LuLKMGGARWNLyTg-s2VM"
+  },
   "place:田町鮨 惠万 〒108-0014 東京都港区芝5-19-6 ARISTO三田 1F": {
     "lat": 35.647505599999995,
     "lng": 139.7477527,
@@ -12307,6 +12998,11 @@
     "lat": 35.6964986,
     "lng": 139.7035962,
     "place_id": "ChIJ8wOrYNiMGGARhXC90_7BC68"
+  },
+  "place:眞吉　原宿店（ランチ） 渋谷区神宮前2丁目19-16 HT神宮前ビル1F": {
+    "lat": 35.6738964,
+    "lng": 139.710589,
+    "place_id": "ChIJx4vHQ72MGGARZn66MoFjRMw"
   },
   "place:眞吉恵比寿ランチ 渋谷区恵比寿南1-11-1松本ビル1階": {
     "lat": 35.6455027,
@@ -12563,6 +13259,11 @@
     "lng": 139.7108705,
     "place_id": "ChIJBa7hq0OLGGARIWz-0nF9YWw"
   },
+  "place:立ち飲みクレヨン 渋谷区笹塚1-56-2ルミエール笹塚1階D号": {
+    "lat": 35.6741627,
+    "lng": 139.6673117,
+    "place_id": "ChIJS9FdOJ7zGGARoHERNtKAmJg"
+  },
   "place:立呑酒場ななつぼ 渋谷区千駄ヶ谷3-32-7千駄ヶ谷幸田会館": {
     "lat": 35.6771117,
     "lng": 139.7070432,
@@ -12728,6 +13429,11 @@
     "lng": 139.7171721,
     "place_id": "ChIJQz96XROLGGARmDVoG0hsSRc"
   },
+  "place:紅茶専門店THESIER 〒150-0034 東京都渋谷区代官山町10-1 代官山町ビル B1F": {
+    "lat": 35.650447299999996,
+    "lng": 139.7046591,
+    "place_id": "ChIJL8qduCCLGGARQMYtZCj5vnA"
+  },
   "place:紋寿司 渋谷区幡ヶ谷2-12-17": {
     "lat": 35.6780164,
     "lng": 139.67695039999998,
@@ -12742,6 +13448,16 @@
     "lat": 35.6581518,
     "lng": 139.69815739999999,
     "place_id": "ChIJqSlC322LGGAR8oHDSenkPyA"
+  },
+  "place:紫金飯店 原宿店 渋谷区神宮前2丁目35番9号リビン原宿": {
+    "lat": 35.6745836,
+    "lng": 139.7074142,
+    "place_id": "ChIJ2-QFaLyMGGARbaxjMCpotD8"
+  },
+  "place:紫金飯店　ハラカド店 渋谷区神宮前6-31-21東急プラザ原宿「ハラカド」 5階": {
+    "lat": 35.668317,
+    "lng": 139.70490809999998,
+    "place_id": "ChIJo6REEgCNGGARAB8eVQM6tFk"
   },
   "place:終日one 渋谷区上原3-44-11高宏ビル 1F": {
     "lat": 35.6680862,
@@ -12938,6 +13654,11 @@
     "lng": 139.799421,
     "place_id": "ChIJ-Wz9VyKJGGARnrGP7UvU65w"
   },
+  "place:華桃 渋谷区神山町10-8能勢ビル地下一階": {
+    "lat": 35.6634096,
+    "lng": 139.694845,
+    "place_id": "ChIJuUUiJwCNGGARlNLrGou4Cfg"
+  },
   "place:葉歩花庭 〒162-0821 東京都新宿区津久戸町3-3松井本社ビル1階": {
     "lat": 35.7028479,
     "lng": 139.7404105,
@@ -12962,6 +13683,11 @@
     "lat": 35.6955294,
     "lng": 139.7988427,
     "place_id": "ChIJRypJ8zOJGGARLPq1gRB4iPE"
+  },
+  "place:蕎麦 豊田 〒108-0074 東京都港区高輪二丁目21番2号 ニュウマン高輪South4F": {
+    "lat": 35.634809,
+    "lng": 139.739671,
+    "place_id": "ChIJzWslOACLGGAR_HiJC8qBDx0"
   },
   "place:蕎麦いっこん 〒150-0013 東京都渋谷区恵比寿1-21-17": {
     "lat": 35.64656,
@@ -13018,6 +13744,11 @@
     "lng": 139.7216719,
     "place_id": "ChIJpR9ciu2MGGAR9cNlwWqL4UA"
   },
+  "place:蝶鮫屋東京店 〒100-0011 東京都千代田区内幸町1-7-1 日比谷OKUROJI内 G15": {
+    "lat": 35.671012999999995,
+    "lng": 139.7596227,
+    "place_id": "ChIJBVw6QACLGGAR4NCQBO0D57o"
+  },
   "place:表参道 HYÈNE 〒150-0001 東京都渋谷区神宮前5丁目13-14": {
     "lat": 35.6662642,
     "lng": 139.7069262,
@@ -13057,6 +13788,11 @@
     "lat": 35.6624818,
     "lng": 139.726357,
     "place_id": "ChIJhaUGkKOLGGARVnoVpZ9TfNU"
+  },
+  "place:西麻布 大嶋 〒106-0031 東京都港区西麻布1-4-32 1F": {
+    "lat": 35.6618183,
+    "lng": 139.7239591,
+    "place_id": "ChIJa1oxo1eLGGARZjJsnHOj8fc"
   },
   "place:西麻布 大竹 〒106-0031 東京都港区西麻布1-4-23 コア西麻布 1F": {
     "lat": 35.6615201,
@@ -13253,6 +13989,11 @@
     "lng": 135.7604701,
     "place_id": "ChIJAflpQDUJAWARzEnp42zshvQ"
   },
+  "place:都市センターホテル（リーガロイヤルホテルグループ） 〒102-0093 東京都千代田区平河町2-4-1": {
+    "lat": 35.681110000000004,
+    "lng": 139.7386081,
+    "place_id": "ChIJuee7u3uMGGAR1mciH1PWLG4"
+  },
   "place:酉玉 神楽坂 〒162-0825 東京都新宿区神楽坂5-7 山桝ハウスB1": {
     "lat": 35.7022566,
     "lng": 139.73890749999998,
@@ -13327,6 +14068,11 @@
     "lat": 35.6702389,
     "lng": 139.6815347,
     "place_id": "ChIJV7fMp8fzGGARJmb940JwOcQ"
+  },
+  "place:酒場 富 渋谷区円山町7-2EDIFICE渋谷505号室": {
+    "lat": 35.658013,
+    "lng": 139.699374,
+    "place_id": "ChIJxQV4ubqLGGARTVw6e405tCM"
   },
   "place:酒場RESISTANCE 渋谷区幡ヶ谷2-9-19青木ビル2F": {
     "lat": 35.678425499999996,
@@ -13417,6 +14163,11 @@
     "lat": 35.656574899999995,
     "lng": 139.70236599999998,
     "place_id": "ChIJISx0PACLGGARBQLqQWpEZNI"
+  },
+  "place:鉄板 天祐（ベルスター東京内） 〒160-0021 東京都新宿区歌舞伎町1-29-1": {
+    "lat": 35.6958379,
+    "lng": 139.70033189999998,
+    "place_id": "ChIJiymqy0WNGGARNVVfZpm3zts"
   },
   "place:鉄板Diner JAKEN 新宿店 〒160-0022 東京都新宿区新宿3-9-9新宿ワタセイ・タマビルBF": {
     "lat": 35.6912288,
@@ -13573,10 +14324,25 @@
     "lng": 139.6684258,
     "place_id": "ChIJ-cZDNBjzGGARQZoP4xnw378"
   },
+  "place:雲林坊 九段店 〒102-0073 東京都千代田区九段北1-5-5 東建ニューハイツ九段104": {
+    "lat": 35.696662200000006,
+    "lng": 139.7516933,
+    "place_id": "ChIJlag912qMGGARnmjhwOX073w"
+  },
+  "place:雲林坊 秋葉原店 〒101-0041 東京都千代田区神田須田町2-12 JR高架下共同ビル1階": {
+    "lat": 35.6955035,
+    "lng": 139.7727668,
+    "place_id": "ChIJi7R7eQKMGGARw1CQWoUPPqQ"
+  },
   "place:霞が関 焼肉たまき家 〒100-0013 東京都千代田区霞が関3丁目2-6東京俱楽部ビルディング1F": {
     "lat": 35.6706766,
     "lng": 139.7466197,
     "place_id": "ChIJ393csVKLGGARO0MpeiyAT6c"
+  },
+  "place:青 渋谷区西原　3-24-12テラ代々木上原　105": {
+    "lat": 35.6711139,
+    "lng": 139.6830075,
+    "place_id": "ChIJVd64oF7zGGAR42irJVRWsA0"
   },
   "place:青山煮干しラーメンハレルヤ 渋谷区渋谷2-9-10青山台ビルB1": {
     "lat": 35.6607512,
@@ -13647,6 +14413,11 @@
     "lat": 35.6699923,
     "lng": 139.70748659999998,
     "place_id": "ChIJnU2NbaOMGGARnueMa5JEUhA"
+  },
+  "place:食堂１０１ 〒135-0061 東京都江東区豊洲2-1-9 豊洲セイルパ-クB棟101": {
+    "lat": 35.6565499,
+    "lng": 139.7939006,
+    "place_id": "ChIJGyl2ZQCJGGARdX0MxvucNTE"
   },
   "place:食酒房ふさ助 渋谷区恵比寿西2-3-9浦ーMKYエビスビル102": {
     "lat": 35.6489155,
@@ -13818,6 +14589,11 @@
     "lng": 139.7087932,
     "place_id": "ChIJoUhXqkOLGGARuad_1m_PpxU"
   },
+  "place:魚金醸造 渋谷区道玄坂1-12-3渋谷マークシティEAST MALL2階": {
+    "lat": 35.6583343,
+    "lng": 139.699198,
+    "place_id": "ChIJy4t58pmLGGAROkyU1G3AY6E"
+  },
   "place:魚音 渋谷区初台1-11-12": {
     "lat": 35.679368499999995,
     "lng": 139.686299,
@@ -13863,6 +14639,11 @@
     "lng": 139.7205563,
     "place_id": "ChIJtV2Sdu2MGGARQdyfbER64j8"
   },
+  "place:鮨 大嶋 〒106-0046 東京都港区元麻布3-11-3 パティオ麻布十番Ⅱ1F": {
+    "lat": 35.6569704,
+    "lng": 139.7327263,
+    "place_id": "ChIJ0ZwVKg6LGGARDdOsT2zIeD8"
+  },
   "place:鮨 松もと 〒162-0821 東京都新宿区津久戸町4-1 ASKビル1F": {
     "lat": 35.7028444,
     "lng": 139.740041,
@@ -13892,6 +14673,16 @@
     "lat": 35.645313099999996,
     "lng": 139.7333395,
     "place_id": "ChIJkWdKvkKLGGARtBiH_eHVQF0"
+  },
+  "place:鮨 結う紬 〒106-0032 東京都港区六本木4-5-11 ランド六本木ビル B1F": {
+    "lat": 35.664766,
+    "lng": 139.7324515,
+    "place_id": "ChIJq6twDACLGGARM9oEt8GnQlA"
+  },
+  "place:鮨 花おか 渋谷区桜丘町7-2ラコリーヌ渋谷1階": {
+    "lat": 35.6549727,
+    "lng": 139.7032793,
+    "place_id": "ChIJTSLfR1qLGGARZVAT7ynYhsk"
   },
   "place:鮨 若尊 〒107-0052 東京都港区赤坂3丁目9-2 No.R赤坂見附 B1階": {
     "lat": 35.6772902,
@@ -13932,6 +14723,11 @@
     "lat": 35.6707987,
     "lng": 139.72558420000001,
     "place_id": "ChIJUVka_4-NGGAR-xHVN34qxJQ"
+  },
+  "place:鮨けんすけ 〒106-0045 東京都港区麻布十番1-11-11 ブライトマン麻布十番7階": {
+    "lat": 35.6556755,
+    "lng": 139.73641279999998,
+    "place_id": "ChIJO_mutSWLGGARyoGRDK7OrOM"
   },
   "place:鮨まつした 渋谷区恵比寿1丁目29番16号ベルハイム1F": {
     "lat": 35.6479037,
@@ -14173,6 +14969,11 @@
     "lng": 139.6851548,
     "place_id": "ChIJdZp6y5nzGGARGkSBwNlCxn8"
   },
+  "place:麺屋ばらお × 大衆酒場はな 南砂店 〒136-0076 東京都江東区南砂2-37-12": {
+    "lat": 35.670114399999996,
+    "lng": 139.8253991,
+    "place_id": "ChIJ8cb15kWJGGARRPAzE-159Yw"
+  },
   "place:麺屋アシタマ 渋谷区富ヶ谷1-53-3ウッディービル1階": {
     "lat": 35.6692156,
     "lng": 139.6884574,
@@ -14212,6 +15013,11 @@
     "lat": 35.6488168,
     "lng": 139.73641910000003,
     "place_id": "ChIJebTXp4qLGGARmnBgxm90Q1g"
+  },
+  "place:麻布割烹 十 〒106-0045 東京都港区麻布十番2-1-11 LA CITY麻布十番LUCE2階": {
+    "lat": 35.6551808,
+    "lng": 139.736,
+    "place_id": "ChIJf9DzAgCLGGARiv3JwRQw6EA"
   },
   "place:麻布十番 鉄板焼 嘉山 〒106-0045 東京都港区麻布十番3-3-9 VORT 麻布十番2 6F": {
     "lat": 35.6536292,
@@ -14278,6 +15084,11 @@
     "lng": 139.7592781,
     "place_id": "ChIJaZF5wHmLGGARycW1JhshDjY"
   },
+  "place:龍月SUSHI 〒130-0022 東京都墨田区江東橋4-25-5 SUZUKI BUILDING6F": {
+    "lat": 35.69546890000001,
+    "lng": 139.81682329999998,
+    "place_id": "ChIJk6U4sNmIGGARV-DC_xxnwOk"
+  },
   "place:龍華園 渋谷区幡ヶ谷1-33-1シャトーフタバ2F": {
     "lat": 35.676668899999996,
     "lng": 139.67684079999998,
@@ -14332,6 +15143,11 @@
     "lat": 35.6670648,
     "lng": 139.691517,
     "place_id": "ElVKYXBhbiwg44CSMTUxLTAwNjMgVG9reW8sIFNoaWJ1eWEsIFRvbWlnYXlhLCAxLWNoxY1tZeKIkjE04oiS77yS77yQIOS7o-OAheacqOiNmCAx6ZqOIiAaHgoWChQKEgl7jXvRsowYYBFfY2c83bspOhIEMemajg"
+  },
+  "渋谷区渋谷3-25-7Bre.S SHIBUYA D": {
+    "lat": 35.6551794,
+    "lng": 139.7055771,
+    "place_id": "ChIJEVCEm1uLGGARD3ugMQi8Ddk"
   },
   "渋谷区神宮前3-27-7": {
     "lat": 35.6710248,
