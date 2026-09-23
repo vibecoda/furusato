@@ -12,11 +12,11 @@ export class UIManager {
     this.currentFilters = []; // [{ type, field, element, ... }]
   }
 
-  init(config, data, onFilterChange) {
+  init(config, data, onFilterChange, lastUpdated) {
     this.filterCallback = onFilterChange;
     this.renderFilters(config.filters, data);
     this.renderHeaders(config.columns);
-    this.updateLastUpdated(config.lastUpdated);
+    this.updateLastUpdated(lastUpdated);
   }
 
   updateLastUpdated(text) {

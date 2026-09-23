@@ -124,7 +124,7 @@ class App {
       this.allData = await this.dataManager.loadData(config);
       
       // Initialize UI Filters
-      this.uiManager.init(config, this.allData, () => this.applyFilters());
+      this.uiManager.init(config, this.allData, () => this.applyFilters(), this.dataManager.lastUpdated);
       
       // Re-center map if map is ready
       if (this.mapManager.map) {

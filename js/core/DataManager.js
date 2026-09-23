@@ -9,7 +9,7 @@ export class DataManager {
   async loadData(config) {
     try {
       // Attempt to fetch last updated time
-      this.fetchLastUpdated();
+      await this.fetchLastUpdated();
 
       const response = await fetch(config.dataUrl, { cache: "no-store" });
       if (!response.ok) {

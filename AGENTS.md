@@ -2,7 +2,7 @@
 
 ## Overview
 
-**Furusato Listings** is a single-page web application that displays furusato (hometown tax) gift shops and partner restaurants on an interactive Google Maps interface with sortable/filterable data tables. The app has three tabs: **Tokyo** (shops from the Furunavi Travel platform), **Kyoto** (shops, different source schema), and **Hachipay** (restaurants in the Shibuya area that accept Hachi Pay digital currency).
+**Furusato Listings** is a single-page web application that displays furusato (hometown tax) gift shops and partner restaurants on an interactive Google Maps interface with filterable data tables. The app has three tabs: **Tokyo** (shops from the Furunavi Travel platform), **Kyoto** (shops, different source schema), and **Hachipay** (restaurants in the Shibuya area that accept Hachi Pay digital currency).
 
 The frontend is a vanilla-JS SPA (no framework). Data is fetched as static JSON/CSV files from the `data/` directory. The data pipeline is a set of Python scripts that scrape APIs, scrape HTML detail pages, and geocode addresses using the Google Maps APIs.
 
@@ -69,7 +69,7 @@ Each tab is defined by a config object (`tokyoConfig`, `kyotoConfig`, `hachipayC
 
 ### Data pipeline (Python)
 
-Run the full update with:
+Run the automated refresh pipeline with:
 
 ```bash
 ./update.sh
@@ -81,6 +81,8 @@ This executes, in order:
 2. **`fetch_tokyo_shops.py`** — Loads `municipalities.json`, finds all Tokyo municipalities, calls `fetch_municipal_shops()` and `fetch_shop_detail()` from `fetch_shops.py` for each one, and writes `data/tokyo_shops.json`.
 3. **`fetch_hachipay_restaurants.py`** — Calls the Hachi Pay search API, resolves category names, and writes `data/restaurants.csv`.
 4. **`geocode.py`** — Reads `restaurants.csv`, `tokyo_shops.json`, and `kyoto_shops.json`; geocodes missing entries via Google Places API (new, with legacy fallback) and Geocoding API; writes geocoded output files and updates `geocode_cache.json`. Requires `GOOGLE_MAPS_API_KEY` from `.env`.
+
+This pipeline refreshes the municipality list, Tokyo shops, and Hachipay restaurants before geocoding all three datasets. It does not fetch a new `data/kyoto_shops.json` or update `data/last_updated.txt`; update those separately when needed.
 
 Each Python script can also run independently with `--help` for options.
 
@@ -110,7 +112,7 @@ Each Python script can also run independently with `--help` for options.
 1. Ensure `.env` has a valid `GOOGLE_MAPS_API_KEY`.
 2. Run `./update.sh` (or individual scripts for targeted updates).
 3. Update `data/last_updated.txt` with the current date if the scripts don't do it automatically.
-4. Commit and push: `./push.sh` (pushes to the `vibecoda` remote on `main`).
+4. Commit and push: `./push.sh` (pushes `main` to the `origin` remote, currently `git@github.com:vibecoda/furusato.git`).
 
 ### Changing filter behavior
 
@@ -129,15 +131,19 @@ Edit `config.columns` — each entry has `{ header, field, isLink?, format? }`. 
 
 ### Local development
 
-1. Copy your Google Maps API key into `js/env.js` (gitignored):
+1. Install the Python dependency used by the data pipeline:
+   ```bash
+   python3 -m pip install requests
+   ```
+2. Copy your Google Maps API key into `js/env.js` (gitignored):
    ```js
    export const GOOGLE_MAPS_API_KEY = 'YOUR_KEY';
    ```
-2. Serve with any static file server, e.g.:
+3. Serve with any static file server, e.g.:
    ```bash
    python3 -m http.server 8000
    ```
-3. Open `http://localhost:8000`. The inline `<script>` in `index.html` dynamically imports `js/env.js` to override the hardcoded production key.
+4. Open `http://localhost:8000`. The inline `<script>` in `index.html` dynamically imports `js/env.js` to override the hardcoded production key.
 
 ### Geocoding a new Kyoto-like dataset
 
@@ -157,7 +163,7 @@ The `process_shops()` helper in `geocode.py` is generic. Call it with:
 
 ## Notes
 
-- The `index.html` file contains two copies of the Google Maps JS API key (one hardcoded production key, one from `env.js` as a dynamic override).
+- `index.html` contains one hardcoded production Google Maps API key and dynamically imports an optional local override from the gitignored `js/env.js`.
 - iOS detection in `helpers.js` controls whether map links use `target="_blank"` (avoided on iOS to preserve Universal Links / app switching).
-- The `vibecoda` remote is used for deployment; the `push.sh` script uses `~/.ssh/id_rsa` explicitly.
+- Deployment uses the `origin` remote, currently the `vibecoda/furusato` GitHub repository; `push.sh` uses `~/.ssh/id_rsa` explicitly.
 - The Hachipay config has hardcoded Shibuya-area patterns and romaji mappings for area detection from addresses.
