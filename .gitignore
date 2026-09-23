@@ -3,4 +3,5 @@ push.sh
 .claude
 js/env.js
 __pycache__
+.venv/
 

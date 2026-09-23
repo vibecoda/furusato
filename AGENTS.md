@@ -110,7 +110,7 @@ Each Python script can also run independently with `--help` for options.
 ### Updating data
 
 1. Ensure `.env` has a valid `GOOGLE_MAPS_API_KEY`.
-2. Run `./update.sh` (or individual scripts for targeted updates).
+2. Run `./update.sh` (or `uv run python scripts/<script>.py` for targeted updates).
 3. Update `data/last_updated.txt` with the current date if the scripts don't do it automatically.
 4. Commit and push: `./push.sh` (pushes `main` to the `origin` remote, currently `git@github.com:vibecoda/furusato.git`).
 
@@ -131,9 +131,9 @@ Edit `config.columns` — each entry has `{ header, field, isLink?, format? }`. 
 
 ### Local development
 
-1. Install the Python dependency used by the data pipeline:
+1. Install the Python environment and locked dependencies:
    ```bash
-   python3 -m pip install requests
+   uv sync
    ```
 2. Copy your Google Maps API key into `js/env.js` (gitignored):
    ```js
@@ -158,7 +158,7 @@ The `process_shops()` helper in `geocode.py` is generic. Call it with:
 ## Key Dependencies
 
 - **Frontend**: Google Maps JavaScript API (loaded dynamically in `index.html`)
-- **Python scripts**: `requests` library (install with `pip install requests`); standard library otherwise
+- **Python scripts**: Python 3.10+, managed by `uv`; runtime dependencies are declared in `pyproject.toml` and pinned in `uv.lock`
 - **API keys**: Google Maps Geocoding / Places API key in `.env`; Google Maps JS API key hardcoded in `index.html` with a fallback to `js/env.js`
 
 ## Notes
